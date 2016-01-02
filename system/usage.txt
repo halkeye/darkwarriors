@@ -1,0 +1,3 @@
+Thu Jun  1 16:30:00 2006: 0 players
+Thu Jun  1 17:00:00 2006: 1 players
+Thu Jun  1 17:30:00 2006: 1 players

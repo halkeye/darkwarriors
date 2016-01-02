@@ -1,0 +1,38 @@
+#RACE
+Name              Mandalorion~
+Affect            0
+Strplus           4
+Wisplus           -1
+Dexplus           2
+Conplus           0
+Intplus           -3
+Chaplus           0
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               200
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          basic~
+BodyParts         0
+ClassRestricted   0
+Class             40
+Class             20
+Class             0
+Class             20
+Class             0
+Class             -30
+Class             30
+Class             0
+Class             -30
+Class             15
+Class             -25
+Class             0
+End
+
+#END

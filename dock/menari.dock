@@ -1,0 +1,10 @@
+#DOCK
+Name         Menari Landing Platform A~
+Filename     ../dock/menari.dock~
+Vnum         2797
+Hidden       0
+Starsystem   Coruscant System~
+Body   Coruscant~
+End
+
+#END

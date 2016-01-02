@@ -1,0 +1,12 @@
+#BODY
+Name         Tatoo 1~
+Filename     ../body/tatoo 1.body~
+Type         0
+Xpos         50
+Ypos         50
+Zpos         50
+Gravity      200
+Starsystem   Tatooine~
+End
+
+#END

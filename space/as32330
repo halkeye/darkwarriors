@@ -1,0 +1,69 @@
+#SHIP
+Name         Long-range frigate 32330~
+Filename     as32330~
+Description  ~
+Owner        ~
+Pilot        ~
+Copilot      ~
+Class        1
+Tractorbeam  0
+Shipyard     203
+Hanger       0
+Turret1      32334
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       3
+Missiles     8
+Maxmissiles  8
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      203
+Firstroom    32330
+Lastroom     32334
+Shield       0
+Maxshield    100
+Hull         1000
+Maxhull      1000
+Maxenergy    5000
+Hyperspeed   255
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       100
+Astro_array  100
+Realspeed    70
+Type         16
+Cockpit      32330
+Coseat       32330
+Pilotseat    32330
+Gunseat      32330
+Navseat      32330
+Engineroom   0
+Entrance     32332
+Shipstate    0
+Missilestate 0
+Energy       5000
+Manuever     60
+SelfDpass    68118
+Selfdestruct Not Installed~
+Home         Coruscant System~
+MaxCargo     220
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        28613
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

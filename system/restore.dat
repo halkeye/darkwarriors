@@ -1,0 +1,84 @@
+#RESTORE
+Type         gavin~
+Owner        Halkeye~
+Cmessage     $n waves $s hands in a really weird fashion.
+All of a sudden, death metal plays and $N strangly feel more at peace.
+~
+Vmessage     $n waves $s hands in a really weird fashion.
+All of a sudden, death metal plays and you strangly feel more at peace.
+~
+Rmessage     $n waves $s hands in a really weird fashion.
+All of a sudden, death metal plays and $N feels more at peace.
+~
+Color        25
+Boost        1.500000
+Flags        0
+End
+
+#RESTORE
+Type         Greven~
+Owner        Any~
+Cmessage     You begin your weave.
+You bring spirit, water, and air together, and drop the weave on them.
+$N looks a little tired, but better over all.
+~
+Vmessage     You turn around to see $n standing there, moving $s hands slightly.
+You can see strange colors weaving together, and the woven net falls on you.
+You feel slightly tired, but much better over all.
+~
+Rmessage     $n starts moving their hands strangely.
+You see $M look at $m and watch what $e is doing.
+Suddenly, $M looks a little tired, but much better over all.
+~
+Color        25
+Boost        1.000000
+Flags        0
+End
+
+#RESTORE
+Type         thermal~
+Owner        Any~
+Cmessage     You enter from somewhere.
+You get a thermal detonator from a bag.
+You hold a thermal detonator.
+You arm a thermal detonator.
+You remove a thermal detonator.
+You give a thermal detonator to $N.
+You leave to somewhere.
+~
+Vmessage     $n enters from somewhere.
+$n gets a thermal detonator from a bag.
+$n holds a thermal detonator.
+$n arms a thermal detonator.
+$n removes a thermal detonator.
+$n gives you a thermal detonator.
+$n leaves to somewhere.
+~
+Rmessage     $n enters from somewhere.
+$n gets a thermal detonator from a bag.
+$n holds a thermal detonator.
+$n arms a thermal detonator.
+$n removes a thermal detonator.
+$n gives $N a thermal detonator.
+$n leaves to somewhere.
+~
+Color        25
+Boost        1.000000
+Flags        0
+End
+
+#RESTORE
+Type         bad~
+Owner        Any~
+Cmessage     You materialize and use your powers to suck the life force from your victim!
+~
+Vmessage     $n materializes, and using %s powers draws some of your life force out of you!
+~
+Rmessage     $n materializes, and using %s powers draws some of the life force out of $N!
+~
+Color        25
+Boost        1.000000
+Flags        0
+End
+
+#END

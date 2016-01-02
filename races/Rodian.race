@@ -1,0 +1,38 @@
+#RACE
+Name              Rodian~
+Affect            0
+Strplus           3
+Wisplus           0
+Dexplus           -1
+Conplus           -2
+Intplus           0
+Chaplus           0
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               0
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          rodian~
+BodyParts         0
+ClassRestricted   0
+Class             20
+Class             -20
+Class             -20
+Class             70
+Class             20
+Class             -25
+Class             -25
+Class             0
+Class             -10
+Class             30
+Class             0
+Class             3
+End
+
+#END

@@ -1,0 +1,26 @@
+#BODY
+Name         Kashyyyk~
+Filename     ../body/kashyyyk.body~
+Type         1
+Xpos         -960
+Ypos         -129120
+Zpos         29580
+Xmove        -16
+Ymove        -48
+Zmove        -17
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      100
+Orbitcount   179
+Starsystem   Kashyyyk~
+Planet   Kashyyyk~
+End
+
+#DOCK
+Name         Kashyyyk Spaceport~
+Vnum         28613
+Hidden       0
+End
+
+#END

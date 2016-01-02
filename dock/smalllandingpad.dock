@@ -1,0 +1,10 @@
+#DOCK
+Name         Small landing pad~
+Filename     smalllandingpad.dock~
+Vnum         10006
+Hidden       0
+Starsystem   Wayland~
+Body   wayland~
+End
+
+#END

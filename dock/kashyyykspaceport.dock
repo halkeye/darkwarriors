@@ -1,0 +1,10 @@
+#DOCK
+Name         Kashyyyk Spaceport~
+Filename     ../dock/kashyyykspaceport.dock~
+Vnum         28613
+Hidden       0
+Starsystem   Kashyyyk~
+Body   Kashyyyk~
+End
+
+#END

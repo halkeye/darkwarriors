@@ -1,0 +1,55 @@
+#OLC_BOUNTY
+Owner             10209
+Vnum              325
+Corpse            10212
+Type              1
+Experience        2500
+Amount            5000
+End
+
+#OLC_BOUNTY
+Owner             10209
+Vnum              326
+Corpse            10213
+Type              1
+Experience        5000
+Amount            10000
+End
+
+#OLC_BOUNTY
+Owner             10209
+Vnum              327
+Corpse            10214
+Type              1
+Experience        7500
+Amount            7500
+End
+
+#OLC_BOUNTY
+Owner             10209
+Vnum              328
+Corpse            10216
+Type              1
+Experience        7500
+Amount            15000
+End
+
+#OLC_BOUNTY
+Owner             10209
+Vnum              327
+Corpse            0
+Type              0
+Experience        10000
+Amount            5000
+End
+
+#OLC_BOUNTY
+Owner             10209
+Vnum              328
+Corpse            0
+Type              0
+Experience        10000
+Amount            10000
+End
+
+#END

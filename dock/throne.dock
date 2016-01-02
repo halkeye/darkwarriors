@@ -1,0 +1,10 @@
+#DOCK
+Name         throne city landing pad~
+Filename     ../dock/throne.dock~
+Vnum         700
+Hidden       0
+Starsystem   Byss~
+Body   Byss~
+End
+
+#END

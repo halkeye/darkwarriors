@@ -1,0 +1,10 @@
+#DOCK
+Name         palpatine city landing pad~
+Filename     ../dock/palpatine.dock~
+Vnum         28247
+Hidden       0
+Starsystem   Byss~
+Body   Byss~
+End
+
+#END

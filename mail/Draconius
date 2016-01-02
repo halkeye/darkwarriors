@@ -1,0 +1,95 @@
+#OBJECT
+Name         Carrying Case~
+ShortDescr   Carrying Case~
+Description  Carrying Case was dropped here.~
+Vnum         61
+ExtraFlags   0
+WearFlags    1025
+ItemType     15
+Level        100
+Cost         80
+Values       200 0 0 10 0 0
+End
+
+#OBJECT
+Name         a Czerka Arms 6-2 Aug2 Hunting Rifleblaster~
+ShortDescr   &C&za &wC&zzerka &wA&zrms 6&w-&z2 &wA&zug&w2 H&zunting &wR&zifle&~
+Description  &C&za &wC&zzerka &wA&zrms 6&w-&z2 &wA&zug&w2 H&zunting &wR&zifle& was carelessly misplaced here.~
+Vnum         10420
+ExtraFlags   16
+Weight       12
+Level        100
+Cost         3250
+Values       12 45 65 6 0 2000
+Affect       -1 -1 2 18 0
+Affect       -1 -1 2 19 0
+End
+
+#OBJECT
+Name         a Jade Handled Dagger knife~
+ShortDescr   &C&ga &GJ&gade &GH&gandled &GD&gagger&D~
+Description  &C&ga &GJ&gade &GH&gandled &GD&gagger&D was left here.~
+Vnum         10434
+ExtraFlags   16
+Weight       3
+Level        100
+Cost         400
+Values       12 20 40 5 1000 1000
+Affect       -1 -1 33 32 0
+Affect       -1 -1 2 18 0
+End
+
+#OBJECT
+Name         a Leather Dual-Rifle Holster~
+ShortDescr   &C&Oa Leather Dual-Rifle Holster&D~
+Description  &C&Oa Leather Dual-Rifle Holster&D was dropped here.~
+Vnum         61
+ExtraFlags   0
+WearFlags    1025
+ItemType     15
+Level        100
+Cost         80
+Values       200 0 0 10 0 0
+End
+
+#OBJECT
+Name         a Steel Briefcase~
+ShortDescr   &C&Wa Steel Briefcase&D~
+Description  &C&Wa Steel Briefcase&D was dropped here.~
+Vnum         61
+ExtraFlags   0
+WearFlags    1025
+ItemType     15
+Level        100
+Cost         80
+Values       200 0 0 10 0 0
+End
+
+#OBJECT
+Name         a Black Sheath~
+ShortDescr   &C&za Black Sheath&D~
+Description  &C&za Black Sheath&D was dropped here.~
+Vnum         61
+ExtraFlags   0
+WearFlags    1025
+ItemType     15
+Level        100
+Cost         80
+Values       200 0 0 10 0 0
+End
+
+#OBJECT
+Name         + First Aid Kit +~
+ShortDescr   &C&R+ &WFirst Aid Kit &R+&D~
+Description  &C&R+ &WFirst Aid Kit &R+&D was dropped here.~
+Vnum         61
+ExtraFlags   0
+WearFlags    1025
+ItemType     15
+Level        100
+Cost         80
+Values       200 0 0 10 0 0
+End
+
+#END 
+

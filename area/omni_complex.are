@@ -1,0 +1,174 @@
+#AREA   Omnipresent Complex~
+
+
+
+#VERSION 2
+
+#AUTHOR Kuran~
+
+#RANGES
+101 103 101 103
+$
+
+#RESETMSG ~
+
+#FLAGS
+2 8
+
+#ECONOMY 0 16249520
+
+#MOBILES
+#100
+dud~
+a newly created dud~
+Some god abandoned a newly created dud here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+16
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#110
+dud~
+a newly created dud~
+Some god abandoned a newly created dud here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+16
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#100
+terminal omnipresent monitor~
+the Monitoring Terminal~
+The Monitoring Terminal has been installed here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#101
+terminal omnipresent coding~
+the Coding Terminal~
+The Terminal of the Omnipresent Coders is here, leaking source code.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#102
+terminal quest galactic control blinking~
+the Terminal for Galactic Control~
+The Galactic Control Terminal is here, and it is blinking.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#103
+durgas hole wormhole little~
+durgas wormhole~
+&zDurgas Wormhole is here folding reality into new dimensions.&w~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#104
+Cassandra's Chocolate Sundae~
+Cassandra's Chocolate Sundae~
+Cassandra's Chocolate Sundae lies here in its delicious splendour.~
+$n eats a delicious sundae, and they look great!~
+19 65 16385
+50 12 0 0
+1 0 0
+> use_prog 100~
+mprestore $n 2000
+~
+|
+#105
+terminal omnipresent building~
+the builders message terminal~
+The Builder's message Terminal is here.~
+~
+13 1 0
+0 0 0 0
+1 0 0
+#106
+holster~
+a holster~
+A holster is here.~
+~
+91 0 1048577
+0 0 0 0
+1 0 0
+#107
+Plot Deed~
+a Plot Deed~
+A Plot Deed is here.~
+~
+92 0 0
+0 0 0 0
+1 0 0
+#112
+dud~
+a dud dud~
+A dud dud is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#100
+Immortal Complex~
+You notice signs of a recent battle from the bloodstains on the floor.  You
+can smell the fumes of ships and vehicles wafting in from outside.
+~
+0 -2071985912&2372 0 0 0 0 0 18
+D3
+~
+~
+1 100 45
+S
+#0
+
+
+#RESETS
+O 1 105 1 100
+O 1 100 1 100
+D 0 100 3 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					Missile Boat~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			1
+Maxrooms			2
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		0
+Maxhyperspeed		50
+Minspeed			105
+Maxspeed			145
+Minmissiles		0
+Maxmissiles		16
+Mintorpedos		0
+Maxtorpedos		8
+Minrockets		0
+Maxrockets		4
+Minlasers			0
+Maxlasers			1
+Mintractorbeams		0
+Maxtractorbeams		0
+Minions			0
+Maxions			1
+Minmanuever		25
+Maxmanuever		45
+Mincargo			0
+Maxcargo			10
+Minenergy			2500
+Maxenergy			5000
+Minshield			125
+Maxshield			250
+Minhull			100
+Maxhull			200
+Minchaff			0
+Maxchaff			8
+Minbattalions		0
+Maxbattalions		0
+End
+
+#END

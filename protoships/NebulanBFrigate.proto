@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					Nebulan B Frigate~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			26
+Maxrooms			100
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		30
+Maxhyperspeed		90
+Minspeed			10
+Maxspeed			70
+Minmissiles		0
+Maxmissiles		16
+Mintorpedos		0
+Maxtorpedos		8
+Minrockets		0
+Maxrockets		4
+Minlasers			0
+Maxlasers			8
+Mintractorbeams		0
+Maxtractorbeams		2
+Minions			0
+Maxions			8
+Minmanuever		5
+Maxmanuever		25
+Mincargo			50
+Maxcargo			500
+Minenergy			10000
+Maxenergy			20000
+Minshield			500
+Maxshield			1000
+Minhull			400
+Maxhull			800
+Minchaff			0
+Maxchaff			12
+Minbattalions		0
+Maxbattalions		40
+End
+
+#END

@@ -1,0 +1,10 @@
+#DOCK
+Name         Eastern Docking Bay~
+Filename     ../dock/easterndockingbay.dock~
+Vnum         21113
+Hidden       0
+Starsystem   Mon Calamari~
+Body   Mon Calamari~
+End
+
+#END

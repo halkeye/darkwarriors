@@ -1,0 +1,527 @@
+Sender  Kasji~
+Date    Tue Jan 18 16:57:44 2005~
+To      All~
+Subject Modules Part I~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Note on modules...   At present, a module may point to one hard code function,
+most likely this function is shared to some extend by other modules. The
+purpose of this hard code function may vary in any way, however, in theory one
+should be able have as many soft code functions as desired incased within the
+module. I set it up this way, because most likely the player will be
+interacting with the modules via the soft code functions which builders will
+create, where as the hard code function will provide back-end services to
+modules. I would appreciate any constructive criticism on this matter.
+ 
+(hard code)<----->(module)<----->(softcode)
+     |             /|\/|\             |
+    \|/             |  |             \|/
+(database)<---.     |  |     (output/input)
+     |        |     |  |
+    \|/       |     |  '----(new instances)
+(boot load)---|-----+---------->(templates)
+              '-----|--------------' /|\
+                 (admin)--------------'
+ 
+This is somewhat more complicated of a layout than I had planned on drawing.
+Softcode involves writing an interpreter and creating a scripting language.
+Although I would like to use SQL for the database, a file system would suffice.
+Basically admin functions create/modify templates and instances of modules.
+Boot load is just that, it loads the modules up on boot.
+~
+
+Sender  Halkeye~
+Date    Mon Jan 24 12:49:34 2005~
+To      All~
+Subject spec_bounty_hunter~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+* Checks to see if a mob is in the room, or the corpse is given to it?
+ * if the mob is bound, then reward and dropped bounds,
+* reward is based on olc list (mob vnum, corpse vnum, bounty alive, bounty
+dead)
+ *
+* If the player enters the room and is bound by someone, and person is
+bountied, pay out bounder and jail bounty.
+ *
+ * (Halkeye) OOC: found bound mobs, its easy
+* (Halkeye) OOC: but for corpses, should it only be if they are given to the
+guy right? or should he automaticly assume any corpses in a play
+ * (Halkeye) OOC: and since when can you put like a corpse in a backpack?
+ * (Cinna) OOC: he should assume that the corpses are for him
+ * (Cinna) OOC: because who else are they going too?
+* (Halkeye) OOC: yea .. well its kinda weird for a mob to just take your
+corpses from you
+* (Halkeye) OOC: and for that matter for you to pick up more than one corpse at
+all
+ *
+~
+
+Sender  Kasji~
+Date    Sat Jan 29 02:25:16 2005~
+To      Coders~
+Subject room prog bug~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+greet_prog and all_greet_prog appear to be inoperable for room progs, although
+they do work for mob progs. I'm not sure about obj progs though.
+~
+
+Sender  Greven~
+Date    Sun Jan 30 11:58:55 2005~
+To      All~
+Subject Time line: the consolidation of ideas?~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+The galaxy is a much different place than before. 500 years have passed since
+the famous Battle of Endor, and the eventual downfall of the galactic Empire.
+The galaxy has had many hundreds of peaceful years, and there been much
+galactic restoration and restructuring. There have been new technologies
+created, new races discovered,  settlers have populate areas of the galaxy
+previously thought unexplorable, and some ancient historical locations
+destroyed. 
+ 
+The Galactic Republic, headed by a council that makes and controls galactic
+law, runs the Galaxy. This vast Republic is centred on the historical seat of
+power, Coruscant, but have many smaller councils to govern provinces of the
+galaxy. The armies of the Republic have been fairly inactive in the last 100
+years after the remnants of the Imperials were removed and mutinous factions
+have been brought under control.
+ 
+The rise of the Corporations has been long coming, but the speed of their
+growth recently has been enormous. Entire sectors are governed, patrol,
+protected, and exploited by different Corporations. Some are more benevolent
+than others, but all are after one thing: credits. With various companies,
+guilds, and smaller planetary governments conflicting, there are always small
+amounts of conflict, but they are not as quickly extinguished by the armies of
+the Republic as they were in the past. 
+ 
+The fall of the Jedi council has been well known for 250 years. The academy on
+Yavin was destroyed by a small group of fallen Jedi, who came to hate Luke
+Skywalker and wiped out the planet from existence with the force. As the Jedi
+had put out the last known Sith cell, they had been fairly confident in their
+safety until the attack. The effects of this attack were wide spread across
+the galaxy, and put fear and suspicion in the hearts of all the peoples of the
+galaxy. This destructive force had not been seen since the Death Star, and
+severely damaged the place of all force users in the galaxy. The ability to
+use the Force is now anathema, hated and despised by many, feared by all.
+~
+
+Sender  Halkeye~
+Date    Sun Feb 13 19:49:38 2005~
+To      All~
+Subject Areas~
+Voting 1
+Yesvotes Halkeye Saet~
+Novotes Alveka~
+Abstentions Greven~
+Text
+Remove all the areas except maybe coruscant (or something that is newer or
+better).
+Having all these sucky planets, well suck, The only good thing about them is
+the trading thing and making money.
+Removing them, pushes people towards each other so they run into eachother
+more. and then install/create more areas as there are more planets...
+~
+
+Sender  Greven~
+Date    Mon Feb 14 16:24:43 2005~
+To      All~
+Subject RE: Areas~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I agree with removing many of them. I beleive that with a little work the
+new(heh) tatooine could be used, and its custom. I also want to keep one or
+two areas, Mon Cal specifically considering the work Saet's put into it.
+~
+
+Sender  Alveka~
+Date    Tue Feb 15 14:46:12 2005~
+To      All~
+Subject Areas~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I think that replacing the areas is a good idea.  I think that you should wait
+until you have something to replace them with. If you think we have a low
+player base now, wait until you start taking away things they can do and
+places they can go. The ones we have stay because they hope to see it grow. If
+they see it shrink, they're gone. I think it's best to replace one area with
+another once it's ready. That way they see that Kashyyyk, for example, is
+gone, but in it's place is this wonderful new world they have never seen.
+That's my opinion.  I hope you understand.   Alveka
+~
+
+Sender  Kasji~
+Date    Fri Jul 15 09:36:16 2005~
+To      Greven~
+Subject Read this, important~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I haven't been able to code lately because well, school is more important.
+So, do you want what I have thus far Greven? It's not much, and it's not
+finished, but it's better than nothing?My only request is that if this codebase
+were ever released, my code not be included in that release.
+In my push to make things fully scriptable, I've thought up something that may
+be of interest.
+I was thinking of how to make an intramud communication standard for objects,
+which is a precursor to server clustering and scripting.
+I believe that a message queue similar to that which Windows uses might work.
+Let me know what you think.
+ 
+--Kasji
+~
+
+Sender  Greven~
+Date    Thu Aug  4 01:18:34 2005~
+To      Self~
+Subject none~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+npc sabaac game
+~
+
+Sender  Grievous~
+Date    Sat Aug  6 11:29:49 2005~
+To      All~
+Subject Helpfile explinations needed~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Cycle
+Doas
+Entrust
+Mccpstats
+Notepeek
+Mudsave
+Showhelp
+Showrestore
+Setrestore
+Testexplode
+Gfighting
+Reserve
+rembounty
+Wizscore
+Watch
+Setprotoship
+Showprotoship
+Showshuttle
+Setshuttle
+ 
+If someone would be kind enough to update me on what all these commands do, ill
+have helpfiles done for them all in a flash
+thanks
+Grievous
+~
+
+Sender  Grievous~
+Date    Sat Aug  6 11:42:41 2005~
+To      All~
+Subject Me~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Just letting everyone know, that on the 18th os August 2005 i will be moving
+house, unfortunately ill only be able to take my hard drive, graphics card and
+RAM sticks, so until i get a new PC up and running i wont be internet enabled.
+Just saying that i wont dissapear off the face of the planet, if im not
+online, thats why. Ill more than make up for it when i return, until then i
+have just over 2 weeks worth of free time, so ill be building like crazy until
+i finally leave.
+~
+
+Sender  Greven~
+Date    Mon Aug  8 15:33:46 2005~
+To      All~
+Subject none~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Angelo says, '(basic) ya know how we have MAKEINSTILATION'
+Angelo says, '(basic) ya know how we have MAKEINSTILATION'
+Angelo says, '(basic) what if we let players construct there own areas'
+Angelo says, '(basic) build off what we have'
+Angelo says, '(basic) make it all come off a seperate area for each planet with
+its own vnums'
+Angelo says, '(basic) we can just clean it after each timeline change if you do
+that'
+Angelo says, '(basic) how about this'
+Angelo says, '(basic) If they dont have a good description'
+Angelo says, '(basic) i dunno lets say the areas crumble'
+Angelo says, '(basic) the rooms that dont have a good description i mean'
+Angelo says, '(basic) per room'
+Angelo says, '(basic) hmm or'
+Angelo thinks deeply to himself.
+You say, 'lol, have someone go over and check it, and make the description like
+quality control of the building'
+You say, 'heh, thats goodl.'
+Angelo says, '(basic) or'
+Angelo says, '(basic) you could have a Landlord control'
+Angelo says, '(basic) making it so one person has control over a certin amount
+of area to make'
+Angelo says, '(basic) and can allow others to build in that area'
+Angelo says, '(basic) build there own apartments or something'
+Angelo says, '(basic) maybe get credits for when people buy homes'
+~
+
+Sender  Greven~
+Date    Mon Aug  8 21:10:53 2005~
+To      Gavin~
+Subject todo~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+http://www.mudmagic.com/codes/claim/1109
+ 
+Hey, you may want to check this out.
+~
+
+Sender  Halkeye~
+Date    Tue Aug  9 03:22:05 2005~
+To      Greven~
+Subject re: todo~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+WTF is that? all it says is:
+ 
+If this is your code, please put a brief description on how we can verify the
+code. We will use your current login information to set the code ownership to
+your login.
+ 
+Is what my code?
+~
+
+Sender  Halkeye~
+Date    Tue Aug  9 03:24:56 2005~
+To      All~
+Subject ideas~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+1) Auto short description of players
+* Would be based on topmost layer of eq (probably just 2 or 3 wear locations)
+* Complextion (did we take that out?)
+* Height (?)
+* Race
+* Gender
+* etc
+ 
+2) Introduction system, reversed
+* Instead of introducing yourself, you are able to name people you meet
+lets say I come up to a human male wearing a jacket, he says his name is joe, i
+can name him joe so from how on i see joe. This way on channels like chat
+instead of no names, you can recognize people.
+Couldn't figure out enough of the details at work, but there are alot of up and
+downsides to this.
+Discuss?
+
+3) Bug tracking system (revisited). Trac is actually a really cool system, you
+can do bug tickets and stuff. http://svn.kodekoan.com/cgi-bin/trac.cgi is the
+one i have setup for one of my projects (barely setup at that).
+~
+
+Sender  Greven~
+Date    Tue Aug  9 05:45:59 2005~
+To      Halkeye~
+Subject re:todo~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Yeah, thats your code, sorry, I thought it gave ore instofmation. Your orignial
+transship function is there with no owner, just throught I woudl pass it along
+~
+
+Sender  Greven~
+Date    Tue Aug  9 05:48:34 2005~
+To      Gavin~
+Subject Re: ideas~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I like auto description, I can try to start when I get home tongiht,
+ 
+The instroduction system could be fairly easy and I like the idea, we'll have
+to work details if your available tonight
+ 
+ 
+I tried to send you a MSN message, but either I don't have your mobile contact
+or something else was wrong.
+~
+
+Sender  Greven~
+Date    Tue Aug  9 15:08:48 2005~
+To      All~
+Subject Todo~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+planetary-platform transfer
+~
+
+Sender  Halkeye~
+Date    Sun Aug 14 23:47:24 2005~
+To      All~
+Subject enforcer commands~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Couple things enforcers might need.
+sset
+loadup
+ 
+Gavin
+~
+
+Sender  Halkeye~
+Date    Mon Aug 15 02:47:16 2005~
+To      All~
+Subject makeship command thingie problem~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+that command/skill lets you build ships in rooms you can't take off.
+There would be tricks to still launch the ship, and i don't know if repulsors
+work or not here.
+ 
+Anyways, just changed the code to let you build ships in shipyard installations
+(ones that have planets)
+but they could have ships scattered throught them that way then.
+~
+
+Sender  Bai~
+Date    Mon Aug 15 20:52:01 2005~
+To      All~
+Subject Needs to be fixed~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Needs to be fixed:
+
+Room 10253 has a rprog that allows anyone who says "100" to randomly gain a
+level in everything. I uh. Don't think that's a good thing.
+~
+
+Sender  Halkeye~
+Date    Wed Aug 17 15:12:52 2005~
+To      All~
+Subject idea for installations~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+rework installations completly
+have a grid of x by y demension
+then have it so any rooms in tehre can be created / destroyed
+rooms have to be created within the grid, and you can select the direction
+that way, to be fun, bombs can destroy passageways, and someone will have to
+come in and redo the hallway.
+and even planting charges and stuff and blow up passageways to different
+important rooms (such as no long able to control the shield).
+trying to think of more ways to tie into the dark warriors namesake.
+Also think we should make an arena asteroid and make it iC, and do training
+that way and stuff.
+and dump all dropped objects in a room outside the arena doors.
+ 
+(too tired to actually try to respace this out and stuff)
+~
+
+Sender  Bai~
+Date    Wed Aug 17 16:49:38 2005~
+To      All~
+Subject Turbo Car Bug~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Bug, or something:
+ 
+ 
+turbo cars are bugged
+ 
+said i was in hotel, when i wasnt, was in the turbo car from the nw part of
+coruscant
+trent grabbed me, cause eh thought i was stuck, and it bugged me out, and made
+it believe i was still restraint.
+When in the car, they could see me, but there was no one there for me
+when leaving car, i'd still get the "electronic voices" telling me destinations
+~
+
+Sender  Bai~
+Date    Sun Aug 21 17:48:17 2005~
+To      All~
+Subject Arena Mishap~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Kenruo and a trandoshan Bounty hunter that no one can remember the name to got
+permed in the Arena. Kenruo said he didn't know you couldn't use thermals in
+there. He was wondering if he could get a restore..?
+ 
+He said he just won't come back if he doesn't get one, and also, why aren't
+there any firrerreos?
+~
+
+Sender  Greven~
+Date    Tue Aug 23 18:55:08 2005~
+To      Self~
+Subject none~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Add bank command max checks to withdraw
+~
+

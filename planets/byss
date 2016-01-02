@@ -1,0 +1,46 @@
+#PLANET
+Name         Byss~
+Filename     byss~
+BaseValue    500000
+Flags        1
+PopSupport   0
+Population 0
+Defbattalions   300
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+BodyName   Coruscant~
+Resource 1 0 58 49983 168 118
+Resource 2 121 0 50079 136 220
+Resource 3 181 0 49928 103 148
+Resource 4 240 0 49995 32 183
+Resource 5 309 0 50089 75 223
+Resource 6 367 0 50128 15 174
+Resource 7 0 351 49982 173 20
+Resource 8 0 401 50265 139 181
+Resource 9 549 0 49892 140 42
+Resource 10 0 502 49883 176 48
+Resource 11 0 558 50068 148 103
+Resource 12 729 0 49813 150 27
+Resource 13 781 0 49943 62 136
+Resource 14 0 702 50059 148 153
+Resource 15 900 0 49837 118 60
+Resource 16 0 805 50115 80 77
+Resource 17 0 856 50194 130 177
+Resource 18 1086 0 50057 79 186
+Resource 19 0 957 50139 31 105
+Resource 20 1200 0 50025 45 107
+Resource 21 0 1054 49968 148 112
+Resource 22 0 1105 49939 209 48
+Resource 23 1385 0 49769 72 61
+Resource 24 1446 0 49974 78 184
+Contraband 27 0 50081 106 209 140743352
+Contraband 28 0 49460 138 92 0
+Contraband 29 0 49954 74 85 625
+Contraband 30 255 50088 177 134 141012200
+End
+
+#END

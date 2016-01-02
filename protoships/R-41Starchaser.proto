@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					R-41 Starchaser~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			1
+Maxrooms			1
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		130
+Maxhyperspeed		170
+Minspeed			80
+Maxspeed			120
+Minmissiles		0
+Maxmissiles		4
+Mintorpedos		0
+Maxtorpedos		0
+Minrockets		0
+Maxrockets		0
+Minlasers			0
+Maxlasers			2
+Mintractorbeams		0
+Maxtractorbeams		0
+Minions			0
+Maxions			2
+Minmanuever		65
+Maxmanuever		85
+Mincargo			0
+Maxcargo			10
+Minenergy			2500
+Maxenergy			5000
+Minshield			125
+Maxshield			250
+Minhull			100
+Maxhull			200
+Minchaff			0
+Maxchaff			3
+Minbattalions		0
+Maxbattalions		0
+End
+
+#END

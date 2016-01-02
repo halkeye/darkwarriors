@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# this is the second half of the SWR startup scripts
+# port, binary, and logfile shoud be set by calling script (startup)
+maybecrash=0
+while true; do
+	echo "`date`: swr-watch: Now booting SWR... " >> $logfile
+	date > boot.txt
+	nice
+	ulimit -c unlimited
+   ulimit -s 1024
+	rm -f shutdown.txt
+	boot=$SECONDS
+	$binary $port >> $logfile 2>&1
+	
+	# okay, SWR just terminated -- what's going on?
+	if [ -r shutdown.txt ]; then
+		echo "`date`: swr-watch: shutdown cleanly" >> $logfile
+		exit
+	fi
+
+	# hmm, it wasn't a shutdown
+	t=$[$SECONDS-$boot]
+	if [ $t -lt 60 ]; then
+		# whoops, it was up less than a minute -- crash?
+		if [ $maybecrash -gt 1 ]; then
+			# yup, it did this last two times too
+			echo "`date`: swr-watch: bounced 3 times, assuming crashed"
+			echo "Automated message: Your SWR game has failed to start up 3 times in a row -- I'm going to assume it's crashed and stop trying.  You may restart it by typing 'swr' from the shell account."
+			exit
+		else
+			maybecrash=$[$maybecrash+1]
+			echo "`date`: swr-watch: server bounced, number $maybecrash."
+		fi
+	else
+		maybecrash=0
+	fi
+	
+	# back to the top...
+	sleep 10
+done
+
+
+

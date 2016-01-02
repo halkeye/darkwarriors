@@ -1,0 +1,40 @@
+#PLANET
+Name         Yavin~
+Filename     yavin.planet~
+BaseValue    0
+Flags        0
+PopSupport   0
+Defbattalions   0
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Turbolasers   0
+Shields   0
+Area         yavinfour.are~
+Resource 1 0 0 0 0 0
+Resource 2 0 0 0 0 0
+Resource 3 0 0 0 0 0
+Resource 4 0 0 0 0 0
+Resource 5 0 0 0 0 0
+Resource 6 0 0 0 0 0
+Resource 7 0 0 0 0 0
+Resource 8 0 0 0 0 0
+Resource 9 0 0 0 0 0
+Resource 10 0 0 0 0 0
+Resource 11 0 0 0 0 0
+Resource 12 0 0 0 0 0
+Resource 13 0 0 0 0 0
+Resource 14 0 0 0 0 0
+Resource 15 0 0 0 0 0
+Resource 16 0 0 0 0 0
+Resource 17 0 0 0 0 0
+Resource 18 0 0 0 0 0
+Resource 19 0 0 0 0 0
+Resource 20 0 0 0 0 0
+Resource 21 0 0 0 0 0
+Resource 22 0 0 0 0 0
+Resource 23 0 0 0 0 0
+Resource 24 0 0 0 0 0
+End
+
+#END

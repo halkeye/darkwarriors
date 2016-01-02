@@ -1,0 +1,19 @@
+#BODY
+Name         Calamari~
+Filename     calamari.body~
+Type         0
+Xpos         1380
+Ypos         -29590
+Zpos         29580
+Xmove        23
+Ymove        -11
+Zmove        -17
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      200
+Orbitcount   179
+Starsystem   Mon Calamari~
+End
+
+#END

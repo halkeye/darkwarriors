@@ -1,0 +1,25 @@
+#BODY
+Name         Gamorr~
+Filename     gamorr.body~
+Type         1
+Xpos         1500
+Ypos         -43040
+Zpos         24360
+Xmove        25
+Ymove        -16
+Zmove        -14
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      100
+Orbitcount   179
+Starsystem   Gamorr~
+End
+
+#DOCK
+Name         Gamorr Spaceport~
+Vnum         28038
+Hidden       0
+End
+
+#END

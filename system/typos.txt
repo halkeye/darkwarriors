@@ -1,0 +1,144 @@
+[32000] Ket: in the help jedi help file, you spell jedi knight wrong, the word in quotes, thought you'd like ta know
+[31863] Arigas: Wuher's tavern, dtrink machine
+[  300] Aryle: help addroom, says workship instead of workshop
+[27123] Aius: list
+[31475] Catherine: That ship is too far away! You'll have to fly a litlle closer.        Little
+[  471] Loki: not really a spelling error, but you may want to make it to where the features such as eyes, hair, etc. are a little neater when you look at person.
+[31079] Jaffel: Ummm You've been rewards by the gods for your role-playing skill! ??? maybe rewarded.....
+[  300] Katrina: The Caprice Hotel.  second sentence should read '.... have been murdered IN any one room....' helpful instead of helpfull staff.  Katrina
+[28200] Katrina: Byss Spaceport Docking Platform  transparasteel  Katrina.
+[28343] Katrina: Recovery Room/Byss/Garrison fornt for front desk  Katrina.
+[  797] Katrina: Road to throne city Emperor's Citadel and disappearing  on Byss  Katrina.
+[  709] Katrina: Byss/West Road small storeS..... place Has a cold.... EmpEror's... disapPearing   Katrina
+[28214] Katrina: Yuher's Cantina/Byss  NOtorious... mall looked big From... MaYbe  Katrina
+[28209] Katrina: Spaceport Street/Byss remenants-remnants
+[28232] Katrina: Byss/Spaceport no spacing between thesky on second to last line Katrina.
+[10202] Katrina: lobby of Coruscant Employment building exit north employment is missing a 'l'  Katrina
+[10201] Katrina: title to room and exits entering south - employment oportunities instead of empoyment opertunities
+[10251] Nimiq: Usage: BANK <deposit|withdraw|ballance> [amount]
+[  723] Kyte: balance is misspelled when you type bank
+[  300] Katrina: exit/quit message consciousness and you our -should be you're (you are....)
+[  203] Cassandra: Cor. Fitness Center Exit heading and Room Title - Aerobics (missing an 'e')
+[  420] Katrina: secretary help file - prestige is missing a p and has an extra e.  last line - secretaries
+[  219] Katrina: one too many l's in desc for turbocar platform - palace station
+[28216] Katrina: Byss, Yuher's cantina, a crowded card table should be playing sabacc instead of sabath
+[28217] Katrina: Byss, Yuher's Cantina, An empty card table.  similar has an extra m.
+[28215] Katrina: Byss, Yuher's counter, belongs doesn't need an apostophe.
+[28214] Katrina: Yuher's cantina, Byss, can't remember if this was listed or not.  wanted AD(add), NOTORIOUS(nutorious), maybe has the y and e switched.
+[10119] Katrina: Stairs To the Senate Chamber, Coruscant, below has one too many l's.
+[21021] Katrina: Law Avenue Mon Cal, exit north entrance is spelt wrong.
+[  300] Arigas: An Immortal grabs a message tisk to record a note.
+[31875] Katrina: Tatooine/Inside the Spaceport Speeders - Wioslea's dialogue (npc)  Business is spelt wrong.
+[31852] Katrina: Ronto keeping area, one too many i's in it on the second line of the desc.
+[10204] Katrina: hallway desc in employment center on Cor.  wallpaper is missing a 'l'  second line, second word in desc.
+[27222] Ryujin: Yavin MOB: Abird leaves west.
+[10008] Xaddak: Spartii!!! not Sparty!
+[10246] Dellis: help makeblaster has a typo it says sore instead of sort
+[  300] Drathe: Migran begins issuing orders int his comlink.
+[  300] Jason: Under the COMMAND list, tractorbeam is mispelt as tractorbaem
+[10310] Kettch: Since when is there a scry spell?
+[32149] Zamon: help file cloak has cloak spelled claok
+[21129] Zamon: The helpfile for diagnose has the syntax reading diagnse player
+[11473] Dellis: Little in fly a little closer when trying to land on a platform is spelled litlle not little and it annoys me to all hell :)
+[31843] Arigas: You complete your working constructing part of your fleet - I believe it should be - You complete your work constructing part of your fleet
+[  300] Kettch: You tried to sell things over the commnet, but nobody bought is missing the period (commmarket)
+[  100] Galimon: showrace Hit PPoints
+[11745] Klykzk: You get a chemestry (CHEMISTRY) set from a soft leather satchel
+[10300] Jeckle: -Lost- of instructions on how to interface with the game can be found in various offshoots from the main path through the academy.
+[10300] Badwick: Acad==>a<==my student, please refer to 'help newbie' and 'help storyline'
+[  215] Saet: ballance should be balance
+[31863] Karth: dtrink??? drink....
+[  497] Vzolat: "A level 3 remote has a many broken pieces."  Should take out the "a"
+[  710] Soless: last line, w not shft+7 w
+[  744] Soless: no desc, yet all other east road's have one
+[10253] Shiro: type stars.
+[ 2761] Shiro: Someone forgot to set shortdesc on control supervisor in Menari.
+[  300] Vzolat: "A small grey canteen has been DROOPED here."
+[ 1013] Shiro: A noghri female has many exposed circuits.
+[27219] Shiro: 'cieling'
+[27218] Shiro: 'cieling'
+[  238] Vzolat: Wicked says to you "There skills that you need to use, like kick, in combat." should be There ARE skills...
+[  238] Vzolat: Wicket says to you 'Most bounty POEPLE use these."
+[32084] Vzolat: "A drill seargent is here training troops."  It is "sergeant"
+[  497] Vzolat: "The nobel Jedi use their powers to help others!"  message given when you use any heal or cure ___ spell on another char / mob.
+[  497] Vzolat: "A level 19 remote has _a_ many broken pieces"  An extra "a" 
+[10300] Meelo: help newbie -> oporotunities isn't spelt like that, couldn't tell you right spelling though.
+[10253] Vzolat: With the gemcutting command, failure message, "You try to working it, but it cracks."
+[  301] Vzolat: "A the body of Noktok is here."
+[27353] Vzolat: "... should a Jedi wish for a more darker room."
+[ 5098] Vzolat: Not so much a typo, but "a relacite crystal" should probably have the keyword "crystal" so it fits in with the others...
+[  302] Vzolat: "The body of Nokton lies here." should be NokTok
+[21113] Soless: Joyta the Mon calamarian jewler, He says Galexy.
+[27230] Jager: "covered sith white tiles and..." should be "covered with white tiles and..."
+[  300] Shiro: Acute_awarness -form- in the sucess message.
+[  502] Vzolat: Not really a typo, but "oochistory" should probably be set as an OOC command.
+[10244] Piccolo: help knives..... "...weapons taht are..."
+[  300] Shiro: in help pilfer it has credits listed twice.
+[  420] Shiro: They begin the operation on you, but them slip and slice you. - implant
+[  100] Aristodemos: in practice seduce has too many spaces.
+[  497] Slayton: A level 10 remote has **a** many broker pieces.
+[10203] Slayton: Ms Wabingle should ask to be taken to the Senate Hall, not the Gardens
+[ 6602] Hagork: door
+[28196] Dezan: A gamorrean shamon 
+[28225] Slayton: Propeganda -- You speak to them about the **benifits** of *the* The Imperial Remnants
+[  494] GeeOhOneNine: "A remote has **a** many broken pieces."
+[10303] Styll: the typo sstarts in the first paragragh of the labratory of skills. let me copy what it said and display the sentence...Although it is possible to learn the theories behind
+[10303] Styll: the typo sstarts in the first paragragh of the labratory of skills. let me copy what it said and display the sentence...Although it is possible to learn the theories behind
+[10244] Stharuun: The room name, "Employment OPERTunities Building"
+[10244] Noristae: when typing 'payfee' message return is "Usage: payfeee <clan>"
+[  674] Natkhro: "A gunner checks of the weaponsystems."
+[ 6044] Natkhro: Clantalk should be "says", not "say".... Over the organizations private network Lord Natkhro say, 'blah blah'
+[  686] Natkhro: "It is decrated in soft leathers"  should be 'decorated'
+[ 6830] Natkhro: "you have found the hidden location of the rare  Ultima Pearl  This treasure is considered the greatest gem known to the galaxy", rough, there's nothing here ;)
+[28343] Natkhro: "The FORNT desk is slightly to the left"
+[10317] Heeka: type 'chans' -- I'm listening to "Tels"
+[21100] Muhai: baebecue,fresh and hot, fall of the bones.
+[10243] Muhai: Was taken from an imperial delagate, and contains
+[  702] Draconius: freight is mispelled fright in many instances
+[  497] Draconius: the level 20 remotes, their long title is a level 60 remote.
+[10300] Jolee: help newbie
+[  300] Draconius: Acute_Awarness skill, "You focus your senses to find those that would hide FORM you."
+[12061] Arenine: The defel is imolst impossible to make out apearing only as a shadow with red eyes.
+[  327] Kuro: on the body of noktok it is spelt nokton
+[ 3578] Aethelin: Museum is spelled wrong.
+[ 3450] Leibkos: in the medical office of the jedi academy, the medical droid is ready to tend TOO wounds....should be to
+[10327] Angra: The sad student says Killed bt a stray blaster shot.
+[31841] Angra: From here Han solo And the milenium falcon..... Should be From here Han Solo and the Millennium Falcon. four capitolization erros and a mispelling.
+[31841] Angra: Millennium has two n's. ... Docking bay is mention with two spellings.  Once as two words one as single word.
+[31843] Angra: Millennium Falcon spelled as Millenium Falcon. Missing an n.
+[ 6030] Angra: When you fail while piloting you get the message " Your notsure which switch to flip." Should be "You're not sure... etc."
+[ 6626] Angra: The first letter of the first sentence in this room isn't capitolized.
+[ 6626] Angra: Room desc, second sentence, " A large judicial bench siths... should be sits.
+[ 6626] Angra: room desc, rows of chairs are alng "along"... Run on sentence.
+[ 6630] Angra: Last sentence not capitolized, also a double space in the description.
+[31863] Malloc: Object typo in cantina on Tatooine. A Large and complex dtrink machine sits here. It is used by wuher (Should be capitolized too) to dispense drinks.
+[ 6600] Malloc: Entrance to the Guild on Tatooine, incomplete room description...
+[ 6614] Malloc: Office of the second in the Guild hall on Tatooine has horrendous typoes everywhere.
+[10201] Malloc: The room name "Employment Opertunities Building'...  It's Opportunities.
+[32414] Tarn: the descriptions has get ammo back ammo in it, just so ya know
+[10253] Cinna: They begin the operation on you, but them slip and slice you.
+[  497] Cinna: (Remote Training - Level 5) A sign advizes that only one student at a time use this room. 
+[  499] Cinna: (help bounty) Bounty by itself will list all the current (unclaimd) bounties.
+[  301] Trai: You throw %p at a customs officer.
+[  497] Cinna: [Gocial] Halkeye smacks you really hard, mayebe you should get him back. Maybe is spelled wrong
+[  300] Cinna: The Caprice Hotel - Rumours is spelled wrong
+[12897] Chadex: "wayland" should be Wayland
+[10251] Kettch: "You tried to clean the room, but it is still dirty!" for interiorcleaner should be red since its a fail
+[10005] Halkeye: 'comlex'
+[10306] Halkeye: Abbigayle's newbie prog sucks
+[  497] Sandrider: A nagging though prevents you from focusing on the force.
+[  261] Glenn: bug This room has no exits
+[  261] Glenn: idea add a door
+[21010] Kelvar: travel-sorry to be petty
+[32411] Kelvar: fourth line down-6 along. Meh im damn petty-Kelvar
+[28214] Kelvar: awfully big to be in this mall, but then again the mall looked big rom the
+[  497] Dornin: Your blast eviscerate a Level 4 remote!
+[  233] Nolan: These three skills are all passive and each provide a better chance of
+[  301] Jayson: You ask Kitkat permission to teach him makecontainer. <--- Kitkat is um....female :P
+[ 2752] Jayson: in the modifyship hfile, it shows chaff as being addable by removing hull, shields, fuel, or tractors, when you have to remove weapons to add them
+[  304] Aken: South - Empoyment Opertunities Building
+[  304] Aken: and then there is one for the barracks, which say barraks
+[31875] Aken: Wioslea exclaims, '(basic) Buisniss is bad get outta here!'
+[31875] Aken: on tatooine
+[31607] Aken: East  - Pathway to controll centre.
+[31607] Aken: on tatooine

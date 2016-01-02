@@ -1,0 +1,2243 @@
+#AREA   Dark Warrior Academy~
+
+
+
+#VERSION 2
+
+#AUTHOR Greven~
+
+#RANGES
+0 0 0 155
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 6370784
+
+#MOBILES
+#227
+dud~
+a newly created dud~
+Some god abandoned a newly created dud here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+11
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#228
+Academy Steward~
+academy steward~
+A steward of the Galactic Academy stand here, over seeing the new students.
+~
+A human steward stands here watching over the students walking the halls of
+the academy, ensuring that things run properly 
+~
+Human~
+basic~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#229
+C3PO~
+C3PO~
+C3PO the protocol droid stands here to instruct new students.
+~
+C3-PO, of Cybot Galactica 3PO-series protocol droids, stands here with a very shiny gold colored metal plating surrounding his body.~
+Droid~
+binary~
+1058883 0 0 Z
+1 0 0 0d0+0 0d0+0
+12
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if sex($n) == 0
+sayto $n Hello $n
+else
+if sex($n) == 1
+sayto $n Hello, Master $n
+else
+sayto $n Hello, Mistress $n
+endif
+sayto $n How may I assist you today?
+endif
+~
+|
+#230
+Chewbacca~
+Chewie~
+Chewbacca the wookiee is here to help you train
+~
+Chewbacca stands here with a bit of matted fur, but looks ready to help you any way possible.~
+Wookiee~
+wookiee~
+2627 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+13 13 13 13 13 13 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n rrrrrrrwwwwwwaaaaaaalllllll
+~
+|
+#231
+Han Solo~
+Han Solo~
+Han Solo, captain of the Millenium Falcon
+~
+Han Solo is a well built Corellian, here to help out student with their skills.~
+Human~
+basic~
+11331 0 0 Z
+1 0 0 0d0+0 0d0+0
+20
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n Hey kid, need some help?
+smile $n
+~
+|
+#232
+Wedge Antilles~
+Wedge~
+Wedge Antilles, pilot extrordinare, stands before you
+~
+Wedge Antilles, famed star fighter pilot for the rebellion, was in many of the Rebellions largest battles.  He stands here showing students the intricacies of ship engines.~
+Human~
+basic~
+10307 0 0 Z
+1 0 0 0d0+0 0d0+0
+15
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n Greetings, $n, I'm glad your here.
+sayto $n I can tell you about piloting. Just ask.
+sayto $n i know all about landing a ship, the coordinate system, various ship+
+types, and the different star systems.
+~
+> speech_prog landing 100~
+sayto $n To launch your ship, type "launch".
+sayto $n If you fail, you can try again until you succeed.
+sayto $n When your in space, use the course command to navigate.
+sayto $n If you need help with coordinates, just ask. 
+sayto $n When your close to a planet or moon, you can land.
+sayto $n Then, use the name, like "land menari".
+sayto $n This will bring you to the landing pad on the planet.
+~
+> speech_prog coordinates~
+sayto $n Coordinates is a way to measure your position.
+sayto $n They have 3 values, the x, y, and z coordinates.
+sayto $n All ships, planets, suns, and spacial bodies have coordinates.
+sayto $n You can see these coordinates using the radar command.
+sayto $n Use the coordinates to navigate through a star system.
+~
+> speech_prog 'ship types' 100~
+sayto $n There are several different kinds of ships. 
+sayto $n A starfighter is a small, fast ship used mainly for combat. 
+sayto $n A midship is used generally for transport and cargo. 
+sayto $n A Capital ship is generally for large transport and battles. 
+sayto $n A ship platform is where other ships are constructed and repaired.
+~
+> speech_prog starsystems~
+sayto $n Starsystem are a collection of suns an planets.
+sayto $n Each starsystem uses a singular set of coordinates.
+sayto $n These are generally close enough together to avoid hyperspace.
+sayto $n A list of starsystem can be seen using the starsystem command.
+sayto $n To travel between these starssytems, use the hyper command.
+sayto $n This will put you in hyperspace.
+sayto $n Don't forget to set your coordinates with the calculate command. 
+~
+> speech_prog simulator~
+sayto $n Yeah, sorry $n, but the machine is busted.
+sayto $n I belive that there is a second one on coruscant.
+sayto $n There should also be one on Byss.
+sayto $n These simulator help you to practice space combat.
+sayto $n The advantage is that you don't die if you explode!
+heh
+~
+|
+#233
+Wicket~
+Wicket~
+Wicket the Ewok stands here
+~
+Wicket Wystri Warrick, the famous ewok that helped in the rebellion's
+attack on the Endor Imperial shield base.
+~
+Ewok~
+ewok~
+10307 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n Wicket welcomes you to Combat classroom
+sayto $n You need to learn how to fight bad imperials?
+sayto $n Wicket teach you good. Wicket knows lots.
+sayto $n Wicket knows about damage, weapons, skills, and abilities.
+sayto $n You ask Wicket, wicket tell you!
+~
+> speech_prog damage 100~
+sayto $n Damage can be done to different things you fight.
+sayto $n You want do more damage? You better at combat, you do more damage.
+sayto $n If you use weapon, you do even more damage!
+emote spins his wooden stick
+sayto $n When you get REALLY good, you know how much damage you do!
+sayto $n The better your damroll and hitroll, the better your damage!
+~
+> speech_prog weapons 100~
+sayto $n There are different kinds of weapons you use.
+sayto $n Each one acts differently.
+sayto $n There is blaster, bowcaster, force pike, knifes, and vibro-blade.
+sayto $n If you be a jedi, you can use lightsabers too!
+sayto $n As you use each kind of weapon to fight, you get better at it.
+sayto $n You do more damage the better you do, and hit more too!
+~
+> speech_prog skills 100~
+sayto $n You can learn skills from different people.
+sayto $n Certain skills, like dualwield, lets you use two weapons.
+sayto $n Others, like dodge, are automatic, and help you in combat.
+sayto $n There are skills that you need to use, like kick, in combat.
+sayto $n Everytime you use it, you try to kick enemy!
+sayto $n The more you use skills, the better you use them.
+~
+> speech_prog abilities 100~
+sayto $n There some kinds of people with special abilities.
+sayto $n This lets them use some abilities to make their combat better.
+sayto $ n Most bounty people use them.
+sayto $n If you can use them, then do, they make you stonger!
+goto 3
+sayto $n Most bounty people use them.
+~
+|
+#234
+Boba Fett~
+Boba Fett~
+Boba Fett stands here in full mandalorian armor.
+~
+Boba Fett is a mandalorian bounty hunter.  He is famed for having taken Han Solo to Jabba the Hutt after being frozen in carbonite at cloud city. He was also inside a sarlak for a long portion of time.~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+18
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+look $n
+say You have come to learn of the hunt, have you?
+hmm
+mpsleep 5
+say Well, I guess thats why I'm here. I can teach you about lots of bounty+
+hunting information.
+say There is The Hunters Guild, bounties, police, and personal bounties to+
+discuss.
+~
+> speech_prog 'Hunters Guild' 100~
+say The Guild, huh? I personally hate the guild. I was at one point hired to+
+destroy it.
+say Quite unsuccessfully, though.
+tsk
+say Never the less, they are still a large part of the Galaxy. They are a group+
+of hunters that follow a hard code of rules.
+say While I hate rules, just the affiliation with them carries great sway among+
+the populus of the galaxy.
+~
+> speech_prog bounties 100~
+say Bounties are a way that people deal with other who need to be killed.
+say This is not always a vindictive thing. Many governments offer bounties to+
+hunters who capture and jail people with warrants out for them.
+say If someone kills needlessly on a planet, they have a chance of getting a+
+warrant put out for them.
+say Hunters are to "imprison" the person to get the bounty.
+say "Personal" bounties are another matter, however....
+~
+> speech_prog police 100~
+Say Ah, yes. Police...
+say They are a hassle to one such as myself.
+say If you are wanted by a government, and police officer of that government+
+will attempt to deal with you.
+say The easy way is to NOT become wanted, through discretion.
+~
+> speech_prog personal 100~
+say Personal bounties are placed by independant members of the galaxy.
+say Most Guild offices will accept bounty placements.
+say These bounties are much, much more dangerous to persue, but are often worth+
+a substantial deal more credits.
+say If you collect these bounties, they require you to kill the target
+evil
+say That is why I got into this business.
+~
+|
+#235
+Gavin Darklighter~
+Gavin Darklighter~
+Gavin Darklighter tinkers with something in the corner.
+~
+The younger cousin of Biggs Darklighter, Gavin joined rogue squadron at the early age of 16. He designed the emblem for Rogue squadron, as well as being one of the most decorated members of the force.~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+17
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+emote looks up from what he's doing, removes his goggles, and comes over to+
+you.
+say Hello, there. I am Gavin Darklighter. I am the engineering instructor here+
+at the academy.
+say You want to know all about engineering, huh? I know all there is.
+say I can tell you about tools, materials, skills, and career options.
+~
+> speech_prog tools 100~
+say The basic engineering tools consist of a needle and thread, a tool kit, and+
+an oven.
+say The needle and thread is used whenever you need to deal with fabric of any+
+kinda.
+say A toolkit is the most widely used tool. I consists of lots of little tools,+
+allowing you to do a variety of tasks with it.
+say The oven is used whenever you need to shape hard materials. This is needed+
+for some of the more advanced skills.
+~
+> speech_prog materials 100~
+hmm
+say Engineering materials, huh?
+say There is such a variety of them.
+say Not only is there lots of different kinds, there are also variety withing+
+the kinds.
+say One of the largest types are crystals. There are 8 common varieties of+
+crystals, and even more rare types.
+say Same thing with fabrics, there are 5 different types, that represent 5+
+layers that can be worn.
+~
+> speech_prog skills 100~
+say Engineering skills are made better by practice, practice practice.
+say The more you use the skill, the better you will become at it.
+say Also, as you practice your skills, you will get better in the engineering+
+field.
+say As you increase in ability, you will learn about how things work better,+
+making you more susceptable to teachings from wise people.
+say There are people out there that can teach you, and each of them usually+
+teaches different skills.
+~
+> speech_prog career 100~
+say The possibilities of careers using your engineering skills are limitless.
+say Many clans pay handsomely for top quality equipment for their troops.
+say Your abilities to modify and create ships will also bring you large amounts+
+of credits.
+say You can also work on a starships, repairing and modifying their internal+
+functions.
+~
+|
+#236
+Mon Mothma~
+Mon Mothma~
+The Diplomact teacher Mon Mothma stands here.
+~
+Mon Mothma, former leader of the New Republic, stands here looking very majestic. She is watching the students in this room through studious eyes.~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+12
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Hello, citizen!
+say Welcome to the classroom of Diplomacy.
+say Diplomacy is the act of talking and negotiating people to further the goals+
+of yourself or your organization.
+say I can tell you about government, planets, popular support, and hints.
+~
+> speech_prog government 100~
+say Governments are how the universe revolves.
+say Government control planets, and manage the defense, ditribution or+
+resources, and laws of these planets.
+say People who work for governments are considered part of that government, and+
+often help each other.
+~
+> speech_prog planets 100~
+say Planets are a representation of the populations in various places.
+say Often it will be more than just a planet, perhaps two. Or a monn, possibly.
+say The idea though is that planets are a political affiliation.
+say To see a list of planets and their governments, use the "planet" command.
+~
+> speech_prog 'popular support' 100~
+say Popular Support is how we measure the peoples opinion of the current+
+government.
+say It can be raised through various actions, usually involving speaking with+
+planetary citizens.
+say Pop support can be lowered if the planet is not properly patrolled, or if+
+rival diplomats convince your citizens that their views are better.
+say Beware that Popular support also affects how the population acts during+
+invasions.
+~
+> speech_prog hint 100~
+say You want a tip, huh?
+say Well, here is something: certain diplomacy skills affect large areas, or+
+can affect multiple citizens at once.
+say Watch out for these, they are very helpful.
+~
+|
+#237
+Bib Fortuna~
+Bib Fortuna~
+Bib Fortuna, smuggler extraordinaire
+~
+A dark green Twi'lek, Bib Fortuna stands very still with the mastered patience of an experienced smuggler. He looks around carefully, ever ready, like a snake ready to strike.~
+Twi'lek~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+look $n
+say Hello there, student. You have come to seek information on the art of+
+smuggling, have you?
+mpsleep 3
+say Very well, then. I know a great many things about smuggling.
+say I can instruct you on Weapons, spice, cargo, and a few tricks that may be+
+useful.
+~
+> speech_prog weapons 100~
+say Weapon smuggling is a great way to improve your skills at the trade.
+say The best way is simply to grab a weapon that has not been smuggled, put it+
+in a bag, and try to get it by some customs officers.
+say If you are carrying the weapons out in the open for the officers to see,+
+they will confiscate your weapons and, you will lose experience.
+say If you can find some way of being cloaked at the time, that will work just+
+as well as hiding them in a bag.
+say Oh, don't forget, you get more experience from selling contraband weapons+
+than normal ones.
+~
+> speech_prog spice 100~
+say Spice is a little different than weapons. Some planets will allow spice to+
+be manufactured and distributed on their planet, while some have strict laws+
+against it.
+say IF you can smuggle spice though, it is worth more than weapons.
+say You still get experience from selling contraband spice as well, but only if+
+it is refined. People do not care about unrefined spice.
+~
+> speech_prog cargo 100~
+say From what I understand, there is also large quantities of contraband that+
+can be smuggled thourgh ships cargo systems.
+say If you can find a place that sells this contraband cargo, and you can get+
+it past patrolling ships, then you should be ok, as well as make a fair profit+
+of the stuff.
+say Just be careful with this. Smuggling contraband on a ship is a good way to+
+have your vessel blown out of the sky.
+~
+> speech_prog tricks 100~
+say Your looking for a hint on some sneaky stuff, huh? Well, here is a couple.
+whisper $n If you get an engineer to make you a bag that goes under other+
+clothing, it makes it less obvious.
+whisper $n Also, if you can manage to be invisible, or make the weapons+
+invisible, then no customs office will ever bother you.
+~
+|
+#238
+Luke Skywalker~
+Luke Skywalker~
+Luke Skywalker, Jedi Master, stands before you.
+~
+Luke Skywalker, ex-pilot in Rogue Squadron, current leader of the New Jedi
+Oroder, stands here calm and serne. He has a demeanor about him of severe
+understanding and patience.
+~
+Human~
+basic~
+8195 128 1000 Z
+1 0 0 0d0+0 0d0+0
+17
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n Hello there student. You have come to learn of the force?
+mpsleep 2
+sayto $n I can teach you about the force, the way that it interacts with life,+
+and how to let the force guide your destiny.
+mpsleep 2
+mpforce vader sayto $n The force should not be allowed to guide you, you must+
+use the force to exact your will
+mpsleep 2
+mpforce vader sayto $n I can teach you about the power of the Dark Side.
+~
+> speech_prog destiny 100~
+sayto $n Your future may lie down many different paths. If you follow the+
+light side of the force, you can use the force to heal and revitalize yourself+
+and your companions.
+mpsleep 4
+mpforce vader sayto $n If your future lies with the dark side of the force,+
+you can use the power within you to crush the power of your opponents.
+~
+|
+#239
+Darth Vader~
+Darth Vader~
+The dark lord of the sith, Darth Vader, stands here.
+~
+~
+Human~
+basic~
+8195 128 -1000 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#240
+Leia Organa~
+Leia Organa~
+The Princess of Alderaan, Leia Organa
+~
+The princess of Alderaan is standing with long flowing white robes. She has a
+small, white face with close eyes and short nose. With long brown hair wrapped
+in spirals around her ears, she stares defiantly.
+~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+16
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n Hello there, student. I am Leia Organa, your teacher in the art of+
+leadership.
+sayto $n Leadership is the ability to help, control, and administer your+
+allies.
+sayto $n It has many different nuances, and may be hard to master, as you need+
+others to help you.
+sayto $n I can help you to learn about troops, espionage, and security.
+~
+> speech_prog troops 100~
+sayto $n The movement of troops can sometimes be a trick thing to do.
+sayto $n There are various kinda of troop deployments than can be used,+
+including guards and patrols.
+sayto $n There are also very different abilities within troops, some are much+
+better at defense, where others are quite alot stonger in combat.
+~
+> speech_prog espionage 100~
+sayto $n Ah, espionage, the art of spying, intelligence, and information+
+coalation.
+sayto $n With the ability to gather information from various people, you can+
+drastically help yourself or your clan.
+sayto $n There are some more violent means available to gather information as+
+well, but we shall not get into that here.
+sayto $n You can also employ lesser members to get information about other+
+people.
+~
+> speech_prog security 100~
+sayto $n There are many different ways to ensure the security of your allies.
+sayto $n You can even convince some people to help you and follow you into+
+battle.
+~
+|
+#241
+Jabba the Hutt~
+Jabba the Hutt~
+Jabba the hutt lies here comfortably.
+~
+A large, fairly typical hutt, Jabba lounges about in a fairly hutt-like
+fashion. He has various tones of skin color that reflect the segments of his
+body. With large brown eyes he can be seen to glance all over the room.
+~
+Human~
+hutt~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+14
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Greetings, little one. Welcome to my class of instructions. I would love to+
+teach you about the art of piracy, but there are certain... restrictions that+
+prevent me from doing so.
+mpsleep 3
+if race($n) != hutt
+mpforce protocol say The Great Jabba gives you greetings, little one. Welcome+
+to his class of instructions. He would love to teach you about the art of+
+piracy, but there are certain... restrictions that prevent him from doing so.
+endif
+~
+|
+#242
+Protocol droid~
+a protocol droid~
+A dark silver protocol droid.
+~
+This protocol droid is a standard C3 model. A dull silver finish glows slightly
+in places from light reflections. A shorter stature than most protocol droids
+lends to the atmosphere of the room. 
+~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+19
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#243
+Ben Kenobi~
+Ben Kenobi~
+Old Ben Kenobi stands here before you.
+~
+Ben Kenobi seems to be a little worn out. Its been many many years since he has
+been part of the galactic politics, and the time has recently taken its toll
+on his physical appearance. 
+~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+sayto $n Hello there young one. Welcome to the occupation classroom.
+mpsleep 1
+sayto $n If you have come here to learn about occupations, theres not much to+
+tell. They are jobs that you do through out your life time.
+sayto $n They can be learned in various career centres, and not only do they+
+provide you with a safe means of income, they are an excellent way to apply+
+certain tasks to your everyday dealings.
+~
+|
+#244
+MD-9 Medical Droid~
+a medical droid~
+A medical droid stands here in total disrepair
+~
+~
+Human~
+basic~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+14
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#245
+droid~
+A representative droid~
+A droid will give you information about clans.
+~
+~
+Droid~
+basic~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#246
+Lando~
+a newly created Lando~
+Some god abandoned a newly created Lando here.
+~
+~
+Human~
+basic~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+16
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#247
+George~
+Master George~
+Master George is giving acting lessons.
+~
+His wide face covered with hair is his most immediately noticable feature. The
+black and silver hair atop his head and filling out his beard seem to hide his
+face a bit. His eyes peek out from beneathe a set of bushy eyebrows that
+appear quite heavy. Dressed as comfortably as possible, he isn't quite what
+you expect of a school master.
+~
+Human~
+basic~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#248
+Academy steward~
+a newly created Academy steward~
+The steward of the Galactic Academy stands here.
+~
+~
+Human~
+basic~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+15
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#249
+Droid Salesman~
+droid salesman~
+A small brown droid salesman stands here.
+~
+~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+16
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#250
+Droid weapons dealer~
+droid weapons dealer~
+A red droid weapons dealer stands here.
+~
+~
+Human~
+basic~
+8195 0 0 Z
+1 0 0 0d0+0 0d0+0
+16
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#299
+Lord Rainbow Darth Arigass~
+&PDarth Arigass&w~
+&P&wLord &RR&Oa&Yi&Gn&Bb&bo&pw&w saunters around here.
+~
+~
+Human~
+basic~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+20
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#227
+dud~
+a dud~
+A dud is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#228
+A Ship Simulator~
+a ship simulator~
+A ship simulator stands here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+A Ship Simulator~
+An sign hangs from this machine, reading 'Out of Order'
+~
+E
+A Ship Simulator~
+An sign hangs from this machine, reading 'Out of Order'
+~
+#229
+An orange leather hood~
+an orange leather hood~
+An orange leather hood is here~
+~
+13 0 17
+0 0 0 0
+1 0 0
+#230
+wooden stick~
+a wooden stick~
+A wooden stick is here.~
+~
+13 0 8193
+0 0 0 0
+1 0 0
+#231
+Rogue Squadron Flight Pants~
+a Rogue Squadron Flight Pants~
+A Rogue Squadron Flight Pants is here.~
+~
+13 0 33
+0 0 0 0
+1 0 0
+#232
+Rogue Squadron Flight Boots~
+a Rogue Squadron Flight Boots~
+A Rogue Squadron Flight Boots is here.~
+~
+13 0 65
+0 0 0 0
+1 0 0
+#233
+Rogue Squadron Flight Jacket~
+a Rogue Squadron Flight Jacket~
+A Rogue Squadron Flight Jacket is here.~
+~
+13 0 1025
+0 0 0 0
+1 0 0
+#234
+Rogue Squadron Flight Gloves~
+a Rogue Squadron Flight Gloves~
+A Rogue Squadron Flight Gloves is here.~
+~
+13 0 129
+0 0 0 0
+1 0 0
+#235
+Black Vest~
+a Black Vest~
+A Black Vest is here.~
+~
+13 0 9
+0 0 0 0
+1 0 0
+#236
+White Shirt~
+a White Shirt~
+A White Shirt is here.~
+~
+13 0 1025
+0 0 0 0
+1 0 0
+#237
+Beige Pair of Pants~
+a Beige Pair of Pants~
+A Beige Pair of Pants is here.~
+~
+13 0 33
+0 0 0 0
+1 0 0
+#238
+Wookie Bandolier~
+a Wookie Bandolier~
+A Wookie Bandolier is here.~
+~
+13 0 1025
+0 0 0 0
+1 0 0
+#239
+Bowcaster~
+a Bowcaster~
+A Bowcaster is here.~
+~
+13 0 8193
+0 0 0 0
+1 0 0
+#240
+Chewbacca Corpse~
+Chewbacca Corpse~
+The corpse of Chewbacca lies in a pool of blood.~
+~
+23 0 0
+0 0 0 0
+1 0 0
+E
+The corpse of Chewbacca lies in a pool of blood.~
+The corpse of Chewbacca lies here in a pool of blood. He was slayed in the
+prime of his life when he had no service to perform. His training was
+obsolete, so he had to be eliminated.
+~
+#241
+a pool of blood~
+blood~
+A pool of blood.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#242
+Mandalorian Boots~
+Mandalorian Boots~
+A pair of Mandalorian Boots lies here.~
+~
+13 0 65
+0 0 0 0
+1 0 0
+#243
+Mandalorian Body Armor~
+Mandalorian Body Armor~
+Mandalorian Body Armor~
+~
+13 0 9
+0 0 0 0
+1 0 0
+#244
+Mandalorian Helmet~
+Mandalorian Helmet~
+Mandalorian Helmet~
+~
+13 0 17
+0 0 0 0
+1 0 0
+#245
+Mandalorian Gloves~
+Mandalorian Gloves~
+Mandalorian Gloves~
+~
+13 0 129
+0 0 0 0
+1 0 0
+#246
+Engineering Belt~
+Engineering Belt~
+An Engineering Belt is here.~
+~
+13 0 2049
+0 0 0 0
+1 0 0
+#247
+Diplomatic Robe~
+Diplomatic Robes~
+A Diplomatic Robe is here.~
+~
+13 0 1025
+0 0 0 0
+1 0 0
+#248
+Diplomatic Tunic~
+Diplomatic Tunic~
+A Diplomatic Tunic is here.~
+~
+13 0 9
+0 0 0 0
+1 0 0
+#249
+Dark Robes~
+A set of dark robes.~
+A Dark Robes is here.~
+~
+9 0 1024
+0 0 0 0
+1 0 0
+#250
+Light BLue lightsaber~
+A light Blue Lightsaber~
+A long, light blue lightsaber~
+~
+5 0 24576
+0 0 0 0
+1 0 0
+#251
+Grey flowing robe~
+a Grey flowing robe~
+A Grey flowing robe is here.~
+~
+13 0 1024
+0 0 0 0
+1 0 0
+#252
+Dark Red Lightsaber~
+Dark Red Lightsaber~
+A long, light blue lightsaber~
+~
+5 0 24576
+0 0 0 0
+1 0 0
+#253
+A white flowing robe~
+A white flowing robe~
+An A white flowing robe is here.~
+~
+13 0 9
+0 0 0 0
+1 0 0
+#254
+long brown hooded robe~
+a long brown hooded robe~
+A long brown hooded robe is here.~
+~
+13 0 8
+0 0 0 0
+1 0 0
+#287
+a Sorosuub blaster pistol~
+a Sorosuub blaster pistol~
+A Sorosuub blaster pistol lies here.~
+~
+5 8192 8193
+0 4 4 6 300 300
+10 500 50
+#288
+a packaged ration~
+a packaged ration~
+A packaged ration is here, waiting to be eaten.~
+~
+19 8192 1
+50 50 0 0
+2 5 0
+#289
+a canteen~
+a canteen~
+A small grey canteen has been drooped here.~
+~
+17 8192 1
+40 40 0 0
+1 10 1
+#290
+Academy Backpack~
+an Academy Backpack~
+An Academy Backpack is here.~
+~
+15 8192 9
+25 0 0 0
+1 20 2
+#291
+Flight Vest~
+a Flight Vest~
+A Flight Vest is here.~
+~
+9 0 9
+2 2 0 0
+1 0 0
+#292
+Academy Vibro Blade~
+a Academy Vibro Blade~
+A Academy Vibro Blade is here.~
+~
+5 8192 8193
+12 5 4 2 1000 1000
+1 100 10
+#293
+Combat Pants~
+a Combat Pants~
+A Combat Pants is here.~
+~
+9 0 33
+6 6 0 0
+1 0 0
+#294
+Combat Vest~
+a Combat Vest~
+A Combat Vest is here.~
+~
+9 0 9
+4 4 0 0
+1 0 0
+#295
+Combat Boots~
+a Combat Boots~
+A Combat Boots is here.~
+~
+9 0 65
+4 4 0 0
+1 0 0
+#296
+Academy Energy Shield~
+a Academy Energy Shield~
+A Academy Energy Shield is here.~
+~
+9 8192 513
+5 5 0 0
+1 10 1
+#297
+Academy Comlink~
+a Academy Comlink~
+A Academy Comlink is here.~
+~
+72 0 16385
+0 0 0 0
+1 0 0
+#298
+Academy Glowrod~
+a Academy Glowrod~
+A Academy Glowrod is here.~
+~
+1 8257 16385
+0 0 50 0
+1 5 0
+#299
+dud~
+a dud~
+A dud is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#227
+Galactic Academy~
+Welcome to Star Wars: Dark Warriors MUD. This game is based on rooms that
+your character is in. The descriptions of the room, that is, the section
+your reading right now, can give you a hint as to what to do, or whats
+going on around you. Below that is the listing of "exits", or directions
+to leave this room. Follow the exits, and read the room descriptions for
+new players, or more experienced players can run through here a little
+more quickly, but must adhere to our rules. To move your character, you
+can enter into your MUD client the name of the exit. For example, from
+this room, you can travel south by typing "south", or the short form, "s".
+~
+0 1036 0 0 1 0 0 32
+D2
+~
+~
+0 0 228
+S
+#228
+Rules of Dark Warriors~
+Here is a listing of the most important Rules of Dark Warriors.
+ 
+&B1&z. &wRole play your character. This is the most important rule that we
+   have.
+        &BSee 'help roleplay'
+&B2&z. &wNewbies(new players) are to be helped whenever possible, and not
+   killed for any reason.
+        &BSee 'help newbie'
+&B3&z. &wAdvertising for other muds is not allowed. Did we advertise on
+   yours?
+&B4&z. &wThis MUD is still being developed, but we will not tolerate bug
+   exploitation
+        &BSee 'help bug'
+&W
+In case your very unfamiliar with the help system, it is a collection of
+information that can be referenced with keywords. For example, to see the
+help file on jedi, you can type in, "help jedi"
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 227
+D2
+~
+~
+0 -1 229
+S
+#229
+People throughout the Galaxy~
+This MUD is based in a modified Star Wars universe. When you chose a race
+in the creation process, you will be expected to play as that race. The
+same applies to your class. However, please realize that this is meant to
+be a representation of SW, and you will exsperience many people of many
+races. These people come in 2 varieties, Players(aka PC's and characters)
+and Mobiles(aka mobs, NPC, creatures, monsters). Players are real people
+that have connected to the game and can talk to you and help you out.
+Mobiles, most commonly called mobs, are controlled by the game, and will
+be recreated occasionally. The person in this room, "Academy Steward", is
+an example of a mobile. The mobiles are listed below the exit list on your
+display. 
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 228
+D2
+~
+~
+0 -1 230
+S
+#230
+Communication~
+There are many ways to communicate with people. The most common way is to
+use the say command. This will simulate speaking to a room, and anyone in
+the room will be able to hear you. The chat command will broadcast your
+voice across the galactic comm network, to anyone who has a comlink. There
+is a list of predefined actions called "socials" that be be done by
+entering the word into your command line. For the list, type "socials", to
+perform one, say, zombie, simply type "zombie". An alternative to socials
+is the "emote" command. This allows you to send a description of an action
+to the room, which begins with your name.    All of the above commands are
+considered "IC", or "in character". For "OOC" communication commands, you
+can use the osay, ooc, ask, and answer commands.
+Since this is a SW mud, you do not nessecarily speak the same language as
+other being. You must learn the language before you can speak it. The the
+east is a teacher that will help you learn these languages.
+        &BSee 'help ic'
+        &BSee 'help say'
+        &BSee 'help social'
+        &BSee 'help ooc'&W
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 229
+D1
+~
+~
+0 -1 231
+D2
+~
+~
+0 -1 232
+S
+#231
+Protocol Training Centre~
+This area is here for people to learn the languages of various races from
+the galaxy. To see the list of languages that you can learn, type
+"language". The value beside the name is what percentage you have learned
+it.   To learn a language from the instructor here, you can type "language
+learn <language>"
+        &BSee 'help language'&W
+~
+0 1032 0 0 1 0 0 32
+D3
+~
+~
+0 -1 230
+S
+#232
+Training Your Skills and Body~
+Your character has a body in this game, and this body has certain
+characteristics. These are represented by your stats: str, dex, con, wis,
+int, cha, lck, and frc. Strength is your muscle strength, dex is the how
+dexterous and nimble your body is, wisdom is how clever you are, 
+intelligence is how well you understand concepts, charisma is how well you
+get along with people, luck is how you are naturally disposed to
+situations, and force is how adept you are in the Force. Each of these
+statistics affects the maximum levels you will receive in each class, and
+will increase your profeicency with certain skills.  Your max level can be
+seen when you reach level 5 in the respective categories. To the east is a
+trainer for your physical characteristics, and to the west is someone that
+can help you with basic skills.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 230
+D1
+~
+~
+0 -1 234
+D2
+~
+~
+0 -1 235
+D3
+~
+~
+0 -1 233
+S
+#233
+Tricks and Skills~
+This is were you learn the skills that will help your character throughout
+the game. To see a list of all the skills, use the 'slist' command. To see
+a list of the skills you currently have, type "practice". The practice
+command is also how you learn a specific skill from someone else. If your
+percentage learned on a skill is less that 20%, you can be taught it by
+someone else. After you have been taught a skill above 20%, you must
+practice using it on your own. Generally, this is accomplished by either
+invoking the skill through you command line, ie. "beg human", or through
+indirect action, like combat. 
+~
+0 1032 0 0 1 0 0 32
+D1
+~
+~
+0 -1 232
+S
+#234
+Physical Training Centre~
+Dark Warriors is not like most Star Wars muds in the regard of training
+stats. Here, it has been disabled. Characters physical attributes were
+chosen during the creation process. This allows people to customize how
+they would like their characters to be.
+~
+0 1032 0 0 1 0 0 32
+D3
+~
+~
+0 -1 232
+S
+#235
+Entrance to the Galactic Academy Wing~
+The entrance to the galactic academy lies to the north. This small
+antechamber leads of off the main Academy Foyer, and from there allows new
+students to learn more about their environment. The walls a glossy white
+finish, with an underying layer of durasteel. The walls seem to give off a
+faint hum that can only come from a large power generator. The crowd seems
+to be a little more thin in this direction, although one can still see a
+fair amount of people to the south.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 232
+D2
+~
+~
+0 -1 236
+S
+#236
+Galactic Academy Foyer~
+This is the main foyer of the Galactic Academy. From here one can reach the
+different wings. To the north is the Entrane wing, where new student come
+to the academy. To the east is the classrooms, teaching people about
+various skills and proffesions. To the west is a small training area,
+where people can hone some of these skills. To the south is the testing
+ground, where student must complete several tasks to graduate from the
+academy.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 235
+D1
+~
+~
+0 -1 237
+D2
+~
+~
+0 -1 262
+S
+#237
+Classroom Hallway~
+The Hallways of the Classroom wing of the Galactic academy seems to be
+moderately light, with signs hanging from the ceiling indicating what
+class rooms are available. You notice the Combat and Piloting classroom
+right away, and can see more further down the hallway. A small mouse droid
+zips around of the ground, and the high pitch beepts and boops can be heard
+coming from the classrooms.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 238
+D1
+~
+~
+0 -1 240
+D2
+~
+~
+0 -1 239
+D3
+~
+~
+0 -1 236
+S
+#238
+Combat Classroom~
+This room is fairly void of color, and has gone with a soft while color to
+accentuate the dark clothes worn by the students. The small teaching
+apparatusus are used primarily for basic level combat. The Ceiling is a
+bare duracrete, with metal girders hanging down, suspending the lights and
+ventilation system. There seems to be alot of dust up there, as well as a
+few small specks of red.
+~
+0 1032 0 0 1 0 0 32
+D2
+~
+~
+0 -1 237
+S
+#239
+Piloting Classroom~
+One of the larger classrooms, this room has been set up with chart and
+display panels all over the place. Here, one can observe starfighter
+legend Wedge Antilles overseeing a group of new students, and give out
+some pointers on piloting. There seems to be a small ship simulator in the
+corner of this room, but an 'out of order' sign hangs from it. Perhaps
+there are others that might be used.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 237
+S
+#240
+Classroom Hallway~
+Further into the hallway of the Classroom wing of the Galactic Academy, one
+can see a little better at the classroom near by. The Bounty hunting room
+leads to the north, where one can hear what seems like the scream of a
+small missle, and one can smell  a faint odor of burning flesh. To the
+south is the engineering classroom, where one can hear some large
+machinery running, creating a loud hum
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 241
+D1
+~
+~
+0 -1 243
+D2
+~
+~
+0 -1 242
+D3
+~
+~
+0 -1 237
+S
+#241
+Bounty Hunting Classroom~
+The Classroom for the Bounty Hunters is a dark contrast to the bright room
+of the combat class. Here, there is a thin carpet laid on the floor, with
+various colors smeared in what seems a very random pattern. The Walls are
+covered in small trophies of animals from across the galaxy, as well as
+several memoriums to ancient Hunting Masters. There are a few weapons on
+the walls, as well as what looks like a small electronic hand pad.
+~
+0 1032 0 0 1 0 0 32
+D2
+~
+~
+0 -1 240
+S
+#242
+Engineering classroom~
+The Engineering classroom is littered with small bits of metal and
+duraplast. You notice several verpine instructors running around, as well
+as long work benches free to be used. The people currently occupying some
+of the spaces are practicing making small containers, and seem to be
+enjoying themselves greatly. There are larger power supplies in the far
+corner, as well as what appears to be a large grinding wheel for producing
+tools, and a container of fused plasma, used to heat engineering ovens.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 240
+S
+#243
+Classroom Hallway~
+Further in the Classroom wing of the Galactic Academy, this room has 2 more
+adjacent rooms. To the north is the Diplomacy, where the famed leader of
+the Rebllion, Mon Mothma, teaches here students the affects that diplomacy
+has over the lives of galactic citizens. To the south, the Smuggling
+classroom, where instructors are showing their students how to improve
+their finger dexterity, with much shouting at the lesser students.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 244
+D1
+~
+~
+0 -1 246
+D2
+~
+~
+0 -1 245
+D3
+~
+~
+0 -1 240
+S
+#244
+Diplomacy Classroom~
+This room has many holobooks filling the shelves that line the walls. Mon
+Mothma, famed for her work with the governments of the galaxy, bring first
+the rebellion, and then the New Republic to fruition. She works with the
+students in the room, explaining many things about the history of various
+planets, how to manipulate a person to see the way other , and
+proper ettiquette in the Coruscant government chanbers.
+~
+0 1032 0 0 1 0 0 32
+D2
+~
+~
+0 -1 243
+S
+#245
+Smuggling Classroom~
+The floor of this room is a hard tile, the walls a dull durasteel, and the
+ceiling a hard coated duraplast, giving the room a very dark feeling. This
+is used by the instructors to show the advantages of shadow on an
+unsuspecting target. There are many small electronic devices, mostly used
+to hide weapons and illegal narcotics . There is also some larger
+equipment in the far corner of the room, with some bare wires that the
+students are working on, obviously used as larger componets of a ship.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 243
+S
+#246
+Classroom Hallway~
+This section of the hallway is strikingly similiar to the others of this
+hallway. It also has 2 adjacent rooms, one to the north, and one to the
+south, in which classes are currently being taught. To the north, the
+classroom of the Force. The other room, to the south, is there for
+students wishing to learn about the art of Leadeship. There are
+appropriate signs hanginge from the ceiling, pointing to both, as well as
+further rooms farther down the hall. There is not much of the hallway
+left, it would seem.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 247
+D1
+~
+~
+0 -1 249
+D2
+~
+~
+0 -1 248
+D3
+~
+~
+0 -1 243
+S
+#247
+Force Classroom~
+This particular classroom is here for students to learn the rudimentary
+basics of the force. Here, the instructors will teach one about the light
+and dark sides of the force. There ar various instruments about the
+classroom, a lightsaber in a glass case, some small training remote, a map
+of the galaxy, many other small trinkets. The ceiling has some very
+strange swirls, what looks like a strong field was sending waves through
+the plaster, possibly from the lightsabers used in this room. To the south
+is the classroom hallway.
+~
+0 1032 0 0 1 0 0 32
+D2
+~
+~
+0 -1 246
+S
+#248
+Leadership Classroom~
+The classroom for the leadership teacher is set with many, MANY maps around
+the walls. There are fleet movement patterns, troop formations,
+starfighter designs, and instructions on how to polish boots properly. The
+ceiling is hardened beams of duracrete, running perendicular to the
+doorway. The floor is a bare white tile, used properly to illuminate the
+room for better viewing of the subject material.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 246
+S
+#249
+Classroom Hallway~
+This is the end of the hallway of classroom. The north classroom is a
+little dark and hard to see into, while the one to the south is filled
+with papers. The class to the east seems to have alot of metal and shiny
+instruments around. The hall itself is very similiar to the rest of the
+hallway, except that it ends here. There are signs indicating what each of
+the classrooms are, as well as a small rug that is slightly worn on the
+floor.
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 250
+D1
+~
+~
+0 -1 252
+D2
+~
+~
+0 -1 251
+D3
+~
+~
+0 -1 246
+S
+#250
+Piracy Classroom~
+This classroom is dark. Almost too dark. You have this strange feeling to
+watch ones credits. The walls have some stange black marks on them, and
+the floor is a very hard tile, echoing ones every step. Some of the other
+students walking around are making no noises at all, and are very pleased
+about it. There is some large pieces of equipment around, what looks like
+a docking clamp to some sort of ship, as well as a box of cloth bags, and
+a pile of cut ones in the corner.
+~
+0 1032 0 0 1 0 0 32
+D2
+~
+~
+0 -1 249
+S
+#251
+Occupation Classroom~
+The occupation room of the academy is one of the strangest that there is
+seen. Here, one can learn to cook, one can learn the art of tax refunds,
+one can learn how to smoke large cigars, and many other things associated
+with various jobs. There is a cooking range, a large stack of papers, some
+nail files, and many, many desks, strewn about this room. 
+~
+0 1032 0 0 1 0 0 32
+D0
+~
+~
+0 -1 249
+S
+#252
+Medic Classroom~
+The classroom for a medic is a very clean, very bare, very shiny room.
+There is a sterilization machine over in the corner, as well as a large
+set of surgical instruments. The floor is a dark grey tile, with small red
+spots in various locations. The roof is actually made of glass, and has
+seats arranged. Apparently this room is used to demonstrate surgey to
+large numbers of people. There are a few students here trying to use one
+of the machince, and quite unsuccesully.
+~
+0 1032 0 0 1 0 0 32
+D3
+~
+~
+0 -1 249
+S
+#253
+Classroom Hallway~
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 258
+D1
+~
+~
+0 -1 236
+D2
+~
+~
+0 -1 254
+D3
+~
+~
+0 -1 255
+S
+#254
+RP Concepts~
+Surprisingly, this room is not a classroom at all. This is a small theater,
+complete with a stage, rows of spectator seats, a catwalk above with the stage
+lights mounted on it's underside, and the always-present stage curtain. It
+appears that the stage has just recently been used for a show, as there are
+still some props arranged on it. Cleaning droids sweep the isles and
+stagehands can be heard shuffling around behind the backdrop.
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 253
+S
+#255
+Classroom Hallway~
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 261
+D1
+~
+~
+0 -1 253
+D2
+~
+~
+0 -1 256
+D3
+~
+~
+0 -1 259
+S
+#256
+Clan Basics~
+This room seems more like an information booth at a spaceport than an actual
+classroom. The long and curving desk in the center of the room is equipped
+with a row of display screens. Each screen shows the most current information
+on each clan in the galaxy. The droid behind the desk has a sweeping visual
+sensor which allows it to keep it's eye on all of the screens at once.
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 255
+S
+#257
+PK 101~
+A small podium at the front of this room makes very clear the fact that this is
+a lecture hall. Rows of seats are centered around a long isle which cuts
+through the middle of the room. Each set has a small platform attached for
+supporting data pads or other devices of writing for taking notes. The room
+echos with the slightest sound and seems quite drafty. It's high ceiling and
+lack of decoration give this room a decidedly empty feeling. 
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 259
+S
+#258
+Mud Rules~
+Resembling a tribunal or coartroom of some kind, the judgmental character of
+this room is immediately apparent. A high judge's bench sits at the far end of
+this narrow room and is flanked by a long, low table on either side. A small
+stone platform is arranged directly in front of the bench and the tables seem
+to be closing in around it. Standing alone, one person at a time takes their
+place on the platform and is addressed by the officials. The bench and it's
+table-topped appendages rise above the platform's occupant, regardless of the
+lift provided by the stone beneath their feet.
+~
+0 12 0 0 1 0 0 32
+D2
+~
+~
+0 -1 253
+S
+#259
+Classroom Hallway~
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 260
+D1
+~
+~
+0 -1 255
+D2
+~
+~
+0 -1 257
+S
+#260
+Loading Dock~
+stacks of crates and boxes are lined up in rows on both sides of this
+warehouse. Droids load and unload hovering bardges which transport the cargo
+to and from ships at some unseen landing pad. Arriving bardges are received
+through one wide door at the far end of this room and are quickly unloaded and
+sent to the outgoing line. The empty bardges are then loaded and sent back to
+the pad through a second door on the same wall as the first. The atmosphere
+here is busy and loud, but it is apparent that every movement of every droid
+and piece of equipment is carefully planned and executed.
+~
+0 12 0 0 1 0 0 32
+D2
+~
+~
+0 -1 259
+S
+#261
+Making War~
+This large, round room is obviously a command center of some kind. It's walls
+are lined with huge display screens showing troope deployments, ships'
+stations, and the status of supply bases and convoys. Activity is abundant
+here, with people of all races and droids of all kinds working feverishly at
+one task or another. A circular panel rings the center of this room with
+computers and small display screens blinking and flashing with different
+colors as they provide up to the minute information. The majority of the
+activity is within this ring, most of the operators facing outward as to see
+the large wall screens simply by looking up. 
+~
+0 12 0 0 1 0 0 32
+S
+#262
+A bright hallway~
+This hallways leads south of the main foyer of the academy. Here there seems to
+be more business going on. There can be seen various people in the academies
+uniforms going about there jobs.  There are even droids going about with
+strange animals of various races.
+~
+0 1036 0 0 1 0 0 32
+D0
+~
+~
+0 -1 236
+D2
+~
+~
+0 -1 263
+S
+#263
+A bright hallway~
+Further down the hallways from the foyer there is even more happening. There
+are two small shops to either side of this hallway. The animals seem to be
+more localized in this area, but there is many less droids than before. The
+different races here seem somewhat peaceful in their coexistance with each
+other. The ceiling, walls and floor are a dull white duraplast, and are
+illuminated by bright white glow globes.
+~
+0 1036 0 0 1 0 0 32
+D0
+~
+~
+0 -1 262
+D1
+~
+~
+0 -1 264
+D2
+~
+~
+0 -1 266
+D3
+~
+~
+0 -1 265
+S
+#264
+Basic Supplies~
+This shop is filled with many, many boxes, all neatly labeled, shelved, and
+categorized. There are a few patrons browsing throguh the wares, but the
+center of the rooms seems to be a large sales desk. The walls are barely
+visible through the items, but a dull beige seems to be the color, accompanied
+with the ceiling and the white tiles marbled with black coloring.
+~
+0 1036 0 0 1 0 0 32
+D3
+~
+~
+0 -1 263
+S
+#265
+Simple weaponry~
+The weaponry shop seems to be much less organized than one would expect from a
+place selling deadly things such as these. There may be some semblance of
+organization, though none of the patrons can seem to find anything. The stock
+personel are constantly showing people around the room, which seems to consist
+of large piles of boxes on a dark red tiled floor, with a dull lighting coming
+from above.
+~
+0 1036 0 0 1 0 0 32
+D1
+~
+~
+0 -1 263
+S
+#266
+A bright hallway~
+The hallway that seemed so busy a few moments ago has come to an abrupt end
+here. There is a set of excalators taking the people in this area upwards, but
+there is very little activity short of that. The dull white walls, ceiling,
+and floor  are still well light with the bright lights from above, yet it
+seems somewhat anticlimatic to many of the people milling around the base of
+the escalator.
+~
+0 12 0 0 1 0 0 32
+D0
+~
+~
+0 -1 263
+D4
+~
+~
+0 -1 267
+S
+#267
+Academy's end~
+The end of the Galactic Academy is a fairly simple room with a majestic charm
+about it. With the same simple white walls being continued into this area,
+there are dark red banners to accentuate the walls, and hard, thick carpeting
+underfoot. The end of the room leads out somewhere that cannot be easily
+recognized.
+~
+0 1036 0 0 1 0 0 32
+D5
+~
+~
+0 -1 266
+S
+#268
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#269
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#270
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#271
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#272
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#273
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#274
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#275
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#276
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#277
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#278
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#279
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#280
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#281
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#282
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#283
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#284
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#285
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#286
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#287
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#288
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#289
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#290
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#291
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#292
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#293
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#294
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#295
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#296
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#297
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#298
+Floating in a void~
+~
+0 1073741828 0 0 1 0 0 32
+S
+#299
+Floating in a void~
+~
+0 4 0 0 1 0 0 32
+S
+#0
+
+
+#RESETS
+M 1 228 1 229
+E 1 293 1 7
+E 1 294 1 5
+E 1 295 1 8
+E 1 296 1 11
+E 1 292 1 16
+P 0 239 1 0
+M 1 229 1 231
+M 1 231 1 233
+E 1 235 1 5
+E 1 236 1 12
+E 1 237 1 7
+O 1 240 1 234
+O 1 241 1 234
+M 1 233 1 238
+E 1 229 1 6
+E 1 230 1 16
+M 1 232 1 239
+E 1 231 1 7
+E 1 232 1 8
+E 1 233 1 12
+E 1 234 1 9
+O 1 228 1 239
+M 1 234 1 241
+E 1 242 1 8
+E 1 243 1 5
+E 1 244 1 6
+E 1 245 1 9
+M 1 235 1 242
+E 1 246 1 13
+M 1 236 1 244
+E 1 247 1 12
+E 1 248 1 5
+M 1 237 1 245
+E 1 249 1 12
+M 1 238 1 247
+E 1 250 1 16
+E 1 251 1 12
+M 1 239 1 247
+M 1 240 1 248
+E 1 253 1 5
+M 1 241 1 250
+M 1 242 1 250
+M 1 243 1 251
+G 1 254 1
+M 1 244 1 252
+M 1 247 1 254
+M 1 245 1 256
+M 1 246 1 260
+M 1 249 1 264
+G 1 298 1
+G 1 296 1
+G 1 290 1
+G 1 289 1
+G 1 288 1
+M 1 250 1 265
+G 1 292 1
+G 1 287 1
+M 1 248 1 267
+M 1 227 1 299
+M 1 299 1 299
+O 1 299 1 299
+O 1 227 1 299
+S
+
+
+#SHOPS
+ 249    0  0  0  0  0   120  90         0 23    ; droid salesman
+ 250    0  0  0  0  0   100  40         0 23    ; droid weapons dealer
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  248 spec_auth
+C  299 The Crimson Empire~
+S
+
+
+#$

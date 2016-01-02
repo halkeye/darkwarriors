@@ -1,0 +1,9 @@
+#ILLNESS
+Name              'chronic gas' thirst 1~
+HPloss            0
+MVloss            0
+Hunger            0
+Thirst            0
+End
+
+#END

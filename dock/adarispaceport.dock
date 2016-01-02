@@ -1,0 +1,10 @@
+#DOCK
+Name         Adari Spaceport~
+Filename     ../dock/adarispaceport.dock~
+Vnum         29001
+Hidden       0
+Starsystem   Adari~
+Body   Adari~
+End
+
+#END

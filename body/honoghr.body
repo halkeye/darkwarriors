@@ -1,0 +1,26 @@
+#BODY
+Name         Honoghr~
+Filename     honoghr.body~
+Type         1
+Xpos         -840
+Ypos         -34970
+Zpos         19140
+Xmove        -14
+Ymove        -13
+Zmove        -11
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      75
+Orbitcount   179
+Starsystem   Honoghr~
+Planet   Honoghr~
+End
+
+#DOCK
+Name         Nystao~
+Vnum         1000
+Hidden       0
+End
+
+#END

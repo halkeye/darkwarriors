@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					TIE Bomber~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			1
+Maxrooms			1
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		0
+Maxhyperspeed		50
+Minspeed			60
+Maxspeed			100
+Minmissiles		0
+Maxmissiles		10
+Mintorpedos		0
+Maxtorpedos		5
+Minrockets		0
+Maxrockets		2
+Minlasers			0
+Maxlasers			0
+Mintractorbeams		0
+Maxtractorbeams		0
+Minions			0
+Maxions			2
+Minmanuever		76
+Maxmanuever		86
+Mincargo			0
+Maxcargo			5
+Minenergy			0
+Maxenergy			4000
+Minshield			0
+Maxshield			200
+Minhull			200
+Maxhull			400
+Minchaff			0
+Maxchaff			8
+Minbattalions		0
+Maxbattalions		0
+End
+
+#END

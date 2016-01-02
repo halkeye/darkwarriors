@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					SSD Super Star Destroyer~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			100
+Maxrooms			200
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		20
+Maxhyperspeed		70
+Minspeed			10
+Maxspeed			35
+Minmissiles		0
+Maxmissiles		48
+Mintorpedos		0
+Maxtorpedos		24
+Minrockets		0
+Maxrockets		12
+Minlasers			0
+Maxlasers			8
+Mintractorbeams		0
+Maxtractorbeams		15
+Minions			0
+Maxions			24
+Minmanuever		5
+Maxmanuever		15
+Mincargo			50
+Maxcargo			1000
+Minenergy			0
+Maxenergy			23000
+Minshield			1150
+Maxshield			2300
+Minhull			920
+Maxhull			1840
+Minchaff			0
+Maxchaff			50
+Minbattalions		0
+Maxbattalions		240
+End
+
+#END

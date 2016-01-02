@@ -1,0 +1,69 @@
+#SHIP
+Name         Long-range frigate: Silver Dancer~
+Filename     silverdancer.shp~
+Description  ~
+Owner        ~
+Pilot        ~
+Copilot      ~
+Class        1
+Tractorbeam  0
+Shipyard     2752
+Hanger       31106
+Turret1      31099
+Turret2      31100
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       10
+Missiles     10
+Maxmissiles  10
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      2752
+Firstroom    31088
+Lastroom     31112
+Shield       0
+Maxshield    125
+Hull         1500
+Maxhull      1500
+Maxenergy    12000
+Hyperspeed   255
+Comm         1
+Chaff        0
+Maxchaff     0
+Sensor       50
+Astro_array  1
+Realspeed    150
+Type         0
+Cockpit      31097
+Coseat       31097
+Pilotseat    31097
+Gunseat      31097
+Navseat      31097
+Engineroom   31103
+Entrance     31098
+Shipstate    0
+Missilestate 0
+Energy       12000
+Manuever     120
+SelfDpass    37895
+Selfdestruct Not Installed~
+Home         Coruscant System~
+MaxCargo     800
+Bombs        0
+MaxBombs        0
+Flags        4
+Sim_Vnum        32000
+Stealth        1
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      4
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

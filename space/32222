@@ -1,0 +1,69 @@
+#SHIP
+Name         shuttle 32222~
+Filename     32222~
+Description  ~
+Owner        public~
+Pilot        ~
+Copilot      ~
+Class        0
+Tractorbeam  0
+Shipyard     32050
+Hanger       0
+Turret1      0
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       2
+Missiles     0
+Maxmissiles  0
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      32050
+Firstroom    32222
+Lastroom     32224
+Shield       0
+Maxshield    100
+Hull         250
+Maxhull      250
+Maxenergy    2000
+Hyperspeed   100
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       50
+Astro_array  0
+Realspeed    40
+Type         0
+Cockpit      32222
+Coseat       32222
+Pilotseat    32222
+Gunseat      32222
+Navseat      32222
+Engineroom   0
+Entrance     32223
+Shipstate    0
+Missilestate 0
+Energy       2000
+Manuever     35
+SelfDpass    24210
+Selfdestruct Not Installed~
+Home         Mon Calamari~
+MaxCargo     50
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        21113
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

@@ -1,0 +1,38 @@
+#RACE
+Name              Noghri~
+Affect            32768
+Strplus           0
+Wisplus           -2
+Dexplus           8
+Conplus           0
+Intplus           -1
+Chaplus           -5
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               0
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          noghri~
+BodyParts         524288
+ClassRestricted   0
+Class             50
+Class             0
+Class             0
+Class             30
+Class             10
+Class             -50
+Class             0
+Class             0
+Class             -30
+Class             0
+Class             30
+Class             0
+End
+
+#END

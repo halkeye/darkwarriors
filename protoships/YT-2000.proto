@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					YT-2000~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			6
+Maxrooms			25
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		80
+Maxhyperspeed		130
+Minspeed			80
+Maxspeed			130
+Minmissiles		0
+Maxmissiles		4
+Mintorpedos		0
+Maxtorpedos		2
+Minrockets		0
+Maxrockets		0
+Minlasers			0
+Maxlasers			2
+Mintractorbeams		0
+Maxtractorbeams		0
+Minions			0
+Maxions			2
+Minmanuever		30
+Maxmanuever		50
+Mincargo			100
+Maxcargo			500
+Minenergy			6000
+Maxenergy			12000
+Minshield			275
+Maxshield			550
+Minhull			220
+Maxhull			440
+Minchaff			0
+Maxchaff			8
+Minbattalions		0
+Maxbattalions		2
+End
+
+#END

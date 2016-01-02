@@ -1,0 +1,69 @@
+#SHIP
+Name         X-Wing Simulator PX02~
+Filename     px02.shp~
+Description  ~
+Owner        Estriker~
+Pilot        ~
+Copilot      ~
+Class        0
+Tractorbeam  0
+Shipyard     10252
+Hanger       0
+Turret1      0
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       4
+Missiles     0
+Maxmissiles  4
+Rockets     0
+Maxrockets  0
+Torpedos     4
+Maxtorpedos  4
+Lastdoc      10252
+Firstroom    31066
+Lastroom     31066
+Shield       0
+Maxshield    1000
+Hull         200
+Maxhull      200
+Maxenergy    3000
+Hyperspeed   100
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       50
+Astro_array  0
+Realspeed    100
+Type         0
+Cockpit      31066
+Coseat       31066
+Pilotseat    31066
+Gunseat      31066
+Navseat      31066
+Engineroom   0
+Entrance     31066
+Shipstate    0
+Missilestate 0
+Energy       3000
+Manuever     75
+SelfDpass    39991
+Selfdestruct Not Installed~
+Home         tatooine~
+MaxCargo     0
+Bombs        0
+MaxBombs        0
+Flags        5
+Sim_Vnum        10252
+Stealth        1
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

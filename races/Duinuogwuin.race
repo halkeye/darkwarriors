@@ -1,0 +1,38 @@
+#RACE
+Name              Duinuogwuin~
+Affect            -2146959360
+Strplus           0
+Wisplus           0
+Dexplus           -3
+Conplus           7
+Intplus           0
+Chaplus           -4
+Lckplus           0
+Frcplus           1
+Home              -1
+Hit               0
+Endurance              10
+DeathAge          800
+StartAge          150
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          duinuogwuin~
+BodyParts         65536
+ClassRestricted   0
+Class             30
+Class             -25
+Class             0
+Class             0
+Class             -10
+Class             30
+Class             15
+Class             0
+Class             -20
+Class             -20
+Class             40
+Class             0
+End
+
+#END

@@ -1,0 +1,20 @@
+#BODY
+Name         Corsunna~
+Filename     corsunna.body~
+Type         0
+Xpos         37800
+Ypos         112700
+Zpos         46080
+Xmove        45
+Ymove        49
+Zmove        -48
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      400
+Orbitcount   140
+Starsystem   Coruscant System~
+Planet   Coruscant~
+End
+
+#END

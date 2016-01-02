@@ -1,0 +1,25 @@
+#BODY
+Name         wayland~
+Filename     ../body/wayland.body~
+Type         1
+Xpos         1680
+Ypos         121050
+Zpos         -40020
+Xmove        28
+Ymove        45
+Zmove        23
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      75
+Orbitcount   179
+Starsystem   Wayland~
+End
+
+#DOCK
+Name         Small landing pad~
+Vnum         10006
+Hidden       0
+End
+
+#END

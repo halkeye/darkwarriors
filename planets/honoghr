@@ -1,0 +1,45 @@
+#PLANET
+Name         Honoghr~
+Filename     honoghr~
+BaseValue    50000
+Flags        0
+PopSupport   0
+Population 0
+Defbattalions   200
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Resource 1 0 57 49996 203 183
+Resource 2 125 0 49787 44 162
+Resource 3 188 0 49863 174 43
+Resource 4 0 205 50064 91 112
+Resource 5 0 253 49942 226 18
+Resource 6 367 0 49911 148 100
+Resource 7 425 0 49707 132 42
+Resource 8 483 0 50092 44 168
+Resource 9 547 0 49923 153 152
+Resource 10 603 0 49915 17 47
+Resource 11 0 551 49843 233 9
+Resource 12 0 605 50014 235 56
+Resource 13 784 0 50026 134 174
+Resource 14 0 700 50007 96 86
+Resource 15 906 0 49780 92 120
+Resource 16 0 802 50083 156 96
+Resource 17 1020 0 49942 60 82
+Resource 18 1082 0 50078 17 191
+Resource 19 1141 0 50040 121 194
+Resource 20 1209 0 49840 125 106
+Resource 21 1262 0 49788 74 82
+Resource 22 0 1105 50161 162 136
+Resource 23 1381 0 49738 186 54
+Resource 24 1441 0 50019 89 147
+Contraband 27 0 49950 76 95 0
+Contraband 28 0 50065 82 175 0
+Contraband 29 202 50031 105 91 25
+Contraband 30 258 50124 172 124 544501582
+End
+
+#END

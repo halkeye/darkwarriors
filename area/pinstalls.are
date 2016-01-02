@@ -1,0 +1,201 @@
+#AREA   Player Installations~
+
+
+
+#VERSION 2
+
+#AUTHOR Greven~
+
+#RANGES
+0 155 0 155
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 59291250
+
+#MOBILES
+#33000
+Dud~
+a newly created Dud~
+Some god abandoned a newly created Dud here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+14
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#33001
+Installation Guard~
+a guard~
+An alert guard stands at attention.
+~
+~
+Human~
+basic~
+3 0 0 Z
+1 0 0 0d0+0 1d10+0
+20
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#33002
+Installation Entrance Guard~
+Entrance Guard~
+Guard stands at attention here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+18
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#33003
+Installation Doctor~
+Installation Doctor~
+A doctor stands at attention here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+14
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#33004
+Installation Customs Office~
+Installations Customs officer~
+An installation guard stands at attention here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+11
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#43000
+Dud~
+a newly created Dud~
+Some god abandoned a newly created Dud here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+13
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#33000
+Dud~
+a Dud~
+A Dud is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#33001
+Bacta spray~
+a Bacta spray~
+A Bacta spray is here.~
+~
+80 8192 16385
+100 2 2 -1
+1 350 35
+#33002
+a small medpac~
+a medical pack medpac~
+A medical pack medpac is here.~
+~
+73 8192 16385
+2 0 0 0
+1 100 10
+#43000
+Dud~
+a Dud~
+A Dud is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#33000
+Floating in a void~
+~
+0 1073741828 0 0 1
+S
+#43000
+Floating in a void~
+~
+0 4 0 0 0 0 0 19
+S
+#0
+
+
+#RESETS
+O 1 33001 1 33000
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  33001 spec_installation_guard
+M  33002 spec_installation_entrance_guard
+M  33003 spec_installation_doctor
+M  33004 spec_customs_weapons
+S
+
+
+#$

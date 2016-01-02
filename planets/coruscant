@@ -1,0 +1,47 @@
+#PLANET
+Name         Coruscant~
+Filename     coruscant~
+BaseValue    500000
+Flags        1
+PopSupport   0
+Population 418
+Defbattalions   227
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Starsystem   Coruscant System~
+BodyName   Coruscant~
+Resource 1 64 0 50018 141 174
+Resource 2 122 0 49882 105 213
+Resource 3 0 158 50119 172 98
+Resource 4 0 202 50208 79 130
+Resource 5 0 253 50125 108 133
+Resource 6 369 0 49864 91 127
+Resource 7 427 0 49847 42 111
+Resource 8 484 0 49940 75 37
+Resource 9 0 455 50062 98 111
+Resource 10 0 507 49971 137 95
+Resource 11 664 0 49808 105 66
+Resource 12 720 0 21609 169 126
+Resource 13 0 653 49935 246 97
+Resource 14 847 0 50008 85 145
+Resource 15 906 0 50078 85 199
+Resource 16 0 803 49906 201 82
+Resource 17 0 855 50153 118 165
+Resource 18 0 905 50342 102 153
+Resource 19 1149 0 49911 137 187
+Resource 20 1203 0 49981 68 100
+Resource 21 1265 0 50036 98 205
+Resource 22 0 1100 50125 70 176
+Resource 23 1384 0 49876 117 111
+Resource 24 1440 0 49984 103 121
+Contraband 27 0 50007 5000 7 10
+Contraband 28 150 49963 5000 7 10
+Contraband 29 0 49802 5000 7 10
+Contraband 30 254 50073 5000 7 10
+End
+
+#END

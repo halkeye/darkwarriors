@@ -1,0 +1,38 @@
+#RACE
+Name              Gamorrean~
+Affect            0
+Strplus           8
+Wisplus           -4
+Dexplus           0
+Conplus           6
+Intplus           -5
+Chaplus           -5
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               3
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          gamorrean~
+BodyParts         524288
+ClassRestricted   0
+Class             60
+Class             -5
+Class             -25
+Class             40
+Class             0
+Class             -10
+Class             0
+Class             0
+Class             -50
+Class             40
+Class             -10
+Class             8
+End
+
+#END

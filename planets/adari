@@ -1,0 +1,45 @@
+#PLANET
+Name         Adari~
+Filename     adari~
+BaseValue    250000
+Flags        0
+PopSupport   0
+Population 0
+Defbattalions   170
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Resource 1 0 56 50151 105 166
+Resource 2 126 0 49989 48 49
+Resource 3 0 156 50149 113 102
+Resource 4 0 209 49954 196 55
+Resource 5 301 0 50008 67 98
+Resource 6 0 301 49954 191 139
+Resource 7 422 0 49944 91 165
+Resource 8 487 0 49981 141 163
+Resource 9 543 0 50148 50 209
+Resource 10 600 0 50055 169 246
+Resource 11 664 0 49846 99 56
+Resource 12 721 0 49987 146 135
+Resource 13 789 0 50034 128 232
+Resource 14 0 705 50025 149 75
+Resource 15 0 758 49999 151 112
+Resource 16 0 803 49978 155 130
+Resource 17 0 858 49980 131 101
+Resource 18 0 901 50035 79 97
+Resource 19 1145 0 49752 123 58
+Resource 20 0 1001 49901 191 42
+Resource 21 1265 0 49816 48 171
+Resource 22 1325 0 49848 64 79
+Resource 23 1384 0 49902 130 58
+Resource 24 0 1209 50156 77 116
+Contraband 27 104 49968 201 124 0
+Contraband 28 150 50019 38 55 0
+Contraband 29 0 49960 81 99 17
+Contraband 30 0 49903 148 94 1918985313
+End
+
+#END

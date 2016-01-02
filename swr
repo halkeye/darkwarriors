@@ -1,0 +1,143 @@
+#!/bin/bash
+
+dir=$HOME/dw
+binary=../src/swr
+port=4848
+gamedir=$dir/area
+
+if [ ! -d $dir -o ! -d $gamedir ]; then
+	echo "I can't find the correct directory for your game."
+	echo "Please edit the startup script and change the 'dir=' line."
+	exit
+fi
+
+if [ ! -x $gamedir/$binary ]; then
+    binary=../src/swr
+    if [ ! -x $gamedir/$binary ]; then
+	echo "I can't find the SWR binary at $binary!"
+	exit
+    fi
+fi
+
+if [ "$port" == "4242" ]; then
+	echo -n "[onetime question] What port does your game run on? "
+	read port
+	if [ ! -r $0 ]; then
+		echo "Bleah, can't find startup script to change setting."
+	else
+		cat $0 | sed "s/port=4848/port=$port/" > $0.new
+		mv -f $0.new $0
+		chmod 700 $0
+	    echo "Okay, set for next time."
+	fi
+fi
+
+if [ -d $dir/log ]; then
+	logdir=$dir/log
+else
+	logdir=$dir
+fi
+logfile=$logdir/swr.log
+
+if [ ! -x $gamedir/swr-watch ]; then
+	echo "Can't find startup script $gamedir/swr-watch, adding..."
+	cp swr-watch $gamedir
+	chmod 700 $gamedir/swr-watch
+fi
+
+echo "Checking for pid in $gamedir/swr.pid."
+rm $gamedir/swr.pid
+
+if [ -r $gamedir/swr.pid ]; then
+	pid=`cat $gamedir/swr.pid`
+	running=`ps uxc | grep "\W$pid\W"`
+	if [ ! -z "$running" ]; then
+		swr=`nc -vz localhost $port 2>&1 | sed 's/^.*\W\(\w*\)$/\1/'`
+		if [ "$swr" != "open" ]; then
+			echo "The watcher is running, but your game's port isn't open."
+			echo "If you just rebooted, it may take up to a minute for SWR to restart."
+			echo -n "Kill it and restart anyway? [yes/NO] "
+		else
+			if [ "$1" != "restart" -a "$1" != "shutdown" ]; then
+				echo "SWR is already running fine on port $port."
+				echo "Use '$0 restart' to kill it and restart."
+				echo "Use '$0 shutdown' to shut down."
+				exit
+			fi
+			if [ "$1" == "shutdown" ]; then
+				shutdown=1
+				echo -n "SWR is already running.  Shutdown the hard way (kill)? [yes/NO] "
+			else
+				echo -n "SWR is already running.  Kill it and restart? [yes/NO] "
+			fi
+		fi
+		read restart
+		if [ "$restart" = "yes" ]; then
+			echo "Killing existing processes..."
+			killall -9 swr-watch 2>/dev/null
+			sleep 1
+			killall -9 swr 2>/dev/null
+			rm $gamdir/swr.pid
+		else
+			echo "Canceling."
+			exit
+		fi
+	else
+		# just to make sure
+		killall -9 swr-watch 2>/dev/null
+		sleep 1
+		killall -9 swr 2>/dev/null		
+		rm gamedir/swr.pid
+	fi
+fi
+
+if [ ! -z "$shutdown" ]; then
+	exit
+fi
+
+echo "Starting..."
+
+cd $logdir
+if [ -r $logfile ]; then
+	sz=`ls -l $logfile | awk '{print $5}'`
+	if [ $sz -gt 100000000 ]; then
+		echo "Logfile is over 10megs, moving to $logfile.old."
+		if [ -r $logfile.old.gz ]; then
+			echo "Existing $logfile.old.gz is being replaced."
+		fi
+		mv -f $logfile $logfile.old
+		gzip $logfile.old
+		echo "Please delete $logfile.old.gz if unneeded."
+		sleep 5
+	fi
+fi
+
+# let's get this party started
+export logfile port binary
+cd $gamedir
+touch $logfile
+./swr-watch >>$logfile 2>&1 &
+echo $! > swr.pid
+
+# messy attempt at tailing the logfile
+(tail -f $logfile) &
+tail=$!
+i=10
+while [ $i -gt 0 ]; do
+	sleep 1
+	i=$[i-1]
+	done=`tail $logfile | grep "ready on port"`
+	if [ ! -z "$done" ]; then
+		echo "Done, should be running on port $port."
+		kill $tail
+		exit
+	fi
+done
+echo "Didn't start within 30 seconds, something may be wrong."
+kill $tail
+kill `cat swr.pid`
+rm area/swr.pid
+
+
+
+

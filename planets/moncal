@@ -1,0 +1,45 @@
+#PLANET
+Name         Mon Calamari~
+Filename     moncal~
+BaseValue    352198
+Flags        1
+PopSupport   0
+Population 0
+Defbattalions   398
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Resource 1 0 54 50078 177 107
+Resource 2 120 0 49788 120 59
+Resource 3 183 0 49950 89 97
+Resource 4 0 7 49920 91 11
+Resource 5 0 252 50045 138 68
+Resource 6 0 300 49928 190 60
+Resource 7 428 0 49925 127 136
+Resource 8 485 0 49911 89 132
+Resource 9 0 452 50136 66 174
+Resource 10 607 0 49936 128 132
+Resource 11 0 559 49978 144 51
+Resource 12 0 609 49977 105 80
+Resource 13 784 0 50027 92 143
+Resource 14 843 0 49947 95 108
+Resource 15 0 759 50128 185 144
+Resource 16 961 0 49863 73 173
+Resource 17 0 851 50206 148 132
+Resource 18 1084 0 49915 68 204
+Resource 19 0 951 50024 87 67
+Resource 20 0 1000 49970 191 85
+Resource 21 0 1052 49979 219 129
+Resource 22 1324 0 49814 112 160
+Resource 23 0 1158 50121 185 143
+Resource 24 1446 0 49807 115 190
+Contraband 27 101 50020 172 151 0
+Contraband 28 0 49855 126 98 0
+Contraband 29 0 49805 54 40 17
+Contraband 30 253 50076 165 107 1668181869
+End
+
+#END

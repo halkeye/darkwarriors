@@ -1,0 +1,31 @@
+#BODY
+Name         Yavin IV~
+Filename     yavinv.body~
+Type         2
+Xpos         -25460
+Ypos         -56800
+Zpos         -520
+Xmove        -19
+Ymove        -40
+Zmove        13
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      50
+Orbitcount   94
+Starsystem   Yavin~
+End
+
+#DOCK
+Name         a raised stone landing pad~
+Vnum         2800
+Hidden       0
+End
+
+#DOCK
+Name         The Jedi Temple Hangar~
+Vnum         3444
+Hidden       1
+End
+
+#END

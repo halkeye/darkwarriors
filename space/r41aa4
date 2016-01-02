@@ -1,0 +1,69 @@
+#SHIP
+Name         R-41 Starchaser r41aa4~
+Filename     r41aa4~
+Description  ~
+Owner        ~
+Pilot        ~
+Copilot      ~
+Class        0
+Tractorbeam  0
+Shipyard     27200
+Hanger       0
+Turret1      0
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       2
+Missiles     0
+Maxmissiles  0
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      29001
+Firstroom    32194
+Lastroom     32194
+Shield       0
+Maxshield    30
+Hull         140
+Maxhull      140
+Maxenergy    2500
+Hyperspeed   150
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       50
+Astro_array  0
+Realspeed    100
+Type         0
+Cockpit      32194
+Coseat       32194
+Pilotseat    32194
+Gunseat      32194
+Navseat      32194
+Engineroom   0
+Entrance     32194
+Shipstate    0
+Missilestate 0
+Energy       2500
+Manuever     75
+SelfDpass    50766
+Selfdestruct Not Installed~
+Home         Adari~
+MaxCargo     0
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        29065
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

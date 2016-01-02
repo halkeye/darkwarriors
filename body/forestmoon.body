@@ -1,0 +1,18 @@
+#BODY
+Name         Forest Moon~
+Filename     forestmoon.body~
+Type         2
+Xpos         0
+Ypos         0
+Zpos         0
+Xmove        21
+Ymove        47
+Zmove        -41
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      50
+Orbitcount   192
+End
+
+#END

@@ -1,0 +1,26 @@
+#BODY
+Name         Gornus~
+Filename     ../body/gornus.body~
+Type         2
+Xpos         -51250
+Ypos         -57760
+Zpos         -2380
+Xmove        41
+Ymove        -38
+Zmove        17
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      50
+Orbitcount   263
+Starsystem   Coruscant System~
+Planet   Gornus~
+End
+
+#DOCK
+Name         dreamworks designs landing area~
+Vnum         113
+Hidden       0
+End
+
+#END

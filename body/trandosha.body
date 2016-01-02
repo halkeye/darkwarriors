@@ -1,0 +1,26 @@
+#BODY
+Name         Trandosha~
+Filename     trandosha.body~
+Type         1
+Xpos         -720
+Ypos         80700
+Zpos         27840
+Xmove        -12
+Ymove        30
+Zmove        -16
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      100
+Orbitcount   179
+Starsystem   Kashyyyk~
+Planet   Trandosha~
+End
+
+#DOCK
+Name         Patussk Landing Pad~
+Vnum         900
+Hidden       0
+End
+
+#END

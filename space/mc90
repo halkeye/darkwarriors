@@ -1,0 +1,69 @@
+#SHIP
+Name         MC-90 Noble Shark~
+Filename     mc90~
+Description  ~
+Owner        ~
+Pilot        ~
+Copilot      ~
+Class        2
+Tractorbeam  1
+Shipyard     45
+Hanger       6750
+Turret1      6768
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       10
+Missiles     50
+Maxmissiles  50
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      45
+Firstroom    6700
+Lastroom     6787
+Shield       0
+Maxshield    1000
+Hull         20000
+Maxhull      20000
+Maxenergy    30000
+Hyperspeed   100
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       50
+Astro_array  0
+Realspeed    10
+Type         1
+Cockpit      6700
+Coseat       6755
+Pilotseat    6754
+Gunseat      6757
+Navseat      6756
+Engineroom   6744
+Entrance     6700
+Shipstate    0
+Missilestate 0
+Energy       30000
+Manuever     0
+SelfDpass    94873
+Selfdestruct Not Installed~
+Home         courscant~
+MaxCargo     0
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        113
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       50
+Ions      4
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

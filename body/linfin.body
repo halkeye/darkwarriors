@@ -1,0 +1,19 @@
+#BODY
+Name         Linfin~
+Filename     linfin.body~
+Type         0
+Xpos         2220
+Ypos         -126430
+Zpos         -46980
+Xmove        37
+Ymove        -47
+Zmove        27
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      500
+Orbitcount   179
+Starsystem   Yavin~
+End
+
+#END

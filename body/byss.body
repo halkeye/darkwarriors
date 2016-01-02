@@ -1,0 +1,32 @@
+#BODY
+Name         Byss~
+Filename     byss.body~
+Type         1
+Xpos         15080
+Ypos         -5270
+Zpos         11800
+Xmove        -26
+Ymove        -17
+Zmove        -10
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      75
+Orbitcount   331
+Starsystem   Byss~
+Planet   Byss~
+End
+
+#DOCK
+Name         throne city landing pad~
+Vnum         700
+Hidden       0
+End
+
+#DOCK
+Name         palpatine city landing pad~
+Vnum         28247
+Hidden       0
+End
+
+#END

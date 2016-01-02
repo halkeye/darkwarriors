@@ -1,0 +1,32 @@
+#BODY
+Name         Adari~
+Filename     adari.body~
+Type         1
+Xpos         1980
+Ypos         -67250
+Zpos         26100
+Xmove        33
+Ymove        -25
+Zmove        -15
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      100
+Orbitcount   179
+Starsystem   Adari~
+Planet   Adari~
+End
+
+#DOCK
+Name         Adari Spaceport~
+Vnum         29001
+Hidden       0
+End
+
+#DOCK
+Name         Baituh Landing Pad~
+Vnum         29065
+Hidden       0
+End
+
+#END

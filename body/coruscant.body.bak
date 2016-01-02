@@ -1,0 +1,32 @@
+#BODY
+Name         Coruscant~
+Filename     ../body/coruscant.body~
+Type         1
+Xpos         -46250
+Ypos         -19760
+Zpos         -3640
+Xmove        37
+Ymove        -13
+Zmove        26
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      75
+Orbitcount   263
+Starsystem   Coruscant System~
+Planet   Coruscant~
+End
+
+#DOCK
+Name         Menari Landing Platform A~
+Vnum         2797
+Hidden       0
+End
+
+#DOCK
+Name         Menari Landing Platform B~
+Vnum         2752
+Hidden       0
+End
+
+#END

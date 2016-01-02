@@ -1,0 +1,10 @@
+#DOCK
+Name         Gamorr Spaceport~
+Filename     ../dock/gamorrspaceport.dock~
+Vnum         28038
+Hidden       0
+Starsystem   Gamorr~
+Body   Gamorr~
+End
+
+#END

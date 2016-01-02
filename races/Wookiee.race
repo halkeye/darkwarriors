@@ -1,0 +1,38 @@
+#RACE
+Name              Wookiee~
+Affect            0
+Strplus           8
+Wisplus           -4
+Dexplus           -1
+Conplus           2
+Intplus           -1
+Chaplus           -4
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               3
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          wookiee~
+BodyParts         262144
+ClassRestricted   0
+Class             40
+Class             0
+Class             10
+Class             20
+Class             0
+Class             -50
+Class             0
+Class             0
+Class             20
+Class             0
+Class             0
+Class             8
+End
+
+#END

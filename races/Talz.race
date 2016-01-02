@@ -1,0 +1,38 @@
+#RACE
+Name              Talz~
+Affect            0
+Strplus           3
+Wisplus           -2
+Dexplus           -1
+Conplus           3
+Intplus           -1
+Chaplus           -2
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               0
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          talzzi~
+BodyParts         262144
+ClassRestricted   0
+Class             -10
+Class             30
+Class             -5
+Class             -5
+Class             40
+Class             -15
+Class             -15
+Class             0
+Class             0
+Class             20
+Class             0
+Class             3
+End
+
+#END

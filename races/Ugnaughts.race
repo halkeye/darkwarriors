@@ -1,0 +1,38 @@
+#RACE
+Name              Ugnaughts~
+Affect            0
+Strplus           -5
+Wisplus           0
+Dexplus           0
+Conplus           0
+Intplus           10
+Chaplus           -5
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               0
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         -5
+RPneeded          10
+Language          basic~
+BodyParts         0
+ClassRestricted   0
+Class             -30
+Class             -30
+Class             70
+Class             0
+Class             0
+Class             0
+Class             0
+Class             0
+Class             30
+Class             0
+Class             0
+Class             -5
+End
+
+#END

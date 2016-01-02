@@ -1,0 +1,38 @@
+#RACE
+Name              Duro~
+Affect            0
+Strplus           -2
+Wisplus           1
+Dexplus           3
+Conplus           -2
+Intplus           2
+Chaplus           -2
+Lckplus           0
+Frcplus           0
+Home              -1
+Hit               0
+Endurance              0
+DeathAge          800
+StartAge          17
+HungerMod         0
+ThirstMod         0
+LangBonus         0
+RPneeded          0
+Language          durosian~
+BodyParts         0
+ClassRestricted   0
+Class             -20
+Class             40
+Class             40
+Class             -10
+Class             0
+Class             0
+Class             0
+Class             0
+Class             0
+Class             -10
+Class             0
+Class             -2
+End
+
+#END

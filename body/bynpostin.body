@@ -1,0 +1,19 @@
+#BODY
+Name         Bynpostin~
+Filename     bynpostin.body~
+Type         0
+Xpos         -960
+Ypos         75320
+Zpos         76560
+Xmove        -16
+Ymove        28
+Zmove        -44
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      325
+Orbitcount   179
+Starsystem   Byss~
+End
+
+#END

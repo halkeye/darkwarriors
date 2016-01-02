@@ -1,0 +1,12 @@
+#BODY
+Name         Coruscant Moon~
+Filename     ../body/coruscant moon.body~
+Type         0
+Xpos         12452
+Ypos         4000
+Zpos         10000
+Gravity      0
+Starsystem   Coruscant System~
+End
+
+#END

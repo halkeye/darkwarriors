@@ -1,0 +1,14 @@
+#BODY
+Name         Corsunna~
+Filename     solaris.body~
+Type         1
+Xpos         300
+Ypos         1000
+Zpos         1000
+Gravity      200
+Starsystem   Coruscant System~
+Planet   Coruscant~
+Area         coruscant_streets.are~
+End
+
+#END

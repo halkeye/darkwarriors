@@ -1,0 +1,26 @@
+#BODY
+Name         Tatooine~
+Filename     tatooine.body~
+Type         1
+Xpos         -2460
+Ypos         61870
+Zpos         29580
+Xmove        -41
+Ymove        23
+Zmove        -17
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      100
+Orbitcount   179
+Starsystem   Tatooine~
+Planet   Tatooine~
+End
+
+#DOCK
+Name         Dockingbay 92~
+Vnum         31843
+Hidden       0
+End
+
+#END

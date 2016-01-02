@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					'MC-90 Starcruiser'~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			26
+Maxrooms			100
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		40
+Maxhyperspeed		100
+Minspeed			30
+Maxspeed			90
+Minmissiles		0
+Maxmissiles		8
+Mintorpedos		0
+Maxtorpedos		4
+Minrockets		0
+Maxrockets		2
+Minlasers			0
+Maxlasers			10
+Mintractorbeams		0
+Maxtractorbeams		5
+Minions			0
+Maxions			10
+Minmanuever		15
+Maxmanuever		35
+Mincargo			50
+Maxcargo			500
+Minenergy			11000
+Maxenergy			22000
+Minshield			550
+Maxshield			1100
+Minhull			440
+Maxhull			880
+Minchaff			0
+Maxchaff			20
+Minbattalions		0
+Maxbattalions		70
+End
+
+#END

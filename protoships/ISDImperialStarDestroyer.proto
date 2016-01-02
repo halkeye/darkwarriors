@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					ISD Imperial Star Destroyer~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			50
+Maxrooms			100
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		40
+Maxhyperspeed		100
+Minspeed			20
+Maxspeed			70
+Minmissiles		0
+Maxmissiles		16
+Mintorpedos		0
+Maxtorpedos		8
+Minrockets		0
+Maxrockets		4
+Minlasers			0
+Maxlasers			15
+Mintractorbeams		0
+Maxtractorbeams		10
+Minions			0
+Maxions			12
+Minmanuever		10
+Maxmanuever		30
+Mincargo			50
+Maxcargo			500
+Minenergy			11500
+Maxenergy			23000
+Minshield			575
+Maxshield			1150
+Minhull			460
+Maxhull			920
+Minchaff			0
+Maxchaff			25
+Minbattalions		0
+Maxbattalions		80
+End
+
+#END

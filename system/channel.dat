@@ -1,0 +1,241 @@
+#CHANNEL
+Name         chat~
+Actmessage   &B< G&zalactic &BN&zetwork >&D: a $a voice says &B'&D$t&B'&D~
+EmoteMessage (chat) * $n $t~
+SocialMessage (chat) * $n $t~
+Logtype      0
+Type         1
+Color        15
+Range        4
+Level        0
+History      1
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         ooc~
+Actmessage   &C(&WOOC&C) $n&w:&D $t~
+EmoteMessage &C(&WOOC&C) EMOTE&w:&D $n $t~
+SocialMessage &C(&WOOC&C) SOCIAL&w:&D $t~
+Logtype      0
+Type         2
+Color        15
+Range        4
+Level        0
+History      1
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         clantalk~
+Actmessage   Over the organizations private network $n says, '$t'~
+EmoteMessage (clantalk) * $n $t~
+SocialMessage (clantalk) * $n $t~
+Logtype      0
+Type         1
+Color        13
+Range        5
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         quest~
+Actmessage   &B< C&zHAT &B>&D $n &zquest, &B'&D$t&B'~
+EmoteMessage (quest) * $n $t~
+SocialMessage (quest) * $n $t~
+Logtype      0
+Type         1
+Color        11
+Range        4
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         immtalk~
+Actmessage   $n> $t~
+EmoteMessage (immtalk) * $n $t~
+SocialMessage (immtalk) * $t~
+Logtype      0
+Type         2
+Color        25
+Range        4
+Level        151
+History      1
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         i153~
+Actmessage   (153) $n> $t~
+EmoteMessage (i153) * $n $t~
+SocialMessage (i153) * $n $t~
+Logtype      0
+Type         2
+Color        25
+Range        4
+Level        153
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         i154~
+Actmessage   (154) $n> $t~
+EmoteMessage (i154) * $n $t~
+SocialMessage (i154) * $n $t~
+Logtype      0
+Type         2
+Color        25
+Range        4
+Level        154
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         i155~
+Actmessage   (155) $n> $t~
+EmoteMessage (i155) * $n $t~
+SocialMessage (i155) * $n $t~
+Logtype      0
+Type         2
+Color        25
+Range        4
+Level        155
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         music~
+Actmessage   &B< M&zUSIC &B> '&D$t&B'~
+EmoteMessage (music) * $n $t~
+SocialMessage (music) * $n $t~
+Logtype      0
+Type         2
+Color        8
+Range        4
+Level        1
+History      1
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         shout~
+Actmessage   $n shout, '$t'~
+EmoteMessage (shout) * $n $t~
+SocialMessage (shout) * $n $t~
+Logtype      0
+Type         0
+Color        15
+Range        0
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         yell~
+Actmessage   $n yell, '$t'~
+EmoteMessage (yell) * $n $t~
+SocialMessage (yell) * $n $t~
+Logtype      0
+Type         0
+Color        10
+Range        2
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         gemote~
+Actmessage   &c[GEMOTE] $n $t&w~
+EmoteMessage (gemote) * $n $t~
+SocialMessage (gemote) * $n $t~
+Logtype      0
+Type         2
+Color        7
+Range        4
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         offtopic~
+Actmessage   &cOff Topic &z(&D$n&z)&w :&D $t~
+EmoteMessage (offtopic) * $n $t~
+SocialMessage (offtopic) * $n $t~
+Logtype      0
+Type         2
+Color        15
+Range        4
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         achat~
+Actmessage   &B[&RArena&B] <&R$n&B>&w: &D$t~
+EmoteMessage (achat) * $n $t~
+SocialMessage (achat) * $n $t~
+Logtype      0
+Type         2
+Color        14
+Range        4
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         pose~
+Actmessage   &W$t&R (&W$n&R)&D~
+EmoteMessage (pose) * $n $t~
+SocialMessage (pose) * $n $t~
+Logtype      0
+Type         2
+Color        9
+Range        0
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#CHANNEL
+Name         systemtalk~
+Actmessage   &B<&D$x&B> &D$t~
+EmoteMessage (systemtalk) * $n $t~
+SocialMessage (systemtalk) * $n $t~
+Logtype      0
+Type         0
+Color        13
+Range        3
+Level        0
+History      0
+Cost         0
+Enabled      1
+End
+
+#END

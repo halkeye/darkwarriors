@@ -1,0 +1,89 @@
+[*****] BOOT: ---------------------[ Boot Log ]--------------------
+[*****] BOOT: Initializing libdl support...
+[*****] BOOT: Loading commands...
+[*****] BOOT: Loading spec_funs...
+[*****] BOOT: Loading sysdata configuration...
+[*****] BOOT: Loading socials
+[*****] BOOT: Loading skill table
+[*****] BOOT: Sorting skill table...
+[*****] BOOT: Loading DNS cache...
+[*****] BOOT: Making wizlist
+[*****] BOOT: Initializing global pointers
+[*****] BOOT: Initializing random number generator
+[*****] BOOT: Initializing time and weather
+[*****] BOOT: Assigning gsn's
+[*****] BOOT: Loading languages
+[*****] BOOT:  Done languages
+[*****] BOOT: Loading races
+[*****] BOOT:  Done races
+[*****] BOOT: Reading in area files...
+[*****] BOOT: (help.are)
+[*****] BOOT: limbo.are               : Rooms:     1 - 45    Objs:     2 - 99    Mobs:     1 - 99
+[*****] BOOT: newacad.are             : Rooms: 10300 - 10430 Objs: 10300 - 10499 Mobs: 10340 - 10499
+[*****] BOOT: space.are               : Rooms: 32000 - 32499 Objs: 32000 - 32499 Mobs: 32000 - 32499
+[*****] BOOT: omni_complex.are        : Rooms:   100 - 100   Objs:   100 - 112   Mobs:   100 - 110
+[*****] BOOT: cloning.are             : Rooms: 10000 - 10099 Objs: 10000 - 10099 Mobs: 10000 - 10099
+[*****] BOOT: space2.are              : Rooms: 31000 - 31499 Objs: 31000 - 31499 Mobs: 31000 - 31499
+[*****] BOOT: dwacad.are              : Rooms:   227 - 299   Objs:   227 - 299   Mobs:   227 - 299
+[*****] BOOT: pinstalls.are           : Rooms: 33000 - 43000 Objs: 33000 - 43000 Mobs: 33000 - 43000
+[*****] BOOT: pships.are              : Rooms: 11000 - 14999 Objs: 11000 - 14999 Mobs: 11000 - 14999
+[*****] BOOT: Initializing Supermob...
+[*****] BOOT: Fixing exits
+[*****] BOOT: Initializing economy
+[*****] BOOT: Loading buildlist
+[*****] BOOT: ../gods/Admin
+[*****] BOOT: ../gods/Greven
+[*****] BOOT: Loading boards
+[*****] BOOT: ../boards/student.board
+[*****] BOOT: ../boards/imm_monitor
+[*****] BOOT: ../boards/quest.board
+[*****] BOOT: ../boards/galactic_net
+[*****] BOOT: ../boards/mail_net
+[*****] BOOT: ../boards/suggestions.brd
+[*****] BOOT: ../boards/republic.brd
+[*****] BOOT: ../boards/imperials.brd
+[*****] BOOT: ../boards/global.ooc.brd
+[*****] BOOT: ../boards/builders.brd
+[*****] BOOT: ../boards/hunters.brd
+[*****] BOOT: ../boards/blacksun.brd
+[*****] BOOT: Loading clans
+[*****] BOOT: Loading clan storage room
+[*****] BOOT: Loading clan storage room
+[*****] BOOT:  Done clans
+[*****] BOOT: Sorting clans....
+[*****] BOOT:  Done sorting
+[*****] BOOT: Loading bans
+[*****] BOOT: Done.
+[*****] BOOT: Loading reserved names
+[*****] BOOT: Loading corpses
+[*****] BOOT:  Done corpses 
+[*****] BOOT: Loading space
+[*****] BOOT:  Done starsystems 
+[*****] BOOT: Loading Ship Prototypes
+[*****] BOOT:  Done Ship Prototypes 
+[*****] BOOT: Loading ships
+[*****] BOOT:  Done ships 
+[*****] BOOT: Loading bounties
+[*****] BOOT:  Done bounties 
+[*****] BOOT: Loading planets
+[*****] BOOT:  Done planets 
+[*****] BOOT: Loading changes
+[*****] BOOT:  Done changes 
+[*****] BOOT: Loading Vendors
+[*****] BOOT:  Done vendors 
+[*****] BOOT: Loading Installations
+[*****] BOOT:  Done installations 
+[*****] BOOT: Loading bodies
+[*****] BOOT:  Done bodies 
+[*****] BOOT: Loading shuttles
+[*****] BOOT: Done shuttles
+[*****] BOOT: Loading illnesses
+[*****] BOOT:  Done Illnesses
+[*****] BOOT: Loading Channels
+[*****] BOOT: Resetting areas...
+[*****] BOOT: Loading homes
+[*****] BOOT: Setting current save time
+[*****] BOOT:  Done homes 
+[*****] BOOT: Loading restores
+[*****] BOOT: Loading bank accounts
+[*****] BOOT: Loading OLC bounties

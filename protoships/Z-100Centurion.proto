@@ -1,0 +1,46 @@
+#PROTOSHIP
+Name					Z-100 Centurion~
+Description			~
+Mingroundspeed		0
+Maxgroundspeed		0
+Minrooms			1
+Maxrooms			1
+Mincomm			0
+Maxcomm			0
+Minsensor		0
+Maxsensor		0
+Minastro_array		0
+Maxastro_array		0
+Minhyperspeed		80
+Maxhyperspeed		120
+Minspeed			85
+Maxspeed			125
+Minmissiles		0
+Maxmissiles		12
+Mintorpedos		0
+Maxtorpedos		6
+Minrockets		0
+Maxrockets		0
+Minlasers			0
+Maxlasers			4
+Mintractorbeams		0
+Maxtractorbeams		0
+Minions			0
+Maxions			4
+Minmanuever		75
+Maxmanuever		95
+Mincargo			0
+Maxcargo			10
+Minenergy			3000
+Maxenergy			6000
+Minshield			150
+Maxshield			300
+Minhull			120
+Maxhull			240
+Minchaff			0
+Maxchaff			4
+Minbattalions		0
+Maxbattalions		0
+End
+
+#END

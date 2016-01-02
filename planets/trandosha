@@ -1,0 +1,45 @@
+#PLANET
+Name         Trandosha~
+Filename     trandosha~
+BaseValue    50000
+Flags        0
+PopSupport   0
+Population 0
+Defbattalions   195
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Resource 1 66 0 49939 63 144
+Resource 2 0 100 49904 132 26
+Resource 3 188 0 49716 162 8
+Resource 4 0 206 50127 97 132
+Resource 5 304 0 49903 108 136
+Resource 6 360 0 49923 69 122
+Resource 7 429 0 50030 53 108
+Resource 8 481 0 50015 134 182
+Resource 9 542 0 49880 171 164
+Resource 10 609 0 49886 115 120
+Resource 11 0 555 50001 87 30
+Resource 12 0 600 49985 115 63
+Resource 13 787 0 50014 85 152
+Resource 14 843 0 49914 126 160
+Resource 15 901 0 49804 123 63
+Resource 16 964 0 49935 152 156
+Resource 17 0 859 49981 155 81
+Resource 18 1087 0 49948 97 130
+Resource 19 0 956 50084 125 131
+Resource 20 1204 0 50031 25 133
+Resource 21 1267 0 50060 68 137
+Resource 22 0 1106 50037 165 129
+Resource 23 1387 0 50064 96 229
+Resource 24 0 1210 50173 141 97
+Contraband 27 109 50032 98 120 0
+Contraband 28 0 49779 153 59 0
+Contraband 29 204 49998 121 26 25
+Contraband 30 0 50006 105 182 141001720
+End
+
+#END

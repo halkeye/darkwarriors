@@ -1,0 +1,10 @@
+#DOCK
+Name         a raised stone landing pad~
+Filename     ../dock/academylandingpad.dock~
+Vnum         27200
+Hidden       0
+Starsystem   Yavin~
+Body   Yavin IV~
+End
+
+#END

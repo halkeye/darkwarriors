@@ -1,0 +1,10 @@
+#DOCK
+Name         The Jedi Temple Hangar~
+Filename     ../dock/thejeditemplehangar.dock~
+Vnum         27279
+Hidden       1
+Starsystem   Yavin~
+Body   Yavin IV~
+End
+
+#END

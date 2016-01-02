@@ -1,0 +1,45 @@
+#PLANET
+Name         Gamorr~
+Filename     gamorr~
+BaseValue    50000
+Flags        0
+PopSupport   0
+Population 0
+Defbattalions   298
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Resource 1 61 0 49808 80 149
+Resource 2 127 0 50061 33 154
+Resource 3 181 0 49777 118 48
+Resource 4 0 200 50150 75 153
+Resource 5 303 0 49854 174 176
+Resource 6 367 0 50029 120 247
+Resource 7 0 355 50135 100 141
+Resource 8 0 404 50072 15 30
+Resource 9 541 0 50042 38 190
+Resource 10 0 506 50188 163 175
+Resource 11 660 0 49882 66 80
+Resource 12 0 604 50230 142 127
+Resource 13 788 0 50082 50 174
+Resource 14 0 707 50016 130 107
+Resource 15 908 0 49925 116 119
+Resource 16 963 0 49821 126 40
+Resource 17 0 852 50074 78 97
+Resource 18 1081 0 49964 149 225
+Resource 19 1144 0 49955 114 82
+Resource 20 0 1006 49971 98 50
+Resource 21 1265 0 49825 85 91
+Resource 22 1327 0 49785 108 129
+Resource 23 0 1150 50199 21 96
+Resource 24 1448 0 49678 169 98
+Contraband 27 104 50171 72 87 0
+Contraband 28 0 49987 36 46 0
+Contraband 29 208 50060 123 93 17
+Contraband 30 0 49905 88 93 1869439335
+End
+
+#END

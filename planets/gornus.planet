@@ -1,0 +1,47 @@
+#PLANET
+Name         Gornus~
+Filename     gornus.planet~
+BaseValue    2000
+Flags        1
+PopSupport   0
+Population 0
+Defbattalions   0
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Starsystem   Coruscant System~
+BodyName   Gornus~
+Resource 1 68 0 49924 99 223
+Resource 2 128 0 49872 167 129
+Resource 3 188 0 50014 42 68
+Resource 4 247 0 50061 97 221
+Resource 5 0 253 50031 120 68
+Resource 6 0 305 50049 146 29
+Resource 7 0 356 49879 153 27
+Resource 8 0 401 49929 206 88
+Resource 9 0 454 50070 128 90
+Resource 10 607 0 49913 50 89
+Resource 11 669 0 49968 114 218
+Resource 12 727 0 49933 80 64
+Resource 13 785 0 49927 83 98
+Resource 14 849 0 49805 145 78
+Resource 15 0 751 50112 124 97
+Resource 16 961 0 50066 56 199
+Resource 17 1025 0 49938 116 141
+Resource 18 0 909 50135 83 98
+Resource 19 0 951 50112 191 68
+Resource 20 0 1005 50049 192 99
+Resource 21 1265 0 49949 99 76
+Resource 22 0 1104 50092 120 89
+Resource 23 0 1158 49956 200 136
+Resource 24 1445 0 49800 105 225
+Contraband 27 106 50023 113 60 0
+Contraband 28 0 49818 141 131 0
+Contraband 29 0 49941 85 150 25
+Contraband 30 0 49889 127 122 141009920
+End
+
+#END

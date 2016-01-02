@@ -1,0 +1,19 @@
+#BODY
+Name         Yavin~
+Filename     yavin.body~
+Type         1
+Xpos         1680
+Ypos         -61870
+Zpos         -33060
+Xmove        28
+Ymove        -23
+Zmove        19
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      400
+Orbitcount   179
+Starsystem   Yavin~
+End
+
+#END

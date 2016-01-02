@@ -1,0 +1,45 @@
+#PLANET
+Name         Tatooine~
+Filename     tatooine~
+BaseValue    50000
+Flags        0
+PopSupport   0
+Population 0
+Defbattalions   154
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Jail   0
+Turbolasers   0
+Shields   0
+Resource 1 0 55 49946 129 70
+Resource 2 0 104 49984 122 69
+Resource 3 183 0 50125 81 223
+Resource 4 248 0 49947 119 139
+Resource 5 0 253 49997 104 54
+Resource 6 0 306 50129 129 151
+Resource 7 424 0 49849 186 121
+Resource 8 0 404 49965 181 106
+Resource 9 548 0 49930 150 149
+Resource 10 0 505 49901 246 140
+Resource 11 0 553 49942 207 127
+Resource 12 0 607 50118 48 142
+Resource 13 0 655 50103 208 88
+Resource 14 0 702 49813 244 17
+Resource 15 903 0 49902 136 80
+Resource 16 967 0 49994 98 174
+Resource 17 0 854 50099 80 98
+Resource 18 0 905 50020 132 136
+Resource 19 0 953 50071 103 113
+Resource 20 1208 0 50035 75 143
+Resource 21 0 1052 50047 113 89
+Resource 22 0 1102 49893 169 36
+Resource 23 1384 0 49858 69 47
+Resource 24 1448 0 49974 152 151
+Contraband 27 0 49900 151 126 0
+Contraband 28 157 49903 192 92 0
+Contraband 29 202 49971 129 95 17
+Contraband 30 0 49940 66 167 1869898100
+End
+
+#END

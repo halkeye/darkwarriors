@@ -1,0 +1,3149 @@
+#AREA   space2~
+
+
+
+#VERSION 2
+
+#AUTHOR various~
+
+#RANGES
+1 155 1 155
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 5494877
+
+#MOBILES
+#31000
+bookend~
+a newly created bookend~
+Some god abandoned a newly created bookend here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+18
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31001
+Red Storm Guard~
+a Red Storm Guard~
+A Red Storm Guard watches the bridge.
+~
+~
+Human~
+basic~
+3 0 0 Z
+100 0 -150 20d10+1000 10d4+2
+1180
+0 0
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 -1 0 0 0 0 0
+20 20 20 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say May I see your identification?
+mpforce $n give qwqwfgfg guard
+if ovnuminv(31001) >= 1
+salute $n
+say Very good sir. Proceed.
+give qwqwfgfg $n
+mpechoat $n The guard escorts you onto the bridge.
+mpechoaround $n The guard escorts $n onto the bridge.
+unlock n
+open n
+mpforce $n n
+close n
+lock n
+else
+say You are not permitted onto the bridge.
+mpforce $n s
+endif
+~
+|
+#31002
+Red Storm Guard~
+a Red Storm Guard~
+A Red Storm Guard watches the hanger.
+~
+~
+Human~
+basic~
+3 0 0 Z
+100 0 -150 20d10+1000 10d4+2
+1160
+0 0
+8 8 0
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Welcome to the Red Storm.
+say Weapons are banned from use on this ship,
+say Please leave them aboard your personal vessels.
+say If you wish to enter the ship, you must pay a five credit fee.
+~
+> bribe_prog 5~
+mpechoat $n The guard takes the credits.
+unlock s
+open s
+mpforce $n s
+close s
+lock s
+mpat 31030 say $n has entered the ship.
+mpat 31031 say $n has entered the ship.
+mpat 31056 say $n has entered the ship.
+mpat 31000 say $n has entered the ship.
+mpat 31001 say $n has entered the ship.
+mpat 31002 say $n has entered the ship.
+mpat 31003 say $n has entered the ship.
+mpat 31004 say $n has entered the ship.
+mpat 31024 say $n has entered the ship.
+~
+|
+#31003
+Syndicate Supply Sales~
+a Syndicate Supply Salesman~
+A Syndicate supply salesman is here selling various equipment.
+~
+~
+Human~
+basic~
+3 0 0 Z
+50 0 -25 10d10+500 5d4+2
+530
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+10 10 10 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31004
+V6P2 bank invest droid~
+a V6P2 banking and investment droid~
+A V6P2 droid stands here looking occupied.
+~
+~
+Droid~
+binary~
+1027 0 0 Z
+80 0 -100 16d10+800 8d4+2
+896
+400 0
+8 8 0
+15 15 15 15 15 15 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+16 16 16 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Welcome to the Syndicate banking facilities.
+say I am programed with over three million commercial functions.
+say If you need any assitance, feel free to ask.
+~
+|
+#31005
+burly administrator~
+a burly administrator~
+A burly administrator stands here.
+~
+~
+Human~
+basic~
+1073741827 0 0 Z
+95 0 -137 19d10+950 9d4+2
+1140
+150 0
+8 8 0
+20 12 12 20 20 12 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+19 19 19 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Welcome to the Red Storm
+say I can help you with just about anything you need. 
+~
+> speech_prog card key bridge security~
+say I can only give security clearance if you know the password. 
+say Or to the leader of the syndicate.
+if isclanleader($n) == The Syndicate
+say Here you go.
+mpinvoke 31004
+mpinvoke 31003
+give bridge $n
+give keycard $n
+else
+say find out the password and come back. 
+endif
+~
+> speech_prog xwingsrcool~
+mpinvoke 31004
+mpinvoke 31003
+give bridge $n
+give keycard $n
+say there you are, that should get you around the ship. 
+~
+|
+#31006
+trandoshan weapon salesman~
+a trandoshan weapon salesman~
+A war-beaten trandoshan salesman sits behind the counter.
+~
+~
+Trandoshan~
+trandoshan~
+3 0 0 Z
+100 0 -150 20d10+1000 10d4+2
+1140
+0 0
+8 8 0
+20 12 12 20 20 12 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+20 20 20 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31007
+jawa armourer~
+a jawa armourer~
+A jawa armourer is tied to the wall here.
+~
+~
+Human~
+basic~
+1073741827 0 0 Z
+80 0 -100 16d10+800 8d4+2
+960
+104 0
+8 8 0
+8 8 8 8 8 8 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+16 16 16 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31008
+a hutt trainer~
+a hutt trainer~
+A hutt trainer is here to teach "business conduct"
+~
+~
+Human~
+basic~
+1049603 0 0 Z
+80 0 -100 16d10+800 8d4+2
+848
+0 0
+8 8 0
+22 22 22 22 22 22 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+16 16 16 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31009
+V67 Sales Droid~
+V67 sales droid~
+A V67 Sales Droid looks bored despite not having a face.
+~
+~
+Droid~
+binary~
+3 0 0 Z
+70 0 -75 14d10+700 7d4+2
+798
+0 0
+8 8 0
+15 15 15 15 15 15 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+14 14 14 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31010
+Nerdy Tech Salesman~
+a nerdy tech salesman~
+A nerdy tech salesman is here to help you.
+~
+~
+Human~
+basic~
+3 0 0 Z
+50 0 -25 10d10+500 5d4+2
+550
+50 0
+8 8 0
+15 15 15 28 15 15 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+10 10 10 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31011
+Syndicate Elite Guard tyrtyr~
+a Syndicate Elite Guard~
+A Syndicate elite guard purges the ship of outsiders.
+~
+~
+Human~
+basic~
+4129 0 0 Z
+100 0 -300 20d10+1000 10d4+2
+1200
+0 0
+8 8 0
+25 20 25 25 25 25 20
+0 0 0 0 0
+0 -1 0 0 0 0 0
+20 20 20 0 2048 0 32 2
+0 0 0 0 0 0 0 0
+#31012
+A Waiter~
+a newly created A Waiter~
+A waiter is here ready for your order.
+~
+~
+Human~
+basic~
+1073741827 0 0 Z
+1 0 0 0d0+0 0d0+0
+18
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog "Poached Eggs"~
+say Good Choice
+s
+mpoload 31019
+get eggs
+n
+say Here you are
+give eggs $n
+~
+> speech_prog Bacon~
+say Good Choice
+s
+mpoload 31020
+get bacon
+n
+say Here you are
+give bacon $n
+~
+> speech_prog Fruit~
+say Good Choice
+s
+mpoload 31021
+n
+say Here you are
+give salad $n 
+~
+> speech_prog Liver~
+say Good Choice
+s
+mpoload 31022
+n
+say Here you are
+give liver $n
+~
+> speech_prog ribs~
+say Good Choice
+s
+mpoload 31023
+n
+say Here you are
+give ribs $n
+~
+> speech_prog leg~
+say Good Choice
+s
+mpoload 31024
+n
+say Here you are
+give leg $n
+~
+> speech_prog Tail~
+say Good Choice
+s
+mpoload 31025
+n
+say Here you are
+give tail $n
+~
+> speech_prog corellian~
+say Good Choice
+s
+mpoload 31026
+n
+say Here you are
+give ale $n
+~
+> speech_prog Jolt-cola~
+say Good Choice
+s
+mpoload 31027
+n
+say Here you are
+give jolt $n
+~
+> speech_prog water~
+say Good Choice
+s
+mpoload 31028
+n
+say Here you are
+give water $n
+~
+> bribe_prog 1~
+say Oh thank you very much, that wasn't necessary.
+smile
+~
+> all_greet_prog ~
+Say Welcome $n, Today in the kitchen there are some exciting choices.
+say Here you go,
+mpechoaround The waiter seats $n.
+mpforce $n sit
+mpoload 31028
+drop water
+mpechoat $n The waiter sets a glass of ice-water for your refreshment in
+mpechoat $n front of you.
+mpoload 31018
+mpechoat $n The waiter hands you a menu.
+give menu $n
+say The menu contains the meal choices, Today for drinks we have
+Corellian
+say Ale, Jolt-Cola, or Water.
+say If you need anything just ask.
+~
+> all_greet_prog 100~
+Say Welcome $n, Today in the kitchen there are some exciting choices.
+say Here you go,
+mpechoaround The waiter seats $n.
+mpforce $n sit
+mpoload 31028
+drop water
+mpechoat $n The waiter sets a glass of ice-water for your refreshment
+in
+mpechoat $n front of you.
+mpoload 31018
+mpechoat $n The waiter hands you a menu.
+give menu $n
+say The menu contains the meal choices, Today for drinks we have
+Corellian
+say Ale, Jolt-Cola, or Water.
+say If you need anything just ask.
+~
+> rand_prog 25~
+mpecho The waiter tidies up the room.
+get all
+mpat 10299 drop all
+mpat 10299 mppurge
+~
+|
+#31013
+Door Guard~
+door guard~
+A door guard stands here.
+~
+~
+Human~
+basic~
+3 4194304 0 Z
+1 0 0 0d0+0 0d0+0
+20
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+close n 
+mpoload 31029 
+lock n 
+close s
+lock s
+mpat 10299 drop all 
+mpat 10299 mppurge 
+mpecho The door guard leaves into the bowels of the ship.
+mpgoto 10299
+mpat 10299 mppurge 
+~
+|
+#31014
+R2D7~
+R2D7~
+R2D7 is here helping to command the ship.
+~
+~
+Droid~
+binary~
+131073 0 0 Z
+100 0 -150 20d10+1000 10d4+2
+1200
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+20 20 20 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog cloaking system~
+cloak
+~
+> speech_prog "Activate the Emergency Ejection Procedure"~
+say EMERGENCY EJECTION ACTIVATED
+mpechoat $n The droid whizzes through a series of checks, thens emits a
+mpechoat $n green go-ahead hologram.
+mpechoat $n The Ships computer says "Ejection procedure activated", and a
+hidden panel in the floor pops open.
+mpechoat $n You hop into the pod and you detach from the ship heading on
+mpechoat $n the pre-designated course to
+coruscant.
+mpechoat $n this short hopefully uneventfull
+voyage.
+say I will follow you to protect you now that I am of no service as a
+say pilot to you...
+wield e-11
+mptransfer $n 301
+mptransfer self 301
+follow $n
+say We should leave this crowded area as soon as
+say possible, I will fight to the death for you
+sir.
+bown $n
+emote readies himself for combat.
+set full
+~
+|
+#31499
+bookend~
+a newly created bookend~
+Some god abandoned a newly created bookend here.
+~
+~
+Human~
+basic~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+20
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#31000
+bookend~
+a bookend~
+A bookend is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#31001
+Syndicate Identification ID Card qwqwfgfg~
+A crimson data-card~
+A crimson data card was left here.~
+~
+13 0 16385
+0 0 0 0
+1 0 0
+#31002
+A blastech t-21 repeating blaster~
+a Blastech T-21 repeating blaster~
+A repeating blaster is collecting dust.~
+~
+5 8192 8193
+0 10 4 6
+10 3900 390
+A
+18 3
+#31003
+bridge key~
+a Bridge Key~
+A bridge key is here.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#31004
+Security Keycard~
+a Security Keycard~
+A small keycard has been left here.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#31005
+Debriefing Room Key Card~
+small debriefing room key card~
+A small keycard was left here.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#31006
+a comlink~
+a comlink~
+A small hand-held comlink.~
+~
+72 8192 16385
+0 0 0 0
+1 50 5
+#31007
+a packaged ration~
+a packaged ration~
+A packaged ration is here, waiting to be eaten.~
+~
+19 8192 1
+50 50 0 0
+2 5 0
+#31008
+a canteen~
+a Canteen~
+A Canteen rests here awaiting to be picked up..~
+~
+17 0 1
+10 10 0 0
+3 10 1
+#31009
+a backpack~
+a backpack~
+An academy backpack was carelessly misplaced here.~
+~
+15 8192 1025
+80 0 0 0
+1 40 4
+A
+17 -5
+#31010
+a battery~
+a battery~
+A battery might come in handy.~
+~
+65 8192 16385
+100 0 0 0
+1 20 2
+#31011
+ammunition cell ammo~
+an ammunition cell~
+An ammunition cell was carelessly left here.~
+~
+57 8192 16385
+500 500 0 0
+1 70 7
+#31012
+syndicate bio scanner~
+a syndicate bio scanner~
+A strange contraption is sitting here~
+~
+80 1073741824 16385
+10 10 10 14 10 10
+1 1400 140
+> use_prog 100~
+mpechoat $n The scanner activates
+if clan($t) == The Syndicate
+mpechoat $n They are part of the syndicate 
+else
+mpechoat $n They are not part of the syndicate
+endif
+~
+|
+#31013
+Advanced Goggles~
+advanced infrared goggles~
+Some goggles were discarded here.~
+~
+9 8192 131073
+0 3 0 0
+1 5600 560
+A
+26 4194304
+A
+26 512
+A
+34 40
+#31014
+strongroom key~
+strongroom key~
+A small gold key was left here~
+~
+13 0 16385
+0 0 0 0
+1 0 0
+#31015
+emergency button red~
+a red emergency button~
+A &RRED&G emergency button is here, push it to call guards.~
+~
+39 0 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpat 31023 mpmload 31011
+mpechoat $n Guard Summoned. Make sure to 'Recall' each guard. 
+mpat 31023 mpoload 31002
+mpat 31023 drop all
+mpat 31023 mpforce tyrtyr get t-21
+mpat 31023 mpforce tyrtyr wield t-21
+mpat 31023 mpforce tyrtyr setblaster full
+mpat 31023 mpoload 10312
+mpat 31023 drop all
+mpat 31023 mpforce tyrtyr get vibro
+mpat 31023 mpforce tyrtyr wield vibro
+pull button
+~
+|
+#31016
+Handcuffs~
+a pair of wrist cuffs~
+A pair of wrist cuffs is here.~
+~
+88 0 4097
+8 3 0 0
+3 0 0
+#31017
+Luxury Yacht Master Key~
+a Luxury Yacht Master Key~
+A Luxury Yacht Master Key is here.~
+~
+13 130 5
+0 0 0 0
+1 0 0
+#31018
+A menu~
+a A menu~
+A menu is here~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+A menu~
+Even in deep space there is fine dining abourd the Sorosuub Luxury Yacht
+3000, Heres what is offered:
+ 
+               Breakfeast:
+Poached Eggs
+Bantha meet Bacon
+ 
+               Lunch:
+A Fruit Salad
+Bantha Liver sandwich
+ 
+               Dinner:
+Bantha Ribs
+Bantha Leg
+Krayyt Dragon Tail
+~
+#31019
+Poached Eggs~
+a Poached Eggs~
+A Poached Eggs is here.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#31020
+Bantha Bacon~
+a Bantha Bacon~
+A Bantha Bacon is here.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#31021
+Fruit Salad~
+a Fruit Salad~
+A Fruit Salad is here.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#31022
+Liver Sandwich~
+a Liver Sandwich~
+A Liver Sandwich is here.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#31023
+Bantha Ribs~
+a Bantha Ribs~
+A Bantha Ribs is here.~
+~
+19 0 0
+0 0 0 0
+1 0 0
+#31024
+Bantha Leg~
+a Bantha Leg~
+A Bantha Leg is here.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#31025
+Dragon Tail~
+a Dragon Tail~
+A Dragon Tail is here.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+#31026
+glass of corellian ale~
+a glass of corellian ale~
+A glass of corellian ale is here.~
+~
+17 8192 1
+2 2 3 0
+1 3 0
+#31027
+Jolt-Cola~
+a Jolt-Cola~
+A Jolt-Cola is here.~
+~
+17 2 1
+40 40 0 0
+1 0 0
+#31028
+a glass of water~
+a glass of water~
+A glass of water is a good cheap drink.~
+~
+17 8192 1
+2 2 0 0
+1 1 0
+#31029
+dancer key~
+a dancer key~
+A dancer key is here.~
+~
+13 0 16385
+0 0 0 0
+1 0 0
+#31499
+bookend~
+a bookend~
+A bookend is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#31000
+Bridge~
+The bridge of the &rRed Storm&O is centered around a very large dais -
+normally used for hutts.  The dais is on an elevated platform that allows
+a complete view of the bustling activity on the command level.  Attached
+to the cieling above the dais is a row of holovids displaying everything
+from ship schematics and system data, to security cameras and
+Intergalactic News channels.  The platform has stairs leading down to the
+various command stations for the ship.
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31001
+D2
+~
+~
+0 -1 31006
+D6
+~
+~
+0 -1 31003
+D7
+~
+~
+0 -1 31002
+D10
+~
+Lift~
+524288 -1 31004
+S
+#31001
+Navigators Station~
+Large computers row themselves along the side of the walls, save a portion
+that allows a view out into space. Men in crimson and blue uniforms work
+diligently triangulating coordinates for the ship preparing it for
+immediate manuevers that might be necessary.
+~
+0 536870920 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31000
+S
+#31002
+Pilots Station~
+The room is outfitted with the latest, and thus most expensive, piloting
+technology in the galaxy.  Very few people are required for the actual
+operation of the ship as most of it is done by the Red Storm's computers. 
+The pilots are left with a main responsibility of maintaining that the
+computers are in perfect working condition as well as being prepared to
+take manual control at a moment's notice.
+~
+0 536870920 0 0 0 0 0 5
+D8
+~
+~
+0 -1 31000
+S
+#31003
+Gunners Station~
+The Gunner's Station contains a large computer surrounding a duraplex
+window that allows a radial view of the surroundings. The computers
+constantly update any activity in the area, sending information to all
+other computers on the Red Storm. The people wearing crimson and blue
+uniforms maintain a vigilant watch over the system and the computers
+tracking the activity.  The lives of all people on this ship fall very
+heavily into the hands of the people in this room.
+~
+0 536870920 0 0 0 0 0 5
+D9
+~
+~
+0 -1 31000
+S
+#31004
+Ejector Lift~
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31000
+S
+#31005
+Upper Deck Hallway~
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+7 31003 31000
+D2
+~
+~
+0 -1 31006
+S
+#31006
+Turbolift~
+You have entered a very large turbolift, cramped next to people of all
+other races.  In front of you is a list of numbers indicating the 3
+different levels of the ship.  You make your way to press the button to
+bring you to your desired level as someone shoves you to the side.  The
+people here don't seem to care much about other's.  After readjusting you
+proceed to make your selection.
+~
+0 536870920 0 0 0 0 0 5
+D10
+~
+1~
+524288 -1 31005
+D10
+~
+2~
+524288 -1 31049
+D10
+~
+3~
+524288 -1 31007
+S
+#31007
+Lower Deck Hallway~
+The lower section of the Red Storm breaks off in two directions from the
+turbolift.  Off to the right are housed the Syndicate's places of business
+- the clamor can be heard from here.  To the left are the quarters for
+members of the Syndicate and any guests that may be aboard. You can see
+turret stations in both directions as well.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31008
+D2
+~
+~
+0 -1 31006
+D3
+~
+~
+0 -1 31009
+S
+#31008
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31037
+D1
+~
+~
+0 -1 31011
+D2
+~
+~
+0 -1 31013
+D3
+~
+~
+0 -1 31007
+S
+#31009
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870924 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31033
+D1
+~
+~
+0 -1 31007
+D2
+~
+~
+0 -1 31012
+D3
+~
+~
+0 -1 31010
+S
+#31010
+Turbolaser Turret~
+You have entered a small firing station aboard the Red Storm.  The turrets
+located here are used by the Syndicate to defend its precious flag ship
+from "unruly" pilots. The computers located here give a reading of the
+activity in the system, and the duraglass windows give a glimps at the
+black space.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31009
+S
+#31011
+Turbolaser Turret~
+You have entered a small firing station aboard the Red Storm.  The turrets
+located here are used by the Syndicate to defend its precious flag ship
+from "unruly" pilots. The computers located here give a reading of the
+activity in the system, and the duraglass windows give a glimps at the
+black space.
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31008
+S
+#31012
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31009
+D2
+~
+~
+0 -1 31020
+D3
+~
+~
+0 -1 31019
+S
+#31013
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31008
+D1
+~
+~
+0 -1 31014
+D2
+~
+~
+0 -1 31015
+S
+#31014
+Syndicate Boardroom~
+Of all the official Syndicate business rooms, this is the only one that
+hasn't been divided.  The walls are covered in a dark blue, and the normal
+crimson stripe runs across the center. The far wall is made of duraplex
+glass allowing the members of the board to view space from their
+comfortable office.  A large wooden table runs down the center of the
+room, the top of it covered in a green velvet. The place at the far head
+of the table, unlike the other very comfortable looking chairs, is a dais
+for a Hutt - most likely the leader of the Syndicate.
+~
+0 536870920&64 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31013
+S
+#31015
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31013
+D1
+~
+~
+0 -1 31016
+D2
+~
+~
+0 -1 31017
+S
+#31016
+Syndicate Corporate Headquarters~
+The heart of the everyday business dealings of the Syndicate take place in
+this room.  Devious minds trying to find ways to make it as a member of
+the board scurry around, trying to better themselves while sabotaging the
+careers of others.  This is where lives can be made and destroyed.  Quite
+possibly the most dangerous stage in the life of a business man, evident
+by the medic unit carrying out someone "not willing to give in."  The room
+is divided into several executive type offices, you may be able to try to
+work out some things with the executives here, or maybe even take the
+place of that man that was just taken out.
+~
+0 536870920&32 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31015
+S
+#31017
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31015
+D1
+~
+~
+0 -1 31018
+D9
+~
+~
+0 -1 31024
+S
+#31018
+Syndicate Offices~
+You enter into a room that has been modified with various cubicles hugging
+along the hall.  It has created more of an new corridor, with narrow slits
+allowing entry into various smaller offices.  Noise fills the air as you
+begin to notice the frantic nature of the people running around.  There
+are papers thrown about on the floor, as well as overflowing trash
+recepticles.  No one seems to notice your prescence.
+~
+0 536870920&4 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31017
+S
+#31019
+Guest Quarters~
+You have entered a small hallway, an interesection with three doors and an
+exit leading back to the hall.  This hall seems to be very similar to the
+rest of the ship.  The rooms adjacent here are available for short-term
+guest aboard the Red Storm.  They allow passengers a place to relax before
+continuing whatever business they intend to do while on board.  There is
+no charge for staying in the rooms.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31025
+D1
+~
+~
+0 -1 31012
+D2
+~
+~
+0 -1 31027
+D3
+~
+~
+0 -1 31026
+S
+#31020
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31012
+D2
+~
+~
+0 -1 31022
+D3
+~
+~
+0 -1 31021
+S
+#31021
+Long Term Quarters~
+These are rooms for official members of the Syndicate, including high
+ranking officials.  All long-term rooms, most of which become somewhat of
+a home for the "high-ups" in the Syndicate, are restricted to visitors and
+heavily guarded. The walls are dark blue with the standard crimson stripe
+running along the center of the wall.  The floor has been carpetted in the
+same color as the walls.  The doors are metallic and slide open for its
+occupant, and all bear the symbol of the Syndicate, as well as the name of
+the resident.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31071
+D1
+~
+~
+0 -1 31020
+D2
+~
+~
+0 -1 31072
+D3
+~
+~
+0 -1 31073
+D7
+~
+~
+0 -1 31074
+D8
+~
+~
+0 -1 31075
+S
+#31022
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31020
+D3
+~
+~
+0 -1 31023
+D8
+~
+~
+0 -1 31024
+S
+#31023
+Reinforced Durasteel Corridor~
+This corridor is completely made of durasteel, and appears to be
+magnetically sealed.  The walls are barren of all amneties and are bare
+except for a single, heavily-reinforced door to the south.  The door
+appears to have no easy way of being opened from this side.  This room is
+probably used by Syndicate officials in times of emergency.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31022
+D2
+~
+~
+39 31014 31030
+S
+#31024
+Engine Room~
+A durasteel walkway circles around a massive ion engine.  A
+service-extension bridge allows access to the engine in case repairs are
+necessary.  The room is covered in warning signs, recommending that only
+professional engineers access the engine.  The main walkway leads to the
+other side of the lower level.
+~
+0 536870920 0 0 0 0 0 5
+D6
+~
+~
+0 -1 31017
+D7
+~
+~
+0 -1 31022
+S
+#31025
+Guest Quarters~
+These quarters are provided by the Syndicate for beings staying aboard the
+red storm for a short time. They are comfortably furnished in crimson and
+blue, and furnished with black nerf-leather furniture.
+~
+0 545259528 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31019
+S
+#31026
+Guest Quarters~
+These quarters are provided by the Syndicate for beings staying aboard the
+red storm for a short time. They are comfortably furnished in crimson and
+blue, and furnished with black nerf-leather furniture.
+~
+0 545259528 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31019
+S
+#31027
+Guest Quarters~
+These quarters are provided by the Syndicate for beings staying aboard the
+red storm for a short time. They are comfortably furnished in crimson and
+blue, and furnished with black nerf-leather furniture.
+~
+0 545259528 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31019
+S
+#31028
+Red Storm Hanger~
+The hangar of the Red Storm is bustling with activity.  There are several
+landing bays to allow maximum efficiency in the loading and unloading of
+goods and resources.  You can see space through the magnetically sealed
+opening leading out to the black void.  Large lifter droids move cargo has
+some sort of crane moves the ships to holding docks.  You see windows to
+the right that lead to some sort of repair bay for the ships. The majority
+of people are walking towards the Security Checkpoint to the south so that
+they may get straight to business aboard the Red Storm.
+~
+0 536870968 0 0 0 0 0 5
+D2
+~
+~
+1 -1 31029
+S
+#31029
+Security Checkpoint~
+This rooms is full of scanners and detection droids checking every person
+that board the ship.  A single guard individually inspects every person
+that boards the Red Storm, regardless of their affilliation.  The walls
+are made of durasteel and are assumably magnetically sealed to avoid the
+use of blaster-fire. Booths in the room allow for personal inspection, as
+the guard proceeds to collect the boarding fee for the ship.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+1 -1 31028
+D2
+~
+~
+7 31004 31032
+S
+#31030
+Strongroom~
+This room is walled with several layers of durasteel, but in typical
+Syndicate style, is covered with a dark blue satin material, complete with
+the crimson line running through the center.  On the floor, a dark crimson
+"R" is engraved, surrounded by the words "The Galactic Syndicate" in
+black.   The room offers maximum protection for high ranking officials of
+the Syndicate in times of crisis aboard the Red Storm.  It has never been
+used in records, but it is very likely that it has served some other
+purpose in the past. 
+~
+0 536870924 0 0 0 0 0 5
+D0
+~
+~
+39 31014 31023
+D1
+~
+~
+33554432 -1 31029
+D7
+~
+~
+33554432 -1 31023
+> speech_prog Recall~
+mpat tyrtyr mppurge tyrtyr
+mpechoat $n Guard Recalled
+~
+|
+S
+#31031
+Security Room~
+Climbing the ladder you enter a metal room with a small slit to the left. 
+Looking through it you see the Red Storm Guard responsible for watching
+people who enter the ship.  He eyes the people walking through very
+closely, and nods towards you. The hole seems to be large enough to fit a
+blaster through in case an emergency arose.
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+33554432 -1 31029
+D5
+~
+~
+0 -1 31037
+S
+#31032
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 1610612744 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31028
+D1
+~
+~
+0 -1 31043
+D3
+~
+~
+0 -1 31044
+S
+#31033
+Technology Center~
+You are in the middle of the Syndicate's Center for the Advancement of
+Technology, passionately referred to as the Tech Center.  Rooms lead out
+from here include a manufacturing station, an official Syndicate shop, and
+a Lecture Hall.  The room is busy with people walking all around, worrying
+about their own business.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31035
+D2
+~
+~
+0 -1 31009
+D3
+~
+~
+0 -1 31034
+D7
+~
+~
+0 -1 31036
+S
+#31034
+Workshop~
+This is the Syndicate's fabrication chamber - provided for all who wish to
+manufacture goods and sell them in any Syndicate-approved store.  The
+chamber is divided into cubicles allowing people to privately work on
+their projects.  There is less noise from voices and an increased noise in
+the volume of clashing metal and short electric bursts.
+~
+0 637534216 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31033
+S
+#31035
+Tech Sales~
+This shop provides supplies necessary for people working in the
+manufacturing station.  A gamut of tools and materials are on display,
+ready for purchase here.  The shopkeeper seems very busy trying to handle
+the amount of customers that are filing through his shop.  When you reach
+the front of the line, the shopkeeper hurriedly tries to gather the goods
+you request.
+~
+0 1610612744 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31033
+S
+#31036
+Lecture Hall~
+You have entered a long room with white walls and a red stripe running down
+the center.  The floor is red and fairly comfortable chairs are lined up
+in an auditorium-fashion, centering around an elevated stage. The rows of
+seats allow three aisles, and seem to be able to handle a great amount of
+people.  One side of of the room has seats designed to comfort larger
+species, specifically Hutts.
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+1 -1 31041
+D8
+~
+~
+0 -1 31033
+S
+#31037
+Armoury~
+You have entered a circular room, a bit less populated than other sectors
+of the ship.  Most of the people in this area seem to be concentrated in
+the actual rooms themselves.  You notice this seems to be the hub of the
+Syndicate's official stores. Connected to this room there appear to be a
+wide-variety of shops that carry anything you could ask for. The room has
+a navy blue circle engraved with a crimson "R" and the words "The Galactic
+Syndicate" circling it in black. A crimson stripe runs along the center of
+the white walls. 
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31040
+D1
+~
+~
+0 -1 31038
+D2
+~
+~
+0 -1 31008
+D6
+~
+~
+0 -1 31039
+D7
+~
+~
+0 -1 31042
+D10
+~
+ladder~
+524288 -1 31031
+S
+#31038
+Weapons Sales~
+The crimson walls are lined with a kaleidoscope of weapons.  Everything
+from small hand blasters to large assault rifles are displayed proudly on
+the walls.  An war-beaten trandoshan sits behind the counter watching the
+people that examine his merchandise.  A sign near the exit warns about
+using the weapons aboard the Red Storm -  "Put It Away or It Will be Taken
+Away."
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31037
+S
+#31039
+Armourer~
+All sorts of different types of armor are hanging on racks throughout the
+store.  From fashionable to armor oriented for protection only can be
+found in this shop.  A human shopkeeper, dressed awkwardly fashionably,
+runs with small little steps trying to help the next person.  A jawa can
+be seen looking at a new brown robe, as a wookie feels a leather holster.
+~
+0 536870920 0 0 0 0 0 5
+D9
+~
+~
+0 -1 31037
+S
+#31040
+Misc Equipment~
+Currently being reconstructed - signs indicate this shop is to contain
+various objects created by Syndicate engineers.
+~
+0 536870920 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31037
+S
+#31041
+Cloning Chamber~
+You are standing in a sterile white room behind the syndicate lecture hall.
+The muted buzz of the ship is almost inaudible here, and a small spherical
+medical droid is turned off in the corner. A sign says, if you need a
+clone, say "clone" to activate droid.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+1 -1 31036
+> speech_prog clone 100~
+mpechoat $n A droid comes in and sticks you with a needle. 
+mptrans $n 10001
+mpat 10001 mpforce $n sleep
+mpat 10001 mpforce $n clone
+mpat 10002 mptrans $n 31041
+mpforce $n wake
+~
+|
+S
+#31042
+Training Room~
+This room is covered with small circular tables surrounding an elevated
+podium in the center.  Occupying the podium is a middle-aged hutt male,
+teaching the finer points of how to conduct "business."  The tables are
+equipped with translation devices for the different races of the
+Syndicate.  Neither the hutt nor the students seem shaken by your entry -
+perhaps you could learn something if you paid attention for a while.
+~
+0 536870920 0 0 0 0 0 5
+D8
+~
+~
+0 -1 31037
+S
+#31043
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31052
+D2
+~
+~
+0 -1 31045
+D3
+~
+~
+0 -1 31032
+S
+#31044
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31032
+D2
+~
+~
+0 -1 31046
+D3
+~
+~
+0 -1 31055
+S
+#31045
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31043
+D1
+~
+~
+0 -1 31054
+D2
+~
+~
+0 -1 31047
+S
+#31046
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31044
+D2
+~
+~
+0 -1 31048
+D3
+~
+~
+0 -1 31056
+S
+#31047
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31045
+D1
+~
+~
+7 31005 31059
+D2
+~
+~
+0 -1 31050
+D3
+~
+~
+0 -1 31049
+S
+#31048
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31046
+D1
+~
+~
+0 -1 31049
+D2
+~
+~
+0 -1 31051
+D3
+~
+~
+0 -1 31058
+S
+#31049
+Middle Deck Hallway~
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31047
+D2
+~
+~
+0 -1 31006
+D3
+~
+~
+0 -1 31048
+S
+#31050
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31047
+D1
+~
+~
+0 -1 31053
+S
+#31051
+Hallway~
+You are standing in a hallway aboard the red storm. It is pretty much
+nondescript, with dark blue carpeting and gunmetal gray walls. Crimson
+trim lines the areas around the lights and the doorframes.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31048
+D3
+~
+~
+0 -1 31057
+S
+#31052
+Fighter Repair Bay~
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31060
+D2
+~
+~
+0 -1 31054
+D3
+~
+~
+0 -1 31043
+S
+#31053
+Medical Center~
+A change from most of the ship - this room is completely white.  It is
+seperated into several sections in relation to diseases and races. 
+Doctors who specialize in different races hustle around, examining all
+sorts of species for different diseases.  For standard use, a bacta tank
+has been installed - one of the only free things on board the Red Storm.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+131072 -1 31063
+D3
+~
+~
+0 -1 31050
+S
+#31054
+Fighter Repair Bay~
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31052
+D3
+~
+~
+0 -1 31045
+S
+#31055
+Supply Room~
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31044
+S
+#31056
+Administration~
+~
+0 536870924 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31046
+S
+#31057
+Syndicate Bank~
+The official bank of the Syndicate has more money passing through it than
+any other bank in the galaxy. It is hussling with activity, and you notice
+many guards watching every person very closely.  Money seems to be
+essential to the people here.  The bank is outfitted with terminals for
+quick, personal banking.
+~
+0 536871176 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31051
+S
+#31058
+Briefing Hall~
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31048
+S
+#31059
+Debriefing Room~
+The "Debriefing Room" is designed in the syndicate crimson and blue. But
+the room has a maisma about it that smacks of less honourable things than
+simply talking. A large, solid durasteel table sits in the center of the
+room, and shackles and restraints look out of place in the satin finnish
+of the walls.
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+7 31005 31047
+S
+#31060
+Descending Storage Lift~
+You step onto the lift right before the gates close and it begins its
+descent down to the deep storage area.  The deep storage is used by the
+Syndicate to store items that are either unwanted or wanted to be kept
+secure and away from visitors.  The breeze from the descent rushes against
+your face as you wait patiently to arrive in deep storage.
+~
+0 536870924 0 0 0 0 0 5
+> rand_prog 75~
+mpechoat $n The lift descends to the deep storage bay.
+mptransfer $n 31061
+~
+|
+S
+#31061
+Deep Storage~
+You enter a dimly-lit room, crates and cargo bins stacked up in many places
+to the ceiling.  Binary lifter droids are scattered around attempting to
+organize the goods in a more efficient manner.  The room appears to be
+nothing more than durasteel, and no obvious decor can be seen.  Business
+as usual.
+~
+0 537395208 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31062
+S
+#31062
+Ascending Storage Lift~
+The lift begins its ascent with a slight jolt that does little more than
+catch your attention.  As it climbs you watch the walls zoom by and the
+wind bring a cold chill to your face.  You wait patiently for your arrival
+back to the main level.  
+~
+0 536870924 0 0 0 0 0 5
+> rand_prog 5~
+mpecho The lift ascends to the main bay.
+mptrans $n 31052
+~
+> rand_prog 100~
+mpecho The lift ascends to the main bay.
+mptrans $n 31052
+~
+|
+S
+#31063
+A Bacta Tank~
+After being equipped with a ventilation mask, you are immersed in a warm
+red liquid that begins to soothe and heal your body.  The bubbles flow
+around you, making your skin tingle.  You notice you are unable to speak,
+and look over at the other tanks, being occupied by people of all sorts of
+races.
+~
+0 536936460&128 0 0 0 0 0 5
+D3
+~
+~
+262144 -1 31053
+S
+#31064
+Floating in a void~
+~
+0 536870924 0 0 0 0 0 5
+S
+#31065
+X-Wing Simulator PX01~
+You are inside of a small cockpit designed to simulate the feel of an Incom
+T-65 X-Wing starfighter. The viewport is spiderwebbed with optical wires
+that are used to create the three dimentional holo-images that make the
+simulator feel almost real. 
+~
+0 1610612748 0 0 0 0 0 5
+S
+#31066
+X-Wing Simulator PX02~
+You are inside of a small cockpit designed to simulate the feel of an Incom
+T-65 X-Wing starfighter. The viewport is spiderwebbed with optical wires
+that are used to create the three dimentional holo-images that make the
+simulator feel almost real. 
+~
+0 1610612748 0 0 0 0 0 5
+S
+#31067
+X-Wing Simulator PX03~
+You are inside of a small cockpit designed to simulate the feel of an Incom
+T-65 X-Wing starfighter. The viewport is spiderwebbed with optical wires
+that are used to create the three dimentional holo-images that make the
+simulator feel almost real. 
+~
+0 1610612748 0 0 0 0 0 5
+S
+#31068
+TIE Advanced Simulator~
+~
+0 1073741828 0 0 0 0 0 5
+S
+#31069
+TIE Advanced Simulator~
+~
+0 1073741828 0 0 0 0 0 5
+S
+#31070
+TIE Advanced Simulator~
+~
+0 1073741828 0 0 0 0 0 5
+S
+#31071
+Syndicate Apartment~
+This basic apartment is furnished in crimson and blue, but could use some
+personal touches to make it feel like home. 
+~
+0 538968072 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31021
+S
+#31072
+Syndicate Apartment~
+This basic apartment is furnished in crimson and blue, but could use some
+personal touches to make it feel like home. 
+~
+0 538968072 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31021
+S
+#31073
+&RR&rufio's &RQ&ruarters~
+This basic apartment is furnished in crimson and blue, but could use some
+personal touches to make it feel like home. 
+~
+0 537919496 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31021
+S
+#31074
+Syndicate Apartment~
+This basic apartment is furnished in crimson and blue, but could use some
+personal touches to make it feel like home. 
+~
+0 538968072 0 0 0 0 0 5
+D8
+~
+~
+0 -1 31021
+S
+#31075
+Syndicate Apartment~
+This basic apartment is furnished in crimson and blue, but could use some
+personal touches to make it feel like home. 
+~
+0 538968072 0 0 0 0 0 5
+D7
+~
+~
+0 -1 31021
+S
+#31076
+SoroSuub Personal Luxury Yacht 3000: Hatchway~
+This is the hatchway for a mid-sized luxury ship designed for dignitaries
+and wealthy citizens.  The ramp that extends out to allow safe entry and
+exit is covered in some type of cheap carpeting.  You can only wonder why
+the owner of such an expensive ship couldn't afford the few extra credits
+for a replacement.   The only exit is off the ship or up and into the rest
+of the ship.  
+~
+0 1073741824 0 0 0 0 0 5
+D4
+~
+~
+39 31017 31078
+S
+#31077
+Main Hallway~
+This is simply the continuation of the main hallway through the ship.  The
+exits fanning from this hallway go strait to the bridge and several
+maintenance hallways.  
+~
+0 1073741828 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31079
+D1
+~
+~
+0 -1 31085
+D2
+~
+~
+0 -1 31078
+D3
+~
+gate~
+1 31017 31083
+D4
+~
+~
+0 -1 31086
+D5
+~
+gate~
+1 -1 31084
+S
+#31078
+Main Hallway~
+This is the one large hallway running through the ship, being only a total
+of 50 meters long, the ship is not very spread out, and maybe even a bit
+cramped.   Exits are all around you leading to other functions of the
+ship.   
+~
+0 1073741824 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31077
+D1
+~
+~
+0 -1 31082
+D2
+~
+~
+0 -1 31080
+D3
+~
+~
+0 -1 31081
+D5
+~
+~
+0 -1 31076
+S
+#31079
+SoroSuub Personal Luxury Yacht 3000: Bridge~
+This room was designed, along with all the instruments and computers to be
+able to be flown by one man.  There are several other chairs for
+passengers, but most seating is in the rear observation area.  The
+controls are all compact so one person can easily manage them.  There are
+several HUD's for quick reactions by the pilot.  
+~
+0 1073741832 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31077
+S
+#31080
+Rear Observation Area~
+The views from this room are amazing, except for the door and a square
+meter of floor the rest of the room is created by a hologram projector
+hidden somewhere.  Controls on the bridge can adjust the position of the
+the projection to reveal a few rows of seats.  The Projection is generated
+in real time based on the actual view, or sometimes if desired previous
+views or amazing stellar panoramas.  
+~
+0 1073741824 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31078
+S
+#31081
+Sick Bay~
+This is a small facility designed to help someone to administer first aid. 
+Several Medical tools are attached to walls and ready for use. 
+~
+0 1073741824 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31078
+S
+#31082
+Guest Room~
+This room is intended for guests of the owner to stay in especially over
+long hyperspace voyages.  There are several terminals here for the guest
+to avoid becoming bored, including A holo game-board and a library full of
+thousands of songs for the guests personal enjoyment.  There is a
+comfortable bed, and a few form-fitting chairs for sitting.   The small
+porthole provides a view of the passing stars.  
+~
+0 1073741824 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31078
+S
+#31083
+Captain's Quarters~
+These are the quarters of the owner of this luxery Yacht, he apparently
+didn't spare any cost in the creation of this room.   There are deluxe
+form-fitting chairs around a large desk, with well placed lighting strips.
+ There is a terminal to give him warnings from the ships computer if he
+happens to leave the bridge for a nap.   The bed is extremely comfortable,
+but very stiff, apparently in the preference of the owner.  There are a
+few things tacked up on the wall, but nothing extremely personal.  
+~
+0 1082131456 0 0 0 0 0 5
+D1
+~
+gate~
+1 31017 31077
+S
+#31084
+Engine-room~
+This is the engine-room of the SoroSuub Personal Luxury Yacht 3000, perhaps
+the only part of the ship that is not designed only to impress the visual
+sense.   There is a lot of ambient noise here as the engines continue to
+work at high rates.  Unless there is a need for repair this room is pretty
+vacant.  
+~
+0 1073741824 0 0 0 0 0 5
+D4
+~
+gate~
+1 -1 31077
+S
+#31085
+Turret~
+This is the only turret the ship is equipped with, it is cleverly concealed
+by the hull of the ship, using surprise as its main weapon.   The
+turbolaser itself is pretty weak, as later model.  The hull and shields
+are usually good enough to last the ship long enough to make it to
+hyperspace, and hopefully away from danger.
+~
+0 1073741824 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31077
+S
+#31086
+Dining Hall~
+This room facilitates up to 15 passengers elegantly, providing them with a
+great view and good food.   The long table is also used for any
+negotiations that take place on-board the kitchen is farther south.  A
+waiter is here to take your order.   The view is almost as great as from
+the rear observation area, because of a large panorama viewport, guests
+walking up here for their first time have the breath taken away.  
+~
+0 1073741824 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31087
+D5
+~
+~
+0 -1 31077
+S
+#31087
+Kitchen~
+Here is a kitchen full of top notch cooking utensils, the waiter comes here
+to place and obtain your order.  The kitchen is pretty bland otherwise. 
+~
+0 1073741824 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31086
+S
+#31088
+King's Room~
+The kings room is the personal residence of the Highest Male guest. To be
+invited to stay in this room is quiet an honor as its corpulently
+furnished with every luxery. Sporting a Holovid projector, a Huge hunter
+styled bed and amazing tapestries on the walls, you feel like your in a
+high class hotel just standing here.
+~
+0 545260552 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31089
+S
+#31089
+Lounge~
+This is one of the rich lounges aboard the ship. Nerf furniture, soft and
+plush, litters the room in various well placed areas. The middle of the
+room taken up by a holovid projecter for entertainment as well as glass
+tables and stands placed just where they are needed.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31088
+D1
+~
+~
+0 -1 31090
+D2
+~
+~
+0 -1 31092
+D3
+~
+~
+0 -1 31091
+S
+#31090
+Guest Room~
+You stand in a relitivly small but cozy guest room. A large bed crowns the
+room with a nightstand. Soft plush carpeting feeling nice on bare feet as
+you walk around. 
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31089
+S
+#31091
+Guest Room~
+You stand in a relitivly small but cozy guest room. A large bed crowns the
+room with a nightstand. Soft plush carpeting feeling nice on bare feet as
+you walk around. 
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31089
+S
+#31092
+Turbo Lift~
+You stand in a quietly humming turbolift.
+There is a list of floors here for you to look at.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31089
+D2
+~
+~
+0 -1 31093
+D5
+~
+~
+0 -1 31101
+E
+l li lis list~
+1st floor: Personel
+2nd floor: Main
+3rd floor: Hanger
+~
+S
+#31093
+Lounge~
+This is one of the rich lounges aboard the ship. Nerf furniture, soft and
+plush, litters the room in various well placed areas. The middle of the
+room taken up by a holovid projecter for entertainment as well as glass
+tables and stands placed just where they are needed.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31092
+D1
+~
+~
+0 -1 31094
+D2
+~
+~
+0 -1 31096
+D3
+~
+~
+0 -1 31095
+S
+#31094
+Guest room~
+You stand in a relitivly small but cozy guest room. A large bed crowns the
+room with a nightstand. Soft plush carpeting feeling nice on bare feet as
+you walk around.
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31093
+S
+#31095
+Guest room~
+You stand in a relitivly small but cozy guest room. A large bed crowns the
+room with a nightstand. Soft plush carpeting feeling nice on bare feet as
+you walk around.
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31093
+S
+#31096
+Queen's Room~
+You stand in the high guest chamber of the female guests. The carpeting in
+this room is plush and inviting as is the large canopied bed. The bed
+takes up most of the room with white satin canopy and crimson red silken
+sheets. The walls are covered with soft tapestries that catch and
+entertain the eye. Off to the side one can see a small dressing area
+complete with full size mirror and makeup table.
+~
+0 545260552 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31093
+S
+#31097
+Cockpit~
+You stand in the cockpit of the frigate, from here you can control all
+functions of the craft. 
+~
+0 536870920 0 0 0 0 0 5
+D2
+~
+~
+1 31029 31098
+> speech_prog cartel cartel. cartel'~
+mpmload 31013 
+mpecho A door guard arrives from within the ships bowels.
+mpforce door sayto $n Mistress Aryle! 
+mpforce door sayto $n How great to see you. 
+mpforce door sayto $n Are you doing well? 
+mpforce door sayto $n Allow me to open the door for you.
+mpforce door mpoload 31029 
+mpforce door unlock s 
+mpforce door open s 
+mpforce door sayto $n There you go, Mistress Aryle.  
+mpat 10299 drop key 
+mpat 10299 mppurge 
+~
+|
+S
+#31098
+Entrance Ramp~
+You walk through an unadorned durasteel hallway. There is a exit and
+entrance hatch here. 
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+8388647 31029 31097
+D1
+~
+~
+0 -1 31100
+D2
+~
+~
+0 -1 31101
+D3
+~
+~
+0 -1 31099
+> speech_prog cartel cartel. cartel'~
+mpmload 31013
+mpecho A door guard arrives from within the ships bowels.
+if name($n) != aryle
+mpforce door sayto $n You are not Mistress Aryle!
+mpforce door sayto $n What do you want? 
+mpforce door sayto $n Leave. Now.
+mpforce $n open
+mpforce $n leave
+mpforce door mpgoto 10299
+mpat 10299 mppurge 
+else
+mpforce door sayto $n Mistress Aryle!
+mpforce door sayto $n How great to see you.
+mpforce door sayto $n Are you doing well?
+mpforce door sayto $n Allow me to open the door for you.
+mpforce door mpoload 31029
+mpforce door unlock n
+mpforce door open n
+mpforce door sayto $n There you go, Mistress Aryle. 
+mpat 10299 drop key
+mpat 10299 mppurge
+endif
+~
+|
+S
+#31099
+Western Turret~
+From here you can control the western pontoon turrent of the ship and half
+its weapons. 
+~
+0 536870920 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31098
+S
+#31100
+Eastern Turret~
+From here you can control the eastern pantoon turrent of the ship and half
+its weapons. 
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31098
+S
+#31101
+Turbo Lift~
+You stand in a quietly humming turbolift. There is a list of floors here
+for you to look at.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31098
+D2
+~
+~
+0 -1 31102
+D4
+~
+~
+0 -1 31092
+D5
+~
+~
+0 -1 31110
+E
+l li lis list~
+1st floor: Personel
+2nd floor: Main
+3rd floor: Hanger
+~
+S
+#31102
+Hallway~
+You stand in one of the hallways of the frigate. The walls are clean and
+shiny, and the floor looks very nice. You detect a faint smell that you
+can't quite decide on coming from the north. There are exits off this room
+leading to other areas of the ship.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31101
+D1
+~
+~
+0 -1 31103
+D2
+~
+~
+0 -1 31105
+D3
+~
+~
+0 -1 31104
+S
+#31103
+Engine Room~
+The hum of the engines drowns out all other sound in this room, from here
+you can maintinence the ship.
+~
+0 536870920 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31102
+S
+#31104
+Storage Room~
+A plain storage room full of equipment.
+~
+0 538968072 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31102
+S
+#31105
+Mess Hall~
+With large white tables and hard floors this is where people on the ship
+come to eat and converse. A kitchen is off to the back pushing out
+delicious armoas as well as serving droids going around with food.
+~
+0 536870920 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31102
+S
+#31106
+Hanger~
+You stand in the large hanger bay where ships land. 
+~
+0 536870924 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31107
+S
+#31107
+Durasteel Hallway~
+You walk through an unadorned durasteel hallway. 
+~
+0 536870924 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31106
+D1
+~
+~
+0 -1 31108
+D2
+~
+~
+0 -1 31110
+D3
+~
+~
+0 -1 31109
+S
+#31108
+Barracks~
+This is where the soldiers live. Bunks line the walls with built in chests
+for personal belongings
+~
+0 536870924 0 0 0 0 0 5
+D3
+~
+~
+0 -1 31107
+S
+#31109
+Barracks~
+This is where the soldiers live. Bunks line the walls with built in chests
+for personal belongings 
+~
+0 536870924 0 0 0 0 0 5
+D1
+~
+~
+0 -1 31107
+S
+#31110
+Turbo Lift~
+~
+0 536870924 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31107
+D4
+~
+~
+0 -1 31101
+D8
+~
+~
+0 -1 31111
+D9
+~
+~
+0 -1 31112
+S
+#31111
+Cargo Bay~
+This is where the cargo is stored. Crates are packed high here waiting to
+be delivered.
+~
+0 536870924 0 0 0 0 0 5
+D7
+~
+~
+0 -1 31110
+S
+#31112
+Cargo Bay~
+This is where the cargo is stored. Crates are packed high here waiting to
+be delivered.
+~
+0 536870924 0 0 0 0 0 5
+D6
+~
+~
+0 -1 31110
+S
+#31113
+Midship Simulator Cockpit~
+This room is designed to look and feel like the cockpit of a midship. With
+standardized controls and a high resolution screen, it feels pretty close to
+the real thing.
+~
+0 1610612744 0 0 1 0 0 5
+D2
+~
+~
+0 -1 31114
+S
+#31114
+Midship Simulator Entrance~
+This room is the entrance to the midship simulator. The back wall is also
+covered in engine components for repairs. 
+~
+0 1610612744 0 0 1 0 0 5
+D0
+~
+~
+0 -1 31113
+S
+#31475
+&CCockpit&w~
+You are in the cockpit of the Ragnarok Mark II. There is a Pilots seat
+here that has all the avaliable controls but the ship is easier to fly if
+you have someone sitting in the copilots seat, the navigation seat, and
+the gunners seat. To the south is a elevator that will take you to the
+lower parts of the ship. The cockpit is done in a bright sharp red.
+~
+0 1610612748 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31476
+S
+#31476
+&GElevator&w~
+This is a very simply and reliable elevator. There are only three floors on
+the Ragnorak Mk.2. This elevator only extends to two of these floors. You
+can only go down from here so just say "down" to go down.
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31475
+> speech_prog 100 down~
+mea $n The elavator takes you down to the 2nd Floor.
+mpechoaround $n $n steps onto the elevator and goes down.
+mptransfer $n 31477
+mpat 31477 mpechoaround $n $n steps off the elevator.
+~
+> speech_prog 100 d~
+mea $n The elavator takes you down to the 2nd Floor.
+mpechoaround $n $n steps onto the elevator and goes down.
+mptransfer $n 31477
+mpat 31477 mpechoaround $n $n steps off the elevator.
+~
+|
+S
+#31477
+&GElevator&w~
+This is a very simply and reliable elevator. There are only three floors on
+the Ragnorak Mk.2. This elevator only extends to two of these floors. You
+can only go up from here so just say "up" to go up.
+~
+0 1610612748 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31478
+> speech_prog 100 up~
+mea $n The elavator takes you up to the 3rd Floor.
+mpechoaround $n $n steps onto the elevator and goes up.
+mptransfer $n 31476
+mpat 31476 mpechoaround $n $n steps off the elevator.
+~
+> speech_prog 100 u~
+mea $n The elavator takes you up to the 3rd Floor.
+mpechoaround $n $n steps onto the elevator and goes up.
+mptransfer $n 31476
+mpat 31476 mpechoaround $n $n steps off the elevator.
+~
+|
+S
+#31478
+&YAisle&w~
+This is part of the main aisle of the Ragnarok Mk.2. To the northeast and
+nortwest are passageways to the guest seating at the front of the ship. To
+the south is a auto opening door that takes you to the rest of the
+magestic and powerful ship that is the Ragnarok MK II.
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31477
+D2
+~
+~
+0 -1 31481
+D6
+~
+~
+0 -1 31479
+D7
+~
+~
+0 -1 31480
+S
+#31479
+&WPassageway&w~
+This passageway leads to the front of the ship where the guest or passenger
+seating is located.
+~
+0 1610612748 0 0 0 0 0 5
+D7
+~
+~
+0 -1 31482
+D9
+~
+~
+0 -1 31478
+S
+#31480
+&WPassageway&w~
+This passageway leads to the front of the ship where the guest or passenger
+seating is located.
+~
+0 1610612748 0 0 0 0 0 5
+D6
+~
+~
+0 -1 31482
+D8
+~
+~
+0 -1 31478
+S
+#31481
+&B((&WMain Bridge&B))&w~
+This is a small bridge that goes over a another room below. There is a
+stairway on the right and the left side of the bride that are near the
+main Aisleway. To the south there is a passage way that will take you to
+the airlock.
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31478
+D2
+~
+~
+0 -1 31483
+D5
+~
+~
+0 -1 31485
+S
+#31482
+Guest Seating Area~
+This is the guest seating area or also called the passenger seating area.
+This room has a wrap around window showing the outside space, All but one
+strip down the very front of the glass. there are ten seats here and a
+small console to that allows easy access to some of the databases on the
+ship. 
+~
+0 1610612748 0 0 0 0 0 5
+D8
+~
+~
+0 -1 31479
+D9
+~
+~
+0 -1 31480
+S
+#31483
+Passageway~
+This passage way leads to the airlock to the south. This passage is rarely
+used but is still spotless. There is a small data terminal to the left of
+the door to the main bridge.
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31481
+D2
+~
+~
+0 -1 31484
+S
+#31484
+&zAirlock&w~
+This is a airlock you can use it to go into space if you have a spacesuit
+or you can use it to dock with another ship. You could also use this area
+as a jail cell if you want too. The possiblities are almost endless. But
+this airlock seems to be unused and has a thin layer of dust covering some
+of the controls but the floor is perfecly clean. 
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31483
+S
+#31485
+&WUnderbridge&w~
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31487
+D2
+~
+~
+0 -1 31486
+D4
+~
+~
+0 -1 31481
+D6
+~
+~
+0 -1 31488
+D7
+~
+~
+0 -1 31489
+D8
+~
+~
+0 -1 31490
+D9
+~
+~
+0 -1 31491
+S
+#31486
+&z<&B=&z> &WHangar &z<&B=&z>&w~
+This is the hangar it can hold up to three starfighters and has a very
+strong bay door on it to keep the vacuum of space out of this compartment
+here the fighters can be fueled up from the ships fuel container. Of
+course they can land and launch from here as well. They can be keep from
+launching or landing by closing the bay door. 
+~
+0 1610612748 0 0 0 0 0 5
+D0
+~
+~
+0 -1 31485
+S
+#31487
+&WEntrance&w~
+This is the entrance to the Ragnarok Mark II. There is not much to this
+room but a botton to open and closer the hatch and simular devices.
+~
+0 1610612748 0 0 0 0 0 5
+D2
+~
+~
+0 -1 31485
+S
+#31488
+&WBarracks&w~
+This is a place where you can come and sleep. You can safly enter and leave
+the game from here. There are twelve mid size cots stacked into bunk in
+which people can rest on.
+~
+0 1619001356 0 0 0 0 0 5
+D9
+~
+~
+0 -1 31485
+S
+#31489
+&WWorkshop&w~
+This is the workshop where you can build and modify things. There is a
+table that will help you make these objects. This is a very helpful thing
+to have on a spacecraft of this size.
+~
+0 1677721612 0 0 0 0 0 5
+D8
+~
+~
+0 -1 31485
+S
+#31490
+&WEngine Room&w~
+This is the engine room of the Ragnarok MK II and this is where you can
+repair the engines or many other things that the ship relies on to run.
+Here there is a large engine assembly it looks as if this one engine by
+itself could push a midsized capitol ship.
+~
+0 1610612748 0 0 0 0 0 5
+D7
+~
+~
+0 -1 31485
+S
+#31491
+&WEngine Room&w~
+This is the engine room of the Ragnarok MK II and this is where you can
+repair the engines or many other things that the ship relies on to run.
+Here there is a large engine assembly it looks as if this one engine by
+itself could push a midsized capitol ship.
+~
+0 1610612744 0 0 0 0 0 5
+D6
+~
+~
+0 -1 31485
+S
+#31499
+bookend~
+~
+0 4 0 0 0 0 0 5
+S
+#0
+
+
+#RESETS
+G 1 31003 1
+D 0 31005 0 2
+M 1 31002 1 31029
+E 1 31002 1 16
+G 1 31004 1
+E 1 31002 1 18
+G 1 3 1
+D 0 31029 0 0
+D 0 31029 2 2
+M 1 31003 1 31055
+G 1 31006 1
+G 1 31007 1
+G 1 31008 1
+G 1 31009 1
+G 1 31010 1
+G 1 31011 1
+M 1 31004 1 31057
+M 1 31005 1 31056
+M 1 31007 1 31039
+M 1 31006 1 31038
+G 1 31002 1
+M 1 31009 1 31040
+G 1 31013 1
+M 1 31010 1 31035
+G 1 61 1
+G 1 62 1
+G 1 63 1
+G 1 64 1
+G 1 65 1
+O 1 31015 1 31030
+O 1 31005 1 31030
+O 1 31014 1 31030
+O 1 31001 1 31030
+D 0 31030 0 2
+O 1 31016 1 31059
+D 0 31059 3 2
+M 1 31012 1 31086
+D 0 31098 0 2
+D 0 31076 4 2
+M 1 31014 1 31079
+E 1 50 1 16
+G 1 50 1
+S
+
+
+#SHOPS
+ 31003    0  0  0  0  0   120  90         0 23    ; a Syndicate Supply Salesman
+ 31006    0  0  0  0  0   120  90         0 23    ; a trandoshan weapon salesman
+ 31007    0  0  0  0  0   120  90         0 23    ; a jawa armourer
+ 31009    0  0  0  0  0   120  90         0 23    ; V67 sales droid
+ 31010    0  0  0  0  0   120  90         0 23    ; a nerdy tech salesman
+0
+
+
+#REPAIRS
+ 31007    0  0  0         100   1         0 23    ; a jawa armourer
+0
+
+
+#SPECIALS
+C  31002 The Syndicate~
+C  31014 The New Republic~
+S
+
+
+#$

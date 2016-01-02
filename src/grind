@@ -1,0 +1,4 @@
+valgrind -v --leak-check=yes --show-reachable=yes --gdb-attach=yes --num-callers=10 --logfile=valgrind ../src/swr 4848 &
+
+
+

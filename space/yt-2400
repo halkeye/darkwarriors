@@ -1,0 +1,69 @@
+#SHIP
+Name         YT-2400~
+Filename     yt-2400~
+Description  ~
+Owner        Zen~
+Pilot        ~
+Copilot      ~
+Class        1
+Tractorbeam  0
+Shipyard     31843
+Hanger       0
+Turret1      6494
+Turret2      6495
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       4
+Missiles     10
+Maxmissiles  10
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      2797
+Firstroom    6473
+Lastroom     6499
+Shield       0
+Maxshield    200
+Hull         1000
+Maxhull      1000
+Maxenergy    8000
+Hyperspeed   150
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       50
+Astro_array  0
+Realspeed    75
+Type         0
+Cockpit      6478
+Coseat       6479
+Pilotseat    6479
+Gunseat      6479
+Navseat      6479
+Engineroom   6487
+Entrance     6473
+Shipstate    0
+Missilestate 0
+Energy       8000
+Manuever     65
+SelfDpass    0
+Selfdestruct Not Installed~
+Home         Coruscant System~
+MaxCargo     180
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        21113
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

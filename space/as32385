@@ -1,0 +1,69 @@
+#SHIP
+Name         Assault Shuttle 32385~
+Filename     as32385~
+Description  ~
+Owner        ~
+Pilot        ~
+Copilot      ~
+Class        1
+Tractorbeam  0
+Shipyard     2752
+Hanger       0
+Turret1      32389
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       3
+Missiles     8
+Maxmissiles  8
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      2752
+Firstroom    32385
+Lastroom     32389
+Shield       0
+Maxshield    100
+Hull         1000
+Maxhull      1000
+Maxenergy    5000
+Hyperspeed   160
+Comm         0
+Chaff        0
+Maxchaff     0
+Sensor       100
+Astro_array  100
+Realspeed    80
+Type         0
+Cockpit      32385
+Coseat       32385
+Pilotseat    32385
+Gunseat      32385
+Navseat      32385
+Engineroom   0
+Entrance     32387
+Shipstate    0
+Missilestate 0
+Energy       5000
+Manuever     65
+SelfDpass    0
+Selfdestruct Not Installed~
+Home         Coruscant System~
+MaxCargo     500
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        203
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

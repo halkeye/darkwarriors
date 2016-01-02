@@ -1,0 +1,43 @@
+#SYSTEM
+Highplayers    15
+Highplayertime (null)~
+Nameresolving  0
+Waitforauth    1
+Readallmail    102
+Readmailfree   101
+Writemailfree  1
+Takeothersmail 102
+Muse           102
+Think          102
+Build          102
+Log            102
+Protoflag      151
+Overridepriv   102
+Msetplayer     154
+Stunplrvsplr   20
+Stunregular    0
+Damplrvsplr    100
+Damplrvsmob    100
+Dammobvsplr    100
+Dammobvsmob    100
+Forcepc        102
+Saveflags      4101
+Savefreq       5
+Newbie_purge	 10
+Regular_purge	 60
+Autopurge		 1
+Port		     1
+Logsize		 0
+Mud_Name		 Dark Warriors~
+Mud_Url		 www.fixme.com~
+Mud_Email		 fixme@fixme.com~
+SendmailPath	 /usr/bin/sendmail~
+BanSiteLevel   0
+BanRaceLevel   0
+BanClassLevel  0
+Channellog		 20
+Web   		 0
+DEBUG		 0
+End
+
+#END

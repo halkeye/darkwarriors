@@ -1,0 +1,40 @@
+#PLANET
+Name         Endor~
+Filename     endor~
+BaseValue    75000
+Flags        0
+PopSupport   71
+Defbattalions   150
+Attbattalions   0
+Planet_Type   0
+Ioncannons   0
+Turbolasers   0
+Shields   0
+GovernedBy   The New Republic~
+Resource 1 62 0 49968 160 145
+Resource 2 120 0 49822 75 16
+Resource 3 187 0 49980 89 166
+Resource 4 0 209 50085 85 51
+Resource 5 308 0 50100 112 225
+Resource 6 363 0 49898 102 105
+Resource 7 421 0 50060 47 153
+Resource 8 488 0 50013 32 100
+Resource 9 0 451 50116 81 138
+Resource 10 600 0 49666 161 80
+Resource 11 665 0 49942 143 182
+Resource 12 728 0 50096 62 197
+Resource 13 790 0 50046 76 177
+Resource 14 0 705 50111 116 89
+Resource 15 902 0 49851 156 85
+Resource 16 965 0 50032 70 120
+Resource 17 1021 0 50044 117 205
+Resource 18 0 908 50152 126 177
+Resource 19 1150 0 50030 101 201
+Resource 20 0 1006 50209 61 96
+Resource 21 0 1057 49984 143 63
+Resource 22 0 1102 50071 79 59
+Resource 23 1387 0 49951 111 160
+Resource 24 1446 0 49916 139 125
+End
+
+#END

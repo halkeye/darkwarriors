@@ -1,0 +1,19 @@
+#BODY
+Name         Ripun~
+Filename     ../body/ripun.body~
+Type         0
+Xpos         -1200
+Ypos         -56490
+Zpos         85260
+Xmove        -20
+Ymove        -21
+Zmove        -49
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      450
+Orbitcount   179
+Starsystem   Wayland~
+End
+
+#END

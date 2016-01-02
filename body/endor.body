@@ -1,0 +1,19 @@
+#BODY
+Name         Endor~
+Filename     endor.body~
+Type         1
+Xpos         3400
+Ypos         -46800
+Zpos         20280
+Xmove         -17
+Ymove         -18
+Zmove         -13
+Centerx   0
+Centery   0
+Centerz   0
+Gravity      1
+Orbitcount      192
+Starsystem   Endor~
+End
+
+#END

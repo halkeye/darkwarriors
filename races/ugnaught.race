@@ -1,0 +1,35 @@
+#RACE
+Name              ugnaught~
+Affect            0
+Strplus           -5
+Wisplus           0
+Dexplus           0
+Conplus           0
+Intplus           10
+Chaplus           -5
+Lckplus           0
+Home              -1
+Hit               0
+Endurance              0
+DeathAge          800
+HungerMod         0
+ThirstMod         0
+LangBonus         -5
+RPneeded          10
+Language          ugnaught~
+BodyParts         0~
+Class             -40
+Class             -20
+Class             50
+Class             0
+Class             0
+Class             0
+Class             0
+Class             0
+Class             10
+Class             0
+Class             0
+Class             0
+End
+
+#END

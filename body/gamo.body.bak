@@ -1,0 +1,19 @@
+#BODY
+Name         Gamo~
+Filename     ../body/gamo.body~
+Type         0
+Xpos         1560
+Ypos         -80700
+Zpos         -17400
+Xmove        26
+Ymove        -30
+Zmove        10
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      100
+Orbitcount   179
+Starsystem   Gamorr~
+End
+
+#END

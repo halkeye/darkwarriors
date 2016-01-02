@@ -1,0 +1,69 @@
+#SHIP
+Name         Corellian Transport, Maw Hopper~
+Filename     corelliantrans.0001~
+Description  ~
+Owner        The Galactic Republic~
+Pilot        ~
+Copilot      ~
+Class        1
+Tractorbeam  0
+Shipyard     32000
+Hanger       0
+Turret1      32129
+Turret2      0
+Statet0      0
+Statet1      0
+Statet2      0
+Lasers       4
+Missiles     10
+Maxmissiles  10
+Rockets     0
+Maxrockets  0
+Torpedos     0
+Maxtorpedos  0
+Lastdoc      31028
+Firstroom    32123
+Lastroom     32129
+Shield       0
+Maxshield    200
+Hull         1000
+Maxhull      1000
+Maxenergy    8000
+Hyperspeed   150
+Comm         1
+Chaff        6
+Maxchaff     6
+Sensor       50
+Astro_array  50
+Realspeed    65
+Type         0
+Cockpit      32123
+Coseat       32123
+Pilotseat    32123
+Gunseat      32123
+Navseat      32123
+Engineroom   32125
+Entrance     32124
+Shipstate    0
+Missilestate 0
+Energy       8000
+Manuever     0
+SelfDpass    0
+Selfdestruct Not Installed~
+Home         Tatooine~
+MaxCargo     300
+Bombs        0
+MaxBombs        0
+Flags        0
+Sim_Vnum        31843
+Stealth        0
+Cloak        0
+Interdictor       0
+battalions       0
+Maxbattalions       0
+Ions      0
+Lastbuilt   0
+Prototype   generic~
+End
+
+#END

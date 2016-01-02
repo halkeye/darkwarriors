@@ -1,0 +1,82 @@
+#IMCCHAN
+ChanName   Server02:icode
+ChanLocal  icode
+ChanRegF   ~R[~Yicode~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Yicode~R] ~c%s %s
+ChanSocF   ~R[~Yicode~R] ~c%s
+ChanLevel  3
+End
+
+#IMCCHAN
+ChanName   Server02:igame
+ChanLocal  igame
+ChanRegF   ~R[~Yigame~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Yigame~R] ~c%s %s
+ChanSocF   ~R[~Yigame~R] ~c%s
+ChanLevel  2
+End
+
+#IMCCHAN
+ChanName   Server02:i2chat
+ChanLocal  i2
+ChanRegF   ~R[~Yi2~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Yi2~R] ~c%s %s
+ChanSocF   ~R[~Yi2~R] ~c%s
+ChanLevel  3
+End
+
+#IMCCHAN
+ChanName   Server01:ichat
+ChanLocal  ichat
+ChanRegF   ~R[~Yichat~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Yichat~R] ~c%s %s
+ChanSocF   ~R[~Yichat~R] ~c%s
+ChanLevel  3
+End
+
+#IMCCHAN
+ChanName   Server01:pchat
+ChanLocal  pchat
+ChanRegF   ~R[~Ypchat~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Ypchat~R] ~c%s %s
+ChanSocF   ~R[~Ypchat~R] ~c%s
+ChanLevel  2
+End
+
+#IMCCHAN
+ChanName   Server01:mworld
+ChanLocal  mworld
+ChanRegF   ~R[~Ymworld~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Ymworld~R] ~c%s %s
+ChanSocF   ~R[~Ymworld~R] ~c%s
+ChanLevel  2
+End
+
+#IMCCHAN
+ChanName   Server02:irc
+ChanLocal  irc
+ChanRegF   ~R[~Yirc~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Yirc~R] ~c%s %s
+ChanSocF   ~R[~Yirc~R] ~c%s
+ChanLevel  3
+End
+
+#IMCCHAN
+ChanName   Server02:i3chat
+ChanLocal  i3b
+ChanRegF   ~R[~Yi3b~R] ~C%s: ~c%s
+ChanEmoF   ~R[~Yi3b~R] ~c%s %s
+ChanSocF   ~R[~Yi3b~R] ~c%s
+ChanLevel  3
+End
+
+#IMCCHAN
+ChanName   Server10:UCMMChat
+ChanLocal  UCMMChat
+ChanRegF   ~R[~YUCMMChat~R] ~C%s: ~c%s
+ChanEmoF   ~R[~YUCMMChat~R] ~c%s %s
+ChanSocF   ~R[~YUCMMChat~R] ~c%s
+ChanLevel  3
+End
+
+#END

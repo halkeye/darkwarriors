@@ -1,0 +1,10 @@
+#DOCK
+Name         Patussk Landing Pad~
+Filename     ../dock/patussklandingpad.dock~
+Vnum         900
+Hidden       0
+Starsystem   Kashyyyk~
+Body   Trandosha~
+End
+
+#END

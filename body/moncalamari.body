@@ -1,0 +1,38 @@
+#BODY
+Name         Mon Calamari~
+Filename     moncalamari.body~
+Type         1
+Xpos         780
+Ypos         -43040
+Zpos         33060
+Xmove        13
+Ymove        -16
+Zmove        -19
+Centerx      0
+Centery      0
+Centerz      0
+Gravity      200
+Orbitcount   179
+Starsystem   Mon Calamari~
+Planet   Mon Calamari~
+End
+
+#DOCK
+Name         Eastern Docking Bay~
+Vnum         21113
+Hidden       0
+End
+
+#DOCK
+Name         Western Docking Bay~
+Vnum         21088
+Hidden       0
+End
+
+#DOCK
+Name         Southern Docking Bay~
+Vnum         21074
+Hidden       0
+End
+
+#END
